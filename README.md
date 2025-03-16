@@ -7,8 +7,12 @@
     <img src="https://img.shields.io/badge/PRs-Welcome-red" alt="PRs Welcome">
   </a>
 </div>
-
+<p align="center">
+    <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
+</p>
 A comprehensive code domain benchmark review of LLM researches.
+
+---
 
 ## News
 - 🔥🔥 **[2025-03-16]** A thorough review of code domain benchmarks for LLM research has been released.
