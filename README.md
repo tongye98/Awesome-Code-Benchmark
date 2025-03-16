@@ -30,7 +30,6 @@ A comprehensive code domain benchmark review of LLM researches.
 | BigCodeBench  | [BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions](https://arxiv.org/abs/2406.15877) [ICLR 2025]                                       | [Github](https://github.com/bigcode-project/bigcodebench) | [LeaderBoard](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard) | Complete Split & Instruct Split|   
 | DevEval       | [DevEval: A Manually-Annotated Code Generation Benchmark Aligned with Real-World Code Repositories](https://arxiv.org/abs/2405.19856) [ACL 2024]                                       | [Github](https://github.com/seketeam/DevEval)             | [Huggingface](https://huggingface.co/datasets/LJ0815/DevEval/blob/main/Source_Code.tar.gz)| Repo-level code generation
 
-
 <!-- ### Code Generation (Text to Code)
 |<center>Benchmark</center>       | <center>Paper</center>              | <center>Source</center>        | <center>Github</center> | HuggingFace |
 |:---------------|:-----------------------------------------------------------------------|:------------------------------------------------------------|:--|:--|      
@@ -87,7 +86,15 @@ A comprehensive code domain benchmark review of LLM researches.
 
 
 ### Code Version
-Version-specific code generation (to be released soon)
+| <center>Benchmark</center> | <center>Paper</center>                                       | <center>Source</center>                                   | <center>Github</center>                                      | Dataset & Website & LeaderBoard                              | Comments                                                     |
+| :------------------------- | :----------------------------------------------------------- | :-------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| CodeUpdateEval             | Automatically Recommend Code Updates: Are We There Yet?      | [Paper](https://arxiv.org/abs/2209.07048v3) TOSEM 2024    | [Github](https://github.com/yueyueL/CodeLM-CodeUpdateEval)   | [Dataset](https://github.com/yueyueL/CodeLM-CodeUpdateEval/tree/main/dataset) | code migration with Time-wise dataset                        |
+| JavaVersionGenBench        | On the Generalizability of Deep Learning-based Code Completion Across Programming Language Versions | [Paper](https://arxiv.org/pdf/2403.15149) ICPC 2024       | [Github](https://github.com/java-generalization/java-generalization-replication) | [Dataset](https://zenodo.org/records/10057237)               | Code Completion Across Evolving JAVA Versions                |
+| VersiCode                  | VersiCode: Towards Version-controllable Code Generation      | [Paper](https://arxiv.org/abs/2406.07411) [Arxiv 2024-10] | [Github](https://github.com/wutong8023/VersiCode)            | [Website](https://wutong8023.site/VersiCode/) [Huggingface](https://huggingface.co/datasets/AstoneNg/VersiCode) | Version-controllable Code Generation                         |
+| GitChameleon               | GitChameleon: Unmasking the Version-Switching Capabilities of Code Generation Models | [Paper](https://arxiv.org/abs/2411.05830) [Arxiv 2024-11] | [Github](https://github.com/NizarIslah/GitChameleon)         | [Dataset](https://github.com/NizarIslah/GitChameleon/tree/main/dataset) | 116 version-aware Python code-completion problems with unit tests |
+| LLM-Deprecated-APl         | LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-based Code Completion | [Paper](https://arxiv.org/abs/2406.09834) ICSE 2025       | [Github](https://github.com/cs-wangchong/LLM-Deprecated-API) | [Dataset](https://figshare.com/s/e8de860d8fc2ec0541d2)       | Deprecated APl mapping and functions code completion         |
+| CodeUpdateArena            | CodeUpdateArena: Benchmarking Knowledge Editing on API Updates | [Paper](https://arxiv.org/abs/2407.06249) [Arxiv 2025-02] | [Github](https://github.com/leo-liuzy/CodeUpdateArena)       | [Dataset](https://github.com/leo-liuzy/CodeUpdateArena/tree/main/data) | API Update Knowledge Editing Assessment                      |
+| LibEvolutionEval           | LibEvolutionEval: A Benchmark and Study for Version-Specific Code Generation | [Paper](https://arxiv.org/abs/2412.04478) NAACL 2025      |                                                              |                                                              | Version-Specifc Code Generation                              |
 
 ### Industry Code Generation
 PLC (Programmable logic controller) & Verilog (Hardware description language) & ... (to be released soon)
