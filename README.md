@@ -92,7 +92,7 @@ Version-specific code generation (to be released soon)
 ### Industry Code Generation
 PLC (Programmable logic controller) & Verilog (Hardware description language) & ... (to be released soon)
 
-### Other
+### Multi-Dimension
 |<center>Benchmark</center>       | <center>Paper</center>              | <center>Source</center>        | <center>Github</center> | Dataset & Website & LeaderBoard | Comments|
 |:---------------|:-----------------------------------------------------------------------|:------------------------------------------------------------|:--|:--|:-- |
 | LiveCodeBench | LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code | [Paper](https://arxiv.org/abs/2403.07974) Arxiv 2024-03 | [Github](https://github.com/LiveCodeBench/LiveCodeBench) | [Huggingface](https://huggingface.co/livecodebench) | self-repair, code execution, test output prediction, code generation| 
