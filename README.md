@@ -18,6 +18,9 @@ A comprehensive code domain benchmark review of LLM researches.
 - 🔥🔥 **[2025-03-17]** We add **Code Version** (Version-specific code generation) benchmarks.
 - 🔥🔥 **[2025-03-16]** A thorough review of code domain benchmarks for LLM research has been released.
 
+<!-- ## Table of Contents
+1. [Code C](#1_Code Completion & Code Generation) -->
+
 ## 🚀 Top Code Benchmark
 
 ### Code Completion & Code Generation
@@ -139,4 +142,4 @@ PLC (Programmable logic controller) & Verilog (Hardware description language) & 
 | Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
 | LiveCodeBench | [LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code](https://arxiv.org/abs/2403.07974)  | Arxiv 2024/03 | [Github](https://github.com/LiveCodeBench/LiveCodeBench) | [🤗Dataset](https://huggingface.co/livecodebench) |  
-| RACE          | [Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models](https://arxiv.org/abs/2407.11470) | Arxiv 2024-07 | [Github](https://github.com/jszheng21/RACE)              | [📊LeaderBoard](https://huggingface.co/spaces/jszheng/RACE_leaderboard) | 
+| RACE          | [Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models](https://arxiv.org/abs/2407.11470) | Arxiv 2024/07 | [Github](https://github.com/jszheng21/RACE)              | [📊LeaderBoard](https://huggingface.co/spaces/jszheng/RACE_leaderboard) | 
