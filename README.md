@@ -15,7 +15,7 @@ A comprehensive code domain benchmark review of LLM researches.
 </p>
 
 ## News
-- 🔥🔥 **[2025-03-16]** We add **Code Version** (Version-specific code generation) benchmarks.
+- 🔥🔥 **[2025-03-17]** We add **Code Version** (Version-specific code generation) benchmarks.
 - 🔥🔥 **[2025-03-16]** A thorough review of code domain benchmarks for LLM research has been released.
 
 ## 🚀 Top Code Benchmark
@@ -45,12 +45,12 @@ A comprehensive code domain benchmark review of LLM researches.
 ### Code Efficiency
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
-| EvalPerf      | [Evaluating Language Models for Efficient Code Generation](https://arxiv.org/abs/2408.06450)                                          | COLM 2024                   | [Github](https://github.com/evalplus/evalplus)        | [🤗 Dataset](https://huggingface.co/datasets/evalplus/evalperf) |
-| EffiBench     | [EffiBench: Benchmarking the Efficiency of Automatically Generated Code]((https://arxiv.org/abs/2402.02037))                          | NeurIPS 2024                | [Github](https://github.com/huangd1999/EffiBench)     |  |
-| Mercury       | [Mercury: A Code Efficiency Benchmark for Code Large Language Models](https://arxiv.org/abs/2402.07844v4)                             | NeurIPS 2024                | [Github](https://github.com/Elfsong/Mercury)          | [🤗 Dataset](https://huggingface.co/datasets/Elfsong/Mercury) |
-| ECCO          | [ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?](https://arxiv.org/abs/2407.14044)  | EMNLP 2024                  | [Github](https://github.com/CodeEff/ECCO)             | [🤗 Dataset](https://huggingface.co/datasets/CodeEff/ECCO)|
-| PIE           | [Learning Performance-Improving Code Edits](https://arxiv.org/abs/2302.07867)                                                         | ICLR 2024                   | [Github](https://github.com/LearningOpt/pie)          | [🌐 Website](https://pie4perf.com)|  
-| ENAMEL        | [How Efficient is LLM-Generated Code? A Rigorous & High-Standard Benchmark](https://arxiv.org/abs/2406.06647)                         | ICLR 2025                   | [Github](https://github.com/q-rz/enamel)              | [🤗 Dataset](https://huggingface.co/datasets/q-rz/enamel) |
+| EvalPerf      | [Evaluating Language Models for Efficient Code Generation](https://arxiv.org/abs/2408.06450)                                          | COLM 2024                   | [Github](https://github.com/evalplus/evalplus)        | [🤗Dataset](https://huggingface.co/datasets/evalplus/evalperf) |
+| EffiBench     | [EffiBench: Benchmarking the Efficiency of Automatically Generated Code](https://arxiv.org/abs/2402.02037)                            | NeurIPS 2024                | [Github](https://github.com/huangd1999/EffiBench)     |  |
+| Mercury       | [Mercury: A Code Efficiency Benchmark for Code Large Language Models](https://arxiv.org/abs/2402.07844v4)                             | NeurIPS 2024                | [Github](https://github.com/Elfsong/Mercury)          | [🤗Dataset](https://huggingface.co/datasets/Elfsong/Mercury) |
+| ECCO          | [ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?](https://arxiv.org/abs/2407.14044)  | EMNLP 2024                  | [Github](https://github.com/CodeEff/ECCO)             | [🤗Dataset](https://huggingface.co/datasets/CodeEff/ECCO)|
+| PIE           | [Learning Performance-Improving Code Edits](https://arxiv.org/abs/2302.07867)                                                         | ICLR 2024                   | [Github](https://github.com/LearningOpt/pie)          | [🌐Website](https://pie4perf.com)|  
+| ENAMEL        | [How Efficient is LLM-Generated Code? A Rigorous & High-Standard Benchmark](https://arxiv.org/abs/2406.06647)                         | ICLR 2025                   | [Github](https://github.com/q-rz/enamel)              | [🤗Dataset](https://huggingface.co/datasets/q-rz/enamel) |
 
 ### CodeFix & Bug-Fix
 * **HumanEvalFix**: code repair capabilitie 
@@ -60,65 +60,83 @@ A comprehensive code domain benchmark review of LLM researches.
 
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
-| HumanEvalFix          | [OctoPack: Instruction Tuning Code Large Language Models](https://arxiv.org/abs/2308.07124)                                    | Arxiv 2023/08              | [Github](https://github.com/bigcode-project/octopack)        | [🤗 Dataset](https://huggingface.co/datasets/bigcode/humanevalpack) |  
-| SWT-Bench             | [SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents](https://arxiv.org/abs/2406.12952)                    | NeurIPS 2024               | [Github](https://github.com/logic-star-ai/SWT-Bench)         | [🌐 Website](https://swtbench.com) |
-| SWE-bench             | [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770)                           | ICLR 2024                  | [Github](https://github.com/swe-bench/SWE-bench)             | [🌐 Website](https://www.swebench.com) | 
-| SWE-bench Multimodal  | [SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?](https://arxiv.org/abs/2410.03859)                 | ICLR 2025                  | [Github](https://github.com/swe-bench/SWE-bench)             | [🌐 Website](https://www.swebench.com/multimodal) [🤗 Dataset](https://www.swebench.com/multimodal) | 
+| HumanEvalFix          | [OctoPack: Instruction Tuning Code Large Language Models](https://arxiv.org/abs/2308.07124)                                    | Arxiv 2023/08              | [Github](https://github.com/bigcode-project/octopack)        | [🤗Dataset](https://huggingface.co/datasets/bigcode/humanevalpack) |  
+| SWT-Bench             | [SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents](https://arxiv.org/abs/2406.12952)                    | NeurIPS 2024               | [Github](https://github.com/logic-star-ai/SWT-Bench)         | [🌐Website](https://swtbench.com) |
+| SWE-bench             | [SWE-bench: Can Language Models Resolve Real-World GitHub Issues?](https://arxiv.org/abs/2310.06770)                           | ICLR 2024                  | [Github](https://github.com/swe-bench/SWE-bench)             | [🌐Website](https://www.swebench.com) | 
+| SWE-bench Multimodal  | [SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?](https://arxiv.org/abs/2410.03859)                 | ICLR 2025                  | [Github](https://github.com/swe-bench/SWE-bench)             | [🌐Website](https://www.swebench.com/multimodal) [🤗Dataset](https://www.swebench.com/multimodal) | 
 
 ### Code Reasoning & Understanding
 * **CRUXEval**: code reasoning, understanding, and execution capabilities
 * **CodeMMLU**: code understanding and comprehension
 
-|Benchmark | Paper | Source | Github | Dataset & Website & LeaderBoard |
+|Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
-| CRUXEval      | [CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution](https://arxiv.org/abs/2401.03065)                                      | Arxiv 2024/01         | [Github](https://github.com/facebookresearch/cruxeval)        | [📊 LeaderBoard](https://crux-eval.github.io/leaderboard.html) |    
-| CodeMMLU      | [CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities of CodeLLMs](https://arxiv.org/abs/2410.01999)                 | ICLR 2025             | [Github](https://github.com/FSoft-AI4Code/CodeMMLU/)          | [🤗 Dataset](https://huggingface.co/datasets/Fsoft-AIC/CodeMMLU) [📊 LeaderBoard](https://fsoft-ai4code.github.io/leaderboards/codemmlu/) [🌐  Website](https://fsoft-ai4code.github.io/codemmlu/) | 
+| CRUXEval      | [CRUXEval: A Benchmark for Code Reasoning, Understanding and Execution](https://arxiv.org/abs/2401.03065)                                      | Arxiv 2024/01         | [Github](https://github.com/facebookresearch/cruxeval)        | [📊LeaderBoard](https://crux-eval.github.io/leaderboard.html) |    
+| CodeMMLU      | [CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities of CodeLLMs](https://arxiv.org/abs/2410.01999)                 | ICLR 2025             | [Github](https://github.com/FSoft-AI4Code/CodeMMLU/)          | [🤗Dataset](https://huggingface.co/datasets/Fsoft-AIC/CodeMMLU) [📊LeaderBoard](https://fsoft-ai4code.github.io/leaderboards/codemmlu/) [🌐  Website](https://fsoft-ai4code.github.io/codemmlu/) | 
 
 ### Data science
-|<center>Benchmark</center>       | <center>Paper</center>              | <center>Source</center>        | <center>Github</center> | Dataset & Website & LeaderBoard | Comments|
-|:---------------|:-----------------------------------------------------------------------|:------------------------------------------------------------|:--|:--|:--|
-| DS-1000      | DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation                                      | [Paper](https://arxiv.org/abs/2211.11501) ICML 2023                 | [Github](https://github.com/xlang-ai/DS-1000)        | [HomePage](https://ds1000-code-gen.github.io) [Huggingface](https://huggingface.co/datasets/xlangai/DS-1000)  |  Data Science Code Generation|
-| DA-Code      | DA-Code: Agent Data Science Code Generation Benchmark for Large Language Models                                 | [Paper](https://arxiv.org/abs/2410.07331) EMNLP 2024                | [Github](https://github.com/yiyihum/da-code)         | [Website](https://da-code-bench.github.io) [Huggingface](https://huggingface.co/datasets/Jianwen2003/DA-Code) | data science tasks; |
+* **DS-1000**: Data Science Code Generation
+* **DA-Code**: Data science tasks 
+
+| Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
+|:--|:--|:--|:--|:--|
+| DS-1000      | [DS-1000: A Natural and Reliable Benchmark for Data Science Code Generation](https://arxiv.org/abs/2211.11501)                                      | ICML 2023                 | [Github](https://github.com/xlang-ai/DS-1000)        | [🌐HomePage](https://ds1000-code-gen.github.io) [🤗Dataset](https://huggingface.co/datasets/xlangai/DS-1000)  | 
+| DA-Code      | [DA-Code: Agent Data Science Code Generation Benchmark for Large Language Models](https://arxiv.org/abs/2410.07331)                                 | EMNLP 2024                | [Github](https://github.com/yiyihum/da-code)         | [🌐Website](https://da-code-bench.github.io) [🤗Dataset](https://huggingface.co/datasets/Jianwen2003/DA-Code) | 
 
 
 ### Text2SQL 
-|<center>Benchmark</center>       | <center>Paper</center>              | <center>Source</center>        | <center>Github</center> | Dataset & Website & LeaderBoard | Comments|
-|:---------------|:-----------------------------------------------------------------------|:------------------------------------------------------------|:--|:--|:--|
-| Spider      | Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task                                      | [Paper](https://arxiv.org/abs/1809.08887) EMNLP 2018                 | [Github](https://github.com/taoyds/spider)        | [Homepage](https://yale-lily.github.io/spider) | text-to-SQL |  
-| Spider 2.0  | Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows  | [Paper](https://arxiv.org/abs/2411.07763) ICLR 2025 | [Github](https://github.com/xlang-ai/Spider2) | [Website](https://spider2-sql.github.io) | text-to-SQL |
+* **Spider**:  text-to-SQL  
+* **Spider 2.0**: text-to-SQL
+
+| Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
+|:--|:--|:--|:--|:--|
+| Spider      | [Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task](https://arxiv.org/abs/1809.08887)         | EMNLP 2018     | [Github](https://github.com/taoyds/spider)        | [🌐Homepage](https://yale-lily.github.io/spider) |
+| Spider 2.0  | [Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows](https://arxiv.org/abs/2411.07763)                                  | ICLR 2025      | [Github](https://github.com/xlang-ai/Spider2)     | [🌐Website](https://spider2-sql.github.io) |
 
 
 ### MultiModal Code Generation
-|<center>Benchmark</center>       | <center>Paper</center>              | <center>Source</center>        | <center>Github</center> | Dataset & Website & LeaderBoard | Comments|
-|:---------------|:-----------------------------------------------------------------------|:------------------------------------------------------------|:--|:--|:--|
-| ChartMimic      | ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation                                      | [Paper](https://arxiv.org/abs/2406.09961) ICLR 2025                | [Github](https://github.com/ChartMimic/ChartMimic)        | [Website](https://chartmimic.github.io) [Huggingface](https://huggingface.co/datasets/ChartMimic/ChartMimic) |  Chart-to-Code Generation|
+* **ChartMimic** : Chart-to-Code Generation
+
+| Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
+|:--|:--|:--|:--|:--|
+| ChartMimic      | [ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation]((https://arxiv.org/abs/2406.09961))                       | ICLR 2025                | [Github](https://github.com/ChartMimic/ChartMimic)        | [🌐Website](https://chartmimic.github.io) [🤗Dataset](https://huggingface.co/datasets/ChartMimic/ChartMimic) |  
 
 ### Security Code Generation
-|<center>Benchmark</center>       | <center>Paper</center>              | <center>Source</center>        | <center>Github</center> | Dataset & Website & LearderBoard | Comments|
-|:---------------|:-----------------------------------------------------------------------|:------------------------------------------------------------|:--|:--|:--|
-| RedCode        | RedCode: Risky Code Execution and Generation Benchmark for Code Agents                                      | [Paper](https://arxiv.org/abs/2411.07781) NeurIPS 2024                | [Github](https://github.com/AI-secure/RedCode)        | [Website](https://redcode-agent.github.io) [LeaderBoard](https://redcode-agent.github.io/#leaderboard) |  comprehensive and practical evaluations on the safety of code agents |
+*  **RedCode**: comprehensive and practical evaluations on the safety of code agents 
+
+| Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
+|:--|:--|:--|:--|:--|
+| RedCode        | [RedCode: Risky Code Execution and Generation Benchmark for Code Agents](https://arxiv.org/abs/2411.07781)                                      | NeurIPS 2024                | [Github](https://github.com/AI-secure/RedCode)        | [🌐Website](https://redcode-agent.github.io) [📊LeaderBoard](https://redcode-agent.github.io/#leaderboard) |
 
 
 
 ### Code Version
-| <center>Benchmark</center> | <center>Paper</center>                                       | <center>Source</center>                                   | <center>Github</center>                                      | Dataset & Website & LeaderBoard                              | Comments                                                     |
-| :------------------------- | :----------------------------------------------------------- | :-------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| CodeUpdateEval             | Automatically Recommend Code Updates: Are We There Yet?      | [Paper](https://arxiv.org/abs/2209.07048v3) TOSEM 2024    | [Github](https://github.com/yueyueL/CodeLM-CodeUpdateEval)   | [Dataset](https://github.com/yueyueL/CodeLM-CodeUpdateEval/tree/main/dataset) | code migration with Time-wise dataset                        |
-| JavaVersionGenBench        | On the Generalizability of Deep Learning-based Code Completion Across Programming Language Versions | [Paper](https://arxiv.org/pdf/2403.15149) ICPC 2024       | [Github](https://github.com/java-generalization/java-generalization-replication) | [Dataset](https://zenodo.org/records/10057237)               | Code Completion Across Evolving JAVA Versions                |
-| VersiCode                  | VersiCode: Towards Version-controllable Code Generation      | [Paper](https://arxiv.org/abs/2406.07411) [Arxiv 2024-10] | [Github](https://github.com/wutong8023/VersiCode)            | [Website](https://wutong8023.site/VersiCode/) [Huggingface](https://huggingface.co/datasets/AstoneNg/VersiCode) | Version-controllable Code Generation                         |
-| GitChameleon               | GitChameleon: Unmasking the Version-Switching Capabilities of Code Generation Models | [Paper](https://arxiv.org/abs/2411.05830) [Arxiv 2024-11] | [Github](https://github.com/NizarIslah/GitChameleon)         | [Dataset](https://github.com/NizarIslah/GitChameleon/tree/main/dataset) | 116 version-aware Python code-completion problems with unit tests |
-| LLM-Deprecated-APl         | LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-based Code Completion | [Paper](https://arxiv.org/abs/2406.09834) ICSE 2025       | [Github](https://github.com/cs-wangchong/LLM-Deprecated-API) | [Dataset](https://figshare.com/s/e8de860d8fc2ec0541d2)       | Deprecated APl mapping and functions code completion         |
-| CodeUpdateArena            | CodeUpdateArena: Benchmarking Knowledge Editing on API Updates | [Paper](https://arxiv.org/abs/2407.06249) [Arxiv 2025-02] | [Github](https://github.com/leo-liuzy/CodeUpdateArena)       | [Dataset](https://github.com/leo-liuzy/CodeUpdateArena/tree/main/data) | API Update Knowledge Editing Assessment                      |
-| LibEvolutionEval           | LibEvolutionEval: A Benchmark and Study for Version-Specific Code Generation | [Paper](https://arxiv.org/abs/2412.04478) NAACL 2025      |                                                              |                                                              | Version-Specifc Code Generation                              |
+* **CodeUpdateEval**: code migration with Time-wise dataset                        
+* **JavaVersionGenBench**: Code Completion Across Evolving JAVA Versions                
+* **VersiCode**: Version-controllable Code Generation                         
+* **GitChameleon**: 116 version-aware Python code-completion problems with unit tests 
+* **LLM-Deprecated-APl**:  Deprecated APl mapping and functions code completion        
+* **CodeUpdateArena**: API Update Knowledge Editing Assessment                      
+* **LibEvolutionEval**: Version-Specifc Code Generation                              
+
+| Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
+|:--|:--|:--|:--|:--|
+| CodeUpdateEval             | [Automatically Recommend Code Updates: Are We There Yet?](https://arxiv.org/abs/2209.07048v3)                                                |  TOSEM 2024      | [Github](https://github.com/yueyueL/CodeLM-CodeUpdateEval)                       | [🤗Dataset](https://github.com/yueyueL/CodeLM-CodeUpdateEval/tree/main/dataset) | 
+| JavaVersionGenBench        | [On the Generalizability of Deep Learning-based Code Completion Across Programming Language Versions](https://arxiv.org/pdf/2403.15149)      |  ICPC 2024       | [Github](https://github.com/java-generalization/java-generalization-replication) | [🤗Dataset](https://zenodo.org/records/10057237)               | 
+| VersiCode                  | [VersiCode: Towards Version-controllable Code Generation](https://arxiv.org/abs/2406.07411)                                                  |  Arxiv 2024/10   | [Github](https://github.com/wutong8023/VersiCode)                                | [🌐Website](https://wutong8023.site/VersiCode/) [🤗Dataset](https://huggingface.co/datasets/AstoneNg/VersiCode) | 
+| GitChameleon               | [GitChameleon: Unmasking the Version-Switching Capabilities of Code Generation Models](https://arxiv.org/abs/2411.05830)                     |  Arxiv 2024/11   | [Github](https://github.com/NizarIslah/GitChameleon)                             | [🤗Dataset](https://github.com/NizarIslah/GitChameleon/tree/main/dataset) | 
+| LLM-Deprecated-APl         | [LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-based Code Completion](https://arxiv.org/abs/2406.09834)                |  ICSE 2025       | [Github](https://github.com/cs-wangchong/LLM-Deprecated-API)                     | [🤗Dataset](https://figshare.com/s/e8de860d8fc2ec0541d2)       |
+| CodeUpdateArena            | [CodeUpdateArena: Benchmarking Knowledge Editing on API Updates](https://arxiv.org/abs/2407.06249)                                           |  Arxiv 2025/02   | [Github](https://github.com/leo-liuzy/CodeUpdateArena)                           | [🤗Dataset](https://github.com/leo-liuzy/CodeUpdateArena/tree/main/data) | 
+| LibEvolutionEval           | [LibEvolutionEval: A Benchmark and Study for Version-Specific Code Generation](https://arxiv.org/abs/2412.04478)                             |  NAACL 2025      |                                                                                  |                                                              | 
 
 ### Industry Code Generation
 PLC (Programmable logic controller) & Verilog (Hardware description language) & ... (to be released soon)
 
 ### Multi-Dimension
-|<center>Benchmark</center>       | <center>Paper</center>              | <center>Source</center>        | <center>Github</center> | Dataset & Website & LeaderBoard | Comments|
-|:---------------|:-----------------------------------------------------------------------|:------------------------------------------------------------|:--|:--|:-- |
-| LiveCodeBench | LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code | [Paper](https://arxiv.org/abs/2403.07974) Arxiv 2024-03 | [Github](https://github.com/LiveCodeBench/LiveCodeBench) | [Huggingface](https://huggingface.co/livecodebench) | self-repair, code execution, test output prediction, code generation| 
-| RACE          | Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models | [Paper](https://arxiv.org/abs/2407.11470) Arxiv 2024-07 | [Github](https://github.com/jszheng21/RACE) | [LeaderBoard](https://huggingface.co/spaces/jszheng/RACE_leaderboard) | Readability, Maintainability, Correctness, and Efficiency | 
-<!-- | MultiPL-E     | MultiPL-E: A Scalable and Polyglot Approach to Benchmarking Neural Code Generation. | [Paper](https://ieeexplore.ieee.org/abstract/document/10103177) TSE 2023 | [Github](https://github.com/nuprl/MultiPL-E) | [Huggingface](https://huggingface.co/datasets/nuprl/MultiPL-E) | Extends the HumanEval and MBPP benchmarks to 18 languages | -->
-<!-- | EvalPlus      | Is Your Code Generated by Chat{GPT} Really Correct? <br> Rigorous Evaluation of Large Language Models for Code Generation                       | [Paper](https://arxiv.org/abs/2305.01210) NeruIPS 2023                  | [Github](https://github.com/evalplus/evalplus)| [Huggingface](https://huggingface.co/evalplus) | Extend of HumanEval and MBPP | -->
-<!-- | BigCodeBench  | BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions | [Paper](https://arxiv.org/abs/2406.15877) ICLR 2025 | [Github](https://github.com/bigcode-project/bigcodebench) | [LeaderBoard](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard) | Complete Split & Instruct Split|  -->
+* **LiveCodeBench**: self-repair, code execution, test output prediction, code generation
+* **RACE**: Readability, Maintainability, Correctness, and Efficiency 
+
+| Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
+|:--|:--|:--|:--|:--|
+| LiveCodeBench | [LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code](https://arxiv.org/abs/2403.07974)  | Arxiv 2024/03 | [Github](https://github.com/LiveCodeBench/LiveCodeBench) | [🤗Dataset](https://huggingface.co/livecodebench) |  
+| RACE          | [Beyond Correctness: Benchmarking Multi-dimensional Code Generation for Large Language Models](https://arxiv.org/abs/2407.11470) | Arxiv 2024-07 | [Github](https://github.com/jszheng21/RACE)              | [📊LeaderBoard](https://huggingface.co/spaces/jszheng/RACE_leaderboard) | 
