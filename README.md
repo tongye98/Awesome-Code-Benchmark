@@ -26,7 +26,7 @@ A comprehensive code domain benchmark review of LLM researches.
 ### Code Completion & Code Generation
 * **HumanEval**: code completion 
 * **MBPP**: text -> code; code generation 
-* **EvalPlus**: Extends the HumanEval and MBPP benchmarks to 18 languages
+* **EvalPlus**: Extends the HumanEval and MBPP benchmarks
 * **MultiPL-E**: Extends the HumanEval and MBPP benchmarks to 18 languages
 * **BigCodeBench**: Complete Split & Instruct Split
 * **DevEval**: Repo-level code generation
@@ -102,7 +102,7 @@ A comprehensive code domain benchmark review of LLM researches.
 
 | Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
-| ChartMimic      | [ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation]((https://arxiv.org/abs/2406.09961))                       | ICLR 2025                | [Github](https://github.com/ChartMimic/ChartMimic)        | [🌐Website](https://chartmimic.github.io) [🤗Dataset](https://huggingface.co/datasets/ChartMimic/ChartMimic) |  
+| ChartMimic      | [ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation](https://arxiv.org/abs/2406.09961)                       | ICLR 2025                | [Github](https://github.com/ChartMimic/ChartMimic)        | [🌐Website](https://chartmimic.github.io) [🤗Dataset](https://huggingface.co/datasets/ChartMimic/ChartMimic) |  
 
 ### Security Code Generation
 *  **RedCode**: comprehensive and practical evaluations on the safety of code agents 
@@ -114,6 +114,7 @@ A comprehensive code domain benchmark review of LLM researches.
 
 
 ### Code Version
+Version-specific code generation
 * **CodeUpdateEval**: code migration with Time-wise dataset                        
 * **JavaVersionGenBench**: Code Completion Across Evolving JAVA Versions                
 * **VersiCode**: Version-controllable Code Generation                         
