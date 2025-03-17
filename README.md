@@ -15,6 +15,7 @@ A comprehensive code domain benchmark review of LLM researches.
 </p>
 
 ## News
+- 🔥🔥 **[2025-03-16]** We add **Code Version** (Version-specific code generation) benchmarks.
 - 🔥🔥 **[2025-03-16]** A thorough review of code domain benchmarks for LLM research has been released.
 
 ## 🚀 Top Code Benchmark
