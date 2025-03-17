@@ -20,12 +20,12 @@ A comprehensive code domain benchmark review of LLM researches.
 ## 🚀 Top Code Benchmark
 
 ### Code Completion & Code Generation
-* HumanEval: code completion 
-* MBPP: text -> code; code generation 
-* EvalPlus: Extends the HumanEval and MBPP benchmarks to 18 languages
-* MultiPL-E: Extends the HumanEval and MBPP benchmarks to 18 languages
-* BigCodeBench: Complete Split & Instruct Split
-* DevEval: Repo-level code generation
+* **HumanEval**: code completion 
+* **MBPP**: text -> code; code generation 
+* **EvalPlus**: Extends the HumanEval and MBPP benchmarks to 18 languages
+* **MultiPL-E**: Extends the HumanEval and MBPP benchmarks to 18 languages
+* **BigCodeBench**: Complete Split & Instruct Split
+* **DevEval**: Repo-level code generation
 
 |Benchmark       | Paper                  | Date | Github | Dataset & Website & LeaderBoard |
 |:---------------|:------------------------------------------------------------|:--:|:--|:--|
