@@ -8,10 +8,10 @@
   </a>
 </div>
 
-A comprehensive code domain benchmark review of LLM researches.
+A comprehensive code domain benchmark review of LLM researches.  
 
 <p align="center">
-    <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
+    <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">  
 </p>
 
 ## News
@@ -50,7 +50,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | EffiBench     | [EffiBench: Benchmarking the Efficiency of Automatically Generated Code](https://arxiv.org/abs/2402.02037)                            | NeurIPS 2024                | [Github](https://github.com/huangd1999/EffiBench)     |  |
 | Mercury       | [Mercury: A Code Efficiency Benchmark for Code Large Language Models](https://arxiv.org/abs/2402.07844v4)                             | NeurIPS 2024                | [Github](https://github.com/Elfsong/Mercury)          | [🤗Dataset](https://huggingface.co/datasets/Elfsong/Mercury) |
 | ECCO          | [ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?](https://arxiv.org/abs/2407.14044)  | EMNLP 2024                  | [Github](https://github.com/CodeEff/ECCO)             | [🤗Dataset](https://huggingface.co/datasets/CodeEff/ECCO)|
-| PIE           | [Learning Performance-Improving Code Edits](https://arxiv.org/abs/2302.07867)                                                         | ICLR 2024                   | [Github](https://github.com/LearningOpt/pie)          | [🌐Website](https://pie4perf.com)|  
+| PIE           | [Learning Performance-Improving Code Edits](https://arxiv.org/abs/2302.07867)                                                         | ICLR 2024                   | [Github](https://github.com/LearningOpt/pie)          | [🌐Website](https://pie4perf.com)|    
 | ENAMEL        | [How Efficient is LLM-Generated Code? A Rigorous & High-Standard Benchmark](https://arxiv.org/abs/2406.06647)                         | ICLR 2025                   | [Github](https://github.com/q-rz/enamel)              | [🤗Dataset](https://huggingface.co/datasets/q-rz/enamel) |
 
 
@@ -128,24 +128,25 @@ Version-specific code generation
 * **CodeUpdateEval**: code migration with Time-wise dataset                        
 * **JavaVersionGenBench**: Code Completion Across Evolving JAVA Versions                
 * **VersiCode**: Version-controllable Code Generation                         
-* **GitChameleon**: 116 version-aware Python code-completion problems with unit tests 
+* **GitChameleon**: 116 version-aware Python code-completion problems with unit tests   
 * **LLM-Deprecated-APl**:  Deprecated APl mapping and functions code completion        
 * **CodeUpdateArena**: API Update Knowledge Editing Assessment                      
-* **LibEvolutionEval**: Version-Specifc Code Generation                              
+* **LibEvolutionEval**: Version-Specifc Code Generation
+* **RustEvo2**: API Evolution in LLM-based Rust Code Generation                                  
 
 | Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
-| CodeUpdateEval             | [Automatically Recommend Code Updates: Are We There Yet?](https://arxiv.org/abs/2209.07048v3)                                                |  TOSEM 2024      | [Github](https://github.com/yueyueL/CodeLM-CodeUpdateEval)                       | [🤗Dataset](https://github.com/yueyueL/CodeLM-CodeUpdateEval/tree/main/dataset) | 
+| CodeUpdateEval             | [Automatically Recommend Code Updates: Are We There Yet?](https://arxiv.org/abs/2209.07048v3)                                                |  TOSEM 2024      | [Github](https://github.com/yueyueL/CodeLM-CodeUpdateEval)                       | [🤗Dataset](https://github.com/yueyueL/CodeLM-CodeUpdateEval/tree/main/dataset) |   
 | JavaVersionGenBench        | [On the Generalizability of Deep Learning-based Code Completion Across Programming Language Versions](https://arxiv.org/pdf/2403.15149)      |  ICPC 2024       | [Github](https://github.com/java-generalization/java-generalization-replication) | [🤗Dataset](https://zenodo.org/records/10057237)               | 
-| VersiCode                  | [VersiCode: Towards Version-controllable Code Generation](https://arxiv.org/abs/2406.07411)                                                  |  Arxiv 2024/10   | [Github](https://github.com/wutong8023/VersiCode)                                | [🌐Website](https://wutong8023.site/VersiCode/) [🤗Dataset](https://huggingface.co/datasets/AstoneNg/VersiCode) | 
+| VersiCode                  | [VersiCode: Towards Version-controllable Code Generation](https://arxiv.org/abs/2406.07411)                                                  |  Arxiv 2024/10   | [Github](https://github.com/wutong8023/VersiCode)                                | [🌐Website](https://wutong8023.site/VersiCode/) [🤗Dataset](https://huggingface.co/datasets/AstoneNg/VersiCode) |   
 | GitChameleon               | [GitChameleon: Unmasking the Version-Switching Capabilities of Code Generation Models](https://arxiv.org/abs/2411.05830)                     |  Arxiv 2024/11   | [Github](https://github.com/NizarIslah/GitChameleon)                             | [🤗Dataset](https://github.com/NizarIslah/GitChameleon/tree/main/dataset) | 
 | LLM-Deprecated-APl         | [LLMs Meet Library Evolution: Evaluating Deprecated API Usage in LLM-based Code Completion](https://arxiv.org/abs/2406.09834)                |  ICSE 2025       | [Github](https://github.com/cs-wangchong/LLM-Deprecated-API)                     | [🤗Dataset](https://figshare.com/s/e8de860d8fc2ec0541d2)       |
-| CodeUpdateArena            | [CodeUpdateArena: Benchmarking Knowledge Editing on API Updates](https://arxiv.org/abs/2407.06249)                                           |  Arxiv 2025/02   | [Github](https://github.com/leo-liuzy/CodeUpdateArena)                           | [🤗Dataset](https://github.com/leo-liuzy/CodeUpdateArena/tree/main/data) | 
-| LibEvolutionEval           | [LibEvolutionEval: A Benchmark and Study for Version-Specific Code Generation](https://arxiv.org/abs/2412.04478)                             |  NAACL 2025      |                                                                                  |                                                              | 
-
+| CodeUpdateArena            | [CodeUpdateArena: Benchmarking Knowledge Editing on API Updates](https://arxiv.org/abs/2407.06249)                                           |  Arxiv 2025/02   | [Github](https://github.com/leo-liuzy/CodeUpdateArena)                           | [🤗Dataset](https://github.com/leo-liuzy/CodeUpdateArena/tree/main/data) |   
+| LibEvolutionEval           | [LibEvolutionEval: A Benchmark and Study for Version-Specific Code Generation](https://arxiv.org/abs/2412.04478)                             |  NAACL 2025      |                                                                                  |                                                              |     
+| RustEvo2                   | [RustEvo2: An Evolving Benchmark for API Evolution in LLM-based Rust Code Generation](https://arxiv.org/abs/2503.16922)                      |  Arxiv 2025/03   | [Github](https://github.com/SYSUSELab/RustEvo)                     | [🤗Dataset](https://github.com/SYSUSELab/RustEvo/tree/main/Dataset)       |     
 
 ### Industry Code Generation
-PLC (Programmable logic controller) & Verilog (Hardware description language) & ... (to be released soon)
+PLC (Programmable logic controller) & Verilog (Hardware description language) & ... (to be released soon)  
 
 
 ### Multi-Dimension
