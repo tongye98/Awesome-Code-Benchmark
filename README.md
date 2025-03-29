@@ -15,6 +15,7 @@ A comprehensive code domain benchmark review of LLM researches.
 </p>
 
 ## News 
+- 🔥🔥 **[2025-03-29]** We have crawled all the articles related to code benchmarks in the **past five years**.
 - 🔥🔥 **[2025-03-17]** We add **Code Version** (Version-specific code generation) benchmarks.
 - 🔥🔥 **[2025-03-16]** A thorough review of code domain benchmarks for LLM research has been released.
 
@@ -24,60 +25,6 @@ A comprehensive code domain benchmark review of LLM researches.
 ## 🚀 Top Code Benchmark
 
 ### Code Completion & Code Generation
-* **HumanEval**: code completion 
-* **MBPP**: text -> code; code generation 
-* **APPS**: a benchmark for code generation from natural language specifications
-* **EvalPlus**: extends the HumanEval and MBPP benchmarks
-* **MultiPL-E**: extends the HumanEval and MBPP benchmarks to 18 languages
-* **CodeClarQA**: containing pairs of natural language descriptions and code with created synthetic clarification questions and answers.
-* **DevEval**: repo-level code generation
-* **BigCodeBench**: complete Split & Instruct Split
-* **DynaCode**: a dynamic complexity-aware code benchmark
-* **Stack-Repo**: repo-level code completion of java
-* **StudentEval**: a benchmark of student-written prompts for code generation evaluation
-* **MCoNaLa**: code generation from multiple natural languages
-* **LCC**: long code context code completion
-* **RepoBench**: repo-level code auto-completion
-* **ReCode**: a comprehensive robustness evaluation benchmark for code generation
-* **LongBench**: a bilingual, multitask benchmark for long context understanding
-* **CommitPack & HumanEvalPack**: multilingual code editing and understanding benchmarks based on Git commits and HumanEval extensions
-* **COCO**: instruction-level robustness benchmark for code generation
-* **ODEX**: open-domain, execution-based natural language to code generation
-* **BioCoder**:  bioinformatics code generation
-* **CrossCodeEval**: diverse and multilingual benchmark for cross-file code completion
-* **Buggy-HumanEval & Buggy-FixEval**: buggy code completion
-* **MT-Bench-101**: Multi-turn question answering
-* **ML-Bench**: repo-level ML task solving benchmark using real-world code
-* **PLPilot**: Benchmark automating programming language design tasks
-* **CoderEval**: pragmatic code generation
-* **MultiNL-H**: multilingual NL-to-code benchmark with keyword-guided generation
-* **APPS+**: enhanced version of the APPS dataset, designed for reinforcement learning in code generation
-* **OOP**: object-oriented programming evaluation benchmark of python programs
-* **-**: static analysis-based evaluation framework for LLM code completions using ASTs
-* **L2CEval**: multilingual, multi-task NL-to-code benchmark including semantic parsing, math reasoning and Python programming.
-* **ICE-Score**: an evaluation metric for code quality without test cases or references
-* **HumanExtension**：auxiliary-function-based code generation benchmark
-* **R2E-Eval1**：repo-level programming agent benchmark from GitHub repos for evaluating static and interactive code generation systems
-* **REval**: evaluates code LLMs’ reasoning and consistency with runtime behavior
-* **InfiBench**: free-form question-answering benchmark comprising 234 high-quality Stack Overflow questions across 15 programming languages
-* **RobustAPI**: Java API misuse benchmark from Stack Overflow for evaluating LLM code robustness
-* **EvoCodeBench**: evolving Python code generation benchmark from real GitHub commits
-* **CodeBenchGen**: scalable Python code generation benchmark built from GitHub functions and docstrings with execution-based evaluation
-* **HALLUCODE**: evaluate LLMs' ability to recognize and mitigate hallucinations in code generation
-* **LeetCodeEval**: Leetcode-based benchmark for comparing LLM vs. human code performance
-* **X-HumanEval-X**: exploring Multi-Lingual Bias of Large Code Models in Code Generation
-* **CodeHalu**: systematically evaluate code hallucinations in LLMs through execution-based verification
-* **PYCOMMITS**: multi-round Python code editing benchmark from real commit histories
-* **CodeContests**: complex programming task
-* **EvoEval**: a comprehensive evaluation of LLMs' coding abilities across diverse domains
-* **LLM4Decompile**: benchmark for evaluating binary-to-C decompilation on real-world open-source binaries
-* **CatCoder**: a framework for repo-level code generation in statically typed languages using code and type context
-* **AICoderEval**: AI task-specific code generation benchmark for LLMs in NLP, CV, and multimodal learning
-* **CodeAgentBench**: repo-level code generation benchmark with tool-integrated agents for real-world tasks
-* **AssertionBench**: assertion generation for hardware design verification
-* **SAFIM**: syntax-aware code completion benchmark focusing on code blocks and conditional expressions​
-* **GenCodeSearchNet**: benchmark for evaluating LLM generalization in programming language understanding across tasks and languages
-* **ConCodeEval**: benchmark for assessing LLMs' understanding of code constraints in domain-specific languages like JSON and YAML
 
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -135,8 +82,67 @@ A comprehensive code domain benchmark review of LLM researches.
 | SAFIM         | [Evaluation of LLMs on Syntax-Aware Code Fill-in-the-Middle Tasks](https://arxiv.org/abs/2403.04814) | ICLR 2024 | [Github](https://github.com/gonglinyuan/safim)   | [🤗Dataset](https://huggingface.co/datasets/gonglinyuan/safim) |
 | GenCodeSearchNet | [GenCodeSearchNet: A Benchmark Test Suite for Evaluating Generalization in Programming Language Understanding](https://arxiv.org/abs/2311.09707) | GenBench Workshop 2023 | [Github](https://github.com/drndr/gencodesearchnet) | [🤗Dataset](https://huggingface.co/datasets/drndr/statcodesearch) |
 | ConCodeEval   | [ConCodeEval: Evaluating Large Language Models for Code Constraints in Domain-Specific Languages](https://arxiv.org/abs/2407.03387) | Arxiv 2024/07  | | |
+| HumanEval-X   | [CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Benchmarking on HumanEval-X](https://arxiv.org/abs/2303.17568) | SIGKDD 2023| [Github](https://github.com/THUDM/CodeGeeX) | |
 
-*　| HumanEval-X   | [CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Benchmarking on HumanEval-X](https://arxiv.org/abs/2303.17568) | SIGKDD 2023| [Github](https://github.com/THUDM/CodeGeeX) | |
+#### Details of Code Completion & Code Generation Benchmarks
+
+* **HumanEval**: code completion 
+* **MBPP**: text -> code; code generation 
+* **APPS**: a benchmark for code generation from natural language specifications
+* **EvalPlus**: extends the HumanEval and MBPP benchmarks
+* **MultiPL-E**: extends the HumanEval and MBPP benchmarks to 18 languages
+* **CodeClarQA**: containing pairs of natural language descriptions and code with created synthetic clarification questions and answers.
+* **DevEval**: repo-level code generation
+* **BigCodeBench**: complete Split & Instruct Split
+* **DynaCode**: a dynamic complexity-aware code benchmark
+* **Stack-Repo**: repo-level code completion of java
+* **StudentEval**: a benchmark of student-written prompts for code generation evaluation
+* **MCoNaLa**: code generation from multiple natural languages
+* **LCC**: long code context code completion
+* **RepoBench**: repo-level code auto-completion
+* **ReCode**: a comprehensive robustness evaluation benchmark for code generation
+* **LongBench**: a bilingual, multitask benchmark for long context understanding
+* **CommitPack & HumanEvalPack**: multilingual code editing and understanding benchmarks based on Git commits and HumanEval extensions
+* **COCO**: instruction-level robustness benchmark for code generation
+* **ODEX**: open-domain, execution-based natural language to code generation
+* **BioCoder**:  bioinformatics code generation
+* **CrossCodeEval**: diverse and multilingual benchmark for cross-file code completion
+* **Buggy-HumanEval & Buggy-FixEval**: buggy code completion
+* **MT-Bench-101**: Multi-turn question answering
+* **ML-Bench**: repo-level ML task solving benchmark using real-world code
+* **PLPilot**: Benchmark automating programming language design tasks
+* **CoderEval**: pragmatic code generation
+* **MultiNL-H**: multilingual NL-to-code benchmark with keyword-guided generation
+* **APPS+**: enhanced version of the APPS dataset, designed for reinforcement learning in code generation
+* **OOP**: object-oriented programming evaluation benchmark of python programs
+* **-**: static analysis-based evaluation framework for LLM code completions using ASTs
+* **L2CEval**: multilingual, multi-task NL-to-code benchmark including semantic parsing, math reasoning and Python programming.
+* **ICE-Score**: an evaluation metric for code quality without test cases or references
+* **HumanExtension**：auxiliary-function-based code generation benchmark
+* **R2E-Eval1**：repo-level programming agent benchmark from GitHub repos for evaluating static and interactive code generation systems
+* **REval**: evaluates code LLMs’ reasoning and consistency with runtime behavior
+* **InfiBench**: free-form question-answering benchmark comprising 234 high-quality Stack Overflow questions across 15 programming languages
+* **RobustAPI**: Java API misuse benchmark from Stack Overflow for evaluating LLM code robustness
+* **EvoCodeBench**: evolving Python code generation benchmark from real GitHub commits
+* **CodeBenchGen**: scalable Python code generation benchmark built from GitHub functions and docstrings with execution-based evaluation
+* **HALLUCODE**: evaluate LLMs' ability to recognize and mitigate hallucinations in code generation
+* **LeetCodeEval**: Leetcode-based benchmark for comparing LLM vs. human code performance
+* **X-HumanEval-X**: exploring Multi-Lingual Bias of Large Code Models in Code Generation
+* **CodeHalu**: systematically evaluate code hallucinations in LLMs through execution-based verification
+* **PYCOMMITS**: multi-round Python code editing benchmark from real commit histories
+* **CodeContests**: complex programming task
+* **EvoEval**: a comprehensive evaluation of LLMs' coding abilities across diverse domains
+* **LLM4Decompile**: benchmark for evaluating binary-to-C decompilation on real-world open-source binaries
+* **CatCoder**: a framework for repo-level code generation in statically typed languages using code and type context
+* **AICoderEval**: AI task-specific code generation benchmark for LLMs in NLP, CV, and multimodal learning
+* **CodeAgentBench**: repo-level code generation benchmark with tool-integrated agents for real-world tasks
+* **AssertionBench**: assertion generation for hardware design verification
+* **SAFIM**: syntax-aware code completion benchmark focusing on code blocks and conditional expressions​
+* **GenCodeSearchNet**: benchmark for evaluating LLM generalization in programming language understanding across tasks and languages
+* **ConCodeEval**: benchmark for assessing LLMs' understanding of code constraints in domain-specific languages like JSON and YAML
+
+---
+
 * HumanEval-XL: A Multilingual Code Generation Benchmark for Cross-lingual Natural Language Generalization
 * CodeScope: An Execution-based Multilingual Multitask Multidimensional Benchmark for Evaluating LLMs on Code Understanding and Generation
 * XCodeEval: An Execution-based Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval
