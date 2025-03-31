@@ -14,10 +14,15 @@ A comprehensive code domain benchmark review of LLM researches.
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
 </p>
 
-## News 
+## News  
+- 🔥🔥 **[2025-03-29]** We have crawled all the articles related to code benchmarks in the **past five years**.
+- 🔥🔥 **[2025-03-17]** We add **Code Version** (Version-specific code generation) benchmarks.
 - 🔥🔥 **[2025-03-29]** We have crawled all the articles related to code benchmarks in the **past five years**.
 - 🔥🔥 **[2025-03-17]** We add **Code Version** (Version-specific code generation) benchmarks.
 - 🔥🔥 **[2025-03-16]** A thorough review of code domain benchmarks for LLM research has been released.
+
+<!-- ## Table of Contents
+1. [Code C](#1_Code Completion & Code Generation) -->
 
 ## 🚀 Top Code Benchmark
 
@@ -155,14 +160,15 @@ A comprehensive code domain benchmark review of LLM researches.
 * Teaching Code LLMs to Use Autocompletion Tools in Repository-Level Code Generation
 
 ### Code Efficiency
-|<center>Benchmark</center>       | <center>Paper</center>              | <center>Source</center>        | <center>Github</center> | Dataset & Website & LeaderBoard |
-|:---------------|:-----------------------------------------------------------------------|:------------------------------------------------------------|:--|:--|
-| EvalPerf      | Evaluating Language Models for Efficient Code Generation                                        | [Paper](https://arxiv.org/abs/2408.06450)  COLM 2024                  | [Github](https://github.com/evalplus/evalplus)        | [Huggingface](https://huggingface.co/datasets/evalplus/evalperf) |
-| EffiBench     | EffiBench: Benchmarking the Efficiency of Automatically Generated Code                          | [Paper](https://arxiv.org/abs/2402.02037)  NeurIPS 2024               | [Github](https://github.com/huangd1999/EffiBench)     |  |
-| Mercury       | Mercury: A Code Efficiency Benchmark for Code Large Language Models                             | [Paper](https://arxiv.org/abs/2402.07844v4) NeurIPS 2024              | [Github](https://github.com/Elfsong/Mercury)          | [Huggingface](https://huggingface.co/datasets/Elfsong/Mercury) |
-| ECCO          | ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?| [Paper](https://arxiv.org/abs/2407.14044) EMNLP 2024                  | [Github](https://github.com/CodeEff/ECCO)             | [Huggingface](https://huggingface.co/datasets/CodeEff/ECCO)|
-| PIE           | Learning Performance-Improving Code Edits                                                       | [Paper](https://arxiv.org/abs/2302.07867) ICLR 2024                   | [Github](https://github.com/LearningOpt/pie)          | [🌐Website](https://pie4perf.com)|  
-| ENAMEL        | How Efficient is LLM-Generated Code? A Rigorous & High-Standard Benchmark                       | [Paper](https://arxiv.org/abs/2406.06647) ICLR 2025                   | [Github](https://github.com/q-rz/enamel)              | [Huggingface](https://huggingface.co/datasets/q-rz/enamel) |
+| Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
+|:--|:--|:--|:--|:--|
+| EvalPerf      | [Evaluating Language Models for Efficient Code Generation](https://arxiv.org/abs/2408.06450)                                          | COLM 2024                   | [Github](https://github.com/evalplus/evalplus)        | [🤗Dataset](https://huggingface.co/datasets/evalplus/evalperf) |
+| EffiBench     | [EffiBench: Benchmarking the Efficiency of Automatically Generated Code](https://arxiv.org/abs/2402.02037)                            | NeurIPS 2024                | [Github](https://github.com/huangd1999/EffiBench)     |  |
+| Mercury       | [Mercury: A Code Efficiency Benchmark for Code Large Language Models](https://arxiv.org/abs/2402.07844v4)                             | NeurIPS 2024                | [Github](https://github.com/Elfsong/Mercury)          | [🤗Dataset](https://huggingface.co/datasets/Elfsong/Mercury) |
+| ECCO          | [ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?](https://arxiv.org/abs/2407.14044)  | EMNLP 2024                  | [Github](https://github.com/CodeEff/ECCO)             | [🤗Dataset](https://huggingface.co/datasets/CodeEff/ECCO)|
+| PIE           | [Learning Performance-Improving Code Edits](https://arxiv.org/abs/2302.07867)                                                         | ICLR 2024                   | [Github](https://github.com/LearningOpt/pie)          | [🌐🌐Website](https://pie4perf.com)|  
+| ENAMEL        | [How Efficient is LLM-Generated Code? A Rigorous & High-Standard Benchmark](https://arxiv.org/abs/2406.06647)                         | ICLR 2025                   | [Github](https://github.com/q-rz/enamel)              | [🤗Dataset](https://huggingface.co/datasets/q-rz/enamel) |
+
 
 ### CodeFix & Bug-Fix
 * **HumanEvalFix**: code repair capabilitie 
