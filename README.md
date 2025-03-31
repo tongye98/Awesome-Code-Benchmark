@@ -14,12 +14,10 @@ A comprehensive code domain benchmark review of LLM researches.
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
 </p>
 
-## News  
-- 🔥🔥 **[2025-03-29]** We have crawled all the articles related to code benchmarks in the **past five years**.
-- 🔥🔥 **[2025-03-17]** We add **Code Version** (Version-specific code generation) benchmarks.
-- 🔥🔥 **[2025-03-29]** We have crawled all the articles related to code benchmarks in the **past five years**.
-- 🔥🔥 **[2025-03-17]** We add **Code Version** (Version-specific code generation) benchmarks.
-- 🔥🔥 **[2025-03-16]** A thorough review of code domain benchmarks for LLM research has been released.
+## News   
+- 🔥🔥 **[2025-03-29]** We have crawled all the articles related to code benchmarks in the **past five years**.  
+- 🔥🔥 **[2025-03-17]** We add **Code Version** (Version-specific code generation) benchmarks.  
+- 🔥🔥 **[2025-03-16]** A thorough review of code domain benchmarks for LLM research has been released.  
 
 <!-- ## Table of Contents
 1. [Code C](#1_Code Completion & Code Generation) -->
