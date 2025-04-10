@@ -13,13 +13,14 @@ A comprehensive code domain benchmark review of LLM researches.
 <p align="center">
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
 </p>
+
 ## News   
 
 - 🔥🔥 **[2025-03-29]** We have crawled all the articles related to code benchmarks in the **past five years**.  
 - 🔥🔥 **[2025-03-17]** We add **Code Version** (Version-specific code generation) benchmarks.  
 - 🔥🔥 **[2025-03-16]** A thorough review of code domain benchmarks for LLM research has been released.  
 
-![](D:\gitdownload\Awesome-Code-Benchmarklufer\image\codebenchpic1.png)
+![alt text](image/codebenchpic1.png)
 
 ## 🚀 Top Code Benchmark
 
