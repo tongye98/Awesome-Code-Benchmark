@@ -237,12 +237,18 @@ A comprehensive code domain benchmark review of LLM researches.
 ### Code Hallucinations
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
-| HALLUCODE                     | [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971) | Arxiv 2024/04  | ||
-| CodeHalu                      | [CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification (Hallucination benchmark)](https://arxiv.org/abs/2405.00253) | AAAI 2025 | [Github](https://github.com/yuchen814/CodeHalu) | |
+| VisDiaHalBench | [VisDiaHalBench: A Visual Dialogue Benchmark For Diagnosing Hallucination in Large Vision-Language Models](https://aclanthology.org/2024.acl-long.658.pdf) | ACL 2024 | [Github](https://github.com/qingxingcao/VisDiaHalBench) | |
+| HallusionBench | [HallusionBench: An Advanced Diagnostic Suite for Entangled Language Hallucination and Visual Illusion in Large Vision-Language Models](https://arxiv.org/abs/2310.14566) | CVPR 2024 | [Github](https://github.com/tianyi-lab/HallusionBench) | [📊LeaderBoard](https://paperswithcode.com/sota/visual-question-answering-vqa-on-3) |
+| UHGEval | [UHGEval: Benchmarking the Hallucination of Chinese Large Language Models via Unconstrained Generation](https://arxiv.org/abs/2311.15296) | ACL 2024 | [Github](https://github.com/IAAR-Shanghai/UHGEval) | [🤗Dataset](https://huggingface.co/datasets/Ki-Seki/UHGEvalDataset) |
+| HALLUCODE | [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971) | Arxiv 2024/04  | ||
+| CodeHalu | [CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification (Hallucination benchmark)](https://arxiv.org/abs/2405.00253) | AAAI 2025 | [Github](https://github.com/yuchen814/CodeHalu) |  |
 
 <details><summary>Details of Details of Code Hallucinations <i>:: click to expand ::</i></summary>
 <div>
 
+* **VisDiaHalBench**: evaluate hallucinations in LVLMs under multi-turn visual dialogues with misleading textual history and edited images
+* **HallusionBench**: evaluate LVLMs' visual reasoning abilities and hallucination tendencies through control-structured questions grounded in expert-annotated image contexts
+* **UHGEval**: evaluate hallucinations in unconstrained text generation by LLMs, focusing on real-world applicability and Chinese-language model performance
 * **HALLUCODE**: evaluate LLMs' ability to recognize and mitigate hallucinations in code generation
 * **CodeHalu**: systematically evaluate code hallucinations in LLMs through execution-based verification
 
@@ -279,6 +285,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
 | Spider      | [Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task](https://arxiv.org/abs/1809.08887)      | EMNLP 2018     | [Github](https://github.com/taoyds/spider)        | [🌐Homepage](https://yale-lily.github.io/spider) |
+| SParC | [SParC: Cross-Domain Semantic Parsing in Context](https://arxiv.org/abs/1906.02285) | ACL 2019 | [Github](https://github.com/taoyds/sparc) | [🌐Website](https://yale-lily.github.io/sparc) |
+| CoSQL | [CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases](https://aclanthology.org/D19-1204.pdf) | EMNLP-IJCNLP 2019 | [Github](https://yale-lily.github.io/cosql) | [🌐Website](https://yale-lily.github.io/cosql) |
 | Spider-DK          | [Exploring underexplored limitations of crossdomain text-to-sql generalization](https://arxiv.org/abs/2109.05157) | EMNLP 2021          | [Github](https://github.com/ygan/Spider-DK)                  |                                                 |
 | Spider-Syn  | [Towards robustness of text-to-SQL models against synonym substitution](https://arxiv.org/abs/2106.01065)                                                   | ACL 2021 | [Github](https://github.com/ygan/Spider-Syn) | |
 | Spider-Realistic | [Structure-Grounded Pretraining for Text-to-SQL](https://arxiv.org/abs/2010.12773)                                                                      | NAACL 2021 | | [Dataset](https://zenodo.org/records/5205322) |
@@ -298,7 +306,9 @@ A comprehensive code domain benchmark review of LLM researches.
 
 <details><summary> Details of Text2SQL <i>:: click to expand ::</i></summary>
 <div>
-* **Spider**:  text-to-SQL  
+* **Spider**: text-to-SQL
+* **SParC**: evaluate context-dependent and cross-domain text-to-SQL parsing with multi-turn question sequences
+* **CoSQL**: evaluate cross-domain, SQL-grounded multi-turn dialogue systems with tasks including state tracking, response generation, and user intent prediction over unseen databases
 * **Spider 2.0**: text-to-SQL
 * **SNAILS**: benchmark for evaluating how schema identifier naturalness affects LLM-based NL-to-SQL performance
 * **BIRD**: large-scale text-to-SQL benchmark focusing on value comprehension and SQL efficiency in realistic industrial settings
@@ -401,7 +411,7 @@ A comprehensive code domain benchmark review of LLM researches.
 </div>
 </details>
 
-### Security Code Generation & Test Generation
+### Code Security & Test Generation
 
 | Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -412,9 +422,11 @@ A comprehensive code domain benchmark review of LLM researches.
 | PyP4LLMSec     | [Benchmarking the Security Aspect of Large Language Model-Based Code Generation](https://llm4code.github.io/2024/assets/pdf/papers/42.pdf)    | ICSE 2024     | [Github](https://github.com/Hahappyppy2024/PyP4LLMSec) | |
 | LLMSecGuard   | [LLM Security Guard for Code](https://arxiv.org/abs/2405.01103) | EASE 2024 | [Github](https://github.com/aryakvnust/LLMSecGuard) | |
 | CyberSecEval 3 | [CYBERSECEVAL 3: Advancing the Evaluation of Cybersecurity Risks and Capabilities in Large Language Models](https://arxiv.org/abs/2408.01605) | Arxiv 2024/08 | [Github](https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks) | |
+| CWE-Bench-Java | [IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities](https://arxiv.org/abs/2405.17238) | Arxiv 2024/05 | [Github](https://github.com/iris-sast/iris) | |
+| CS-Eval | [CS-Eval: A Comprehensive Large Language Model Benchmark for CyberSecurity](https://arxiv.org/abs/2411.16239) | Arxiv 2024/11 | [Github](https://github.com/CS-EVAL/CS-Eval) | [🤗Dataset](https://huggingface.co/datasets/cseval/cs-eval) |
+| SecBench | [SecBench: A Comprehensive Multi-Dimensional Benchmarking Dataset for LLMs in Cybersecurity](https://arxiv.org/abs/2412.20787) |Arxiv 2024/12 | | [🌐Website](https://secbench.org/) |
 
-
-<details><summary> Details of Security Code Generation & Test Generation <i>:: click to expand ::</i></summary>
+<details><summary> Details of Code Security & Test Generation <i>:: click to expand ::</i></summary>
 <div>
 
 * **RedCode**: comprehensive and practical evaluations on the safety of code agents 
@@ -424,6 +436,9 @@ A comprehensive code domain benchmark review of LLM researches.
 * **PyP4LLMSec**: Python benchmark for evaluating LLM-generated code security across real-world vulnerability types
 * **LLMSecGuard**: framework integrating static code analyzers with LLMs to enhance code security and benchmark LLMs' security attributes
 * **CyberSecEval 3**: benchmark suite assessing LLMs' cybersecurity risks and capabilities across eight risk areas
+* **CWE-Bench-Java**: evaluate whole-repository vulnerability detection in real-world Java projects
+* **CS-Eval**: evaluate LLMs on diverse cybersecurity tasks across knowledge, ability, and application levels with a comprehensive bilingual benchmark covering 42 categories
+* **SecBench**: evaluate LLMs in cybersecurity through a large-scale, multilingual benchmark with MCQs and SAQs across sub-domains and reasoning levels
 
 </div>
 </details>
