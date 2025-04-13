@@ -81,7 +81,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | BigCodeBench                  | [BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions](https://arxiv.org/abs/2406.15877) | ICLR 2025 | [Github](https://github.com/bigcode-project/bigcodebench) | [📊LeaderBoard](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard) |
 | EvoCodeBench                  | [EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories](https://arxiv.org/abs/2404.00599) | NeurIPS 2025 | [Github](https://github.com/seketeam/EvoCodeBench) | [🤗Dataset](https://huggingface.co/datasets/LJ0815/EvoCodeBench) |
 | DynaCode                      | [DynaCode: A Dynamic Complexity-Aware Code Benchmark for Evaluating Large Language Models in Code Generation](https://arxiv.org/abs/2503.10452)            | Arxiv 2025/03       | | |
-
+| Prism                         | [Prism Dynamic and Flexible Benchmarking of LLMs Code Generation with Monte Carlo Tree Search]()    ||||
 
 <details><summary>Details of Code Completion & Code Generation Benchmarks <i>:: click to expand ::</i></summary>
 <div>
@@ -188,7 +188,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | StatType-SO    | [ZS4C: Zero-Shot Synthesis of Compilable Code for Incomplete Code Snippets using LLMs](https://arxiv.org/abs/2401.14279)                       | TOSEM 2024         | [Github]() | |
 | LiveCodeBench | [LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code](https://arxiv.org/abs/2403.07974) | ICLR 2025 | [Github](https://github.com/LiveCodeBench/LiveCodeBench) | [🌐Website](https://livecodebench.github.io/) [🤗Dataset](https://huggingface.co/livecodebench) [📊LeaderBoard](https://livecodebench.github.io/leaderboard.html) |
 | SWE-bench Multimodal | [SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?](https://arxiv.org/abs/2410.03859) | ICLR 2025 | [Github](https://github.com/swe-bench/SWE-bench) | [🌐Website](https://www.swebench.com/multimodal) [🤗Dataset](https://www.swebench.com/multimodal) |
-
+| FeedbackEval  | FeedbackEval A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks || ||
 
 <details><summary>Details of Details of CodeFix & Bug-Fix <i>:: click to expand ::</i></summary>
 <div>
