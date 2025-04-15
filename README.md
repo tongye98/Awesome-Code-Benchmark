@@ -15,10 +15,19 @@ A comprehensive code domain benchmark review of LLM researches.
 </p>
 
 ## News   
+- 🔥🔥 [2025-04-13] **Featured Benchmarks**
+
+* [SVGEditBench: A Benchmark Dataset for Quantitative Assessment of LLM's SVG Editing Capabilities](https://arxiv.org/abs/2404.13710)
+* [Can Large Language Models Understand Symbolic Graphics Programs?](https://arxiv.org/html/2408.08313v1)
+* [Code-Vision: Evaluating Multimodal LLMs Logic Understanding and Code Generation Capabilities](https://arxiv.org/abs/2502.11829)
+* [Unraveling the Potential of Large Language Models in Code Translation: How Far Are We?](https://arxiv.org/abs/2410.09812)
+* [Enhancing LLMs in Long Code Translation through Instrumentation and Program State Alignment](https://arxiv.org/abs/2504.02017)
+* [PyHDL-Eval: An LLM Evaluation Framework for Hardware Design Using Python-Embedded DSLs](https://dl.acm.org/doi/10.1145/3670474.3685948)
+
 -  [2025-04-06] We add **Code Hallucinations** benchmarks.  
 -  [2025-03-29] We have crawled all the articles related to code benchmarks in the **past five years**.  
 -  [2025-03-17] We add **Code Version** (Version-specific code generation) benchmarks.  
-- [2025-03-16] A thorough review of code domain benchmarks for LLM research has been released.  
+-  [2025-03-16] A thorough review of code domain benchmarks for LLM research has been released.  
 
 ![alt text](image/codebenchpic.png)
 
