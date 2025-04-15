@@ -337,12 +337,16 @@ A comprehensive code domain benchmark review of LLM researches.
 | Drawing Pandas | [Drawing Pandas: A Benchmark for LLMs in Generating Plotting Code](https://arxiv.org/html/2412.02764v2#:~:text=This) | arXiv 2024         | [Github](https://github.com/JetBrains-Research/PandasPlotBench) | [🤗Dataset](https://huggingface.co/datasets/JetBrains-Research/PandasPlotBench) |
 | Web2Code | [Web2Code: A Large-scale Webpage-to-Code Dataset and Evaluation Framework for Multimodal LLMs](https://papers.nips.cc/paper_files/paper/2024/hash/cb66be286795d71f89367d596bf78ea7-Abstract-Datasets_and_Benchmarks_Track.html) | NeurIPS 2024       | [Github](https://github.com/MBZUAI-LLM/Web2code) | [🤗Dataset](https://huggingface.co/datasets/MBZUAI/Web2Code)<br />[🌐Website](https://mbzuai-llm.github.io/webpage2code/) |
 | CodeScope | [CodeScope: An Execution-based Multilingual Multitask Multidimensional Benchmark for Evaluating LLMs on Code Understanding and Generation](https://arxiv.org/abs/2311.08588) | ACL 2024           | [Github](https://github.com/WeixiangYAN/CodeScope) | [📊LeaderBoard](https://haitianliu22.github.io/code-scope-benchmark/)<br />[🤗Dataset](https://huggingface.co/datasets/WeixiangYan/CodeScope) |
+| VGBench | [VGBench: Evaluating Large Language Models on Vector Graphics Understanding and Generation](https://arxiv.org/abs/2407.10972) | EMNLP 2024 | [Github](https://github.com/vgbench/VGBench) | [🤗Dataset](https://huggingface.co/vgbench) |
+| SVGEditBench | [SVGEditBench: A Benchmark Dataset for Quantitative Assessment of LLM's SVG Editing Capabilities](https://arxiv.org/abs/2404.13710) | CVPR2024 workshop | [Github](https://github.com/mti-lab/SVGEditBench) | [🤗Dataset](https://github.com/mti-lab/SVGEditBench) |
 | Plot2Code | [Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots](https://arxiv.org/abs/2405.07990) | Arxiv 2024-5       | [Github](https://github.com/TencentARC/Plot2Code) | [🤗Dataset](https://huggingface.co/TencentARC) |
+| SGP-Bench | [Can Large Language Models Understand Symbolic Graphics Programs?](https://arxiv.org/html/2408.08313v1) | Arxiv 2024-8 | [Github](https://github.com/sgp-bench/sgp-bench) | [📊LeaderBoard](https://sgp-bench.github.io/#toggleButton)<br />[🤗Dataset](https://huggingface.co/sgp-bench) |
 | HumanEval-V | [HumanEval-V: Benchmarking High-Level Visual Reasoning with Complex Diagrams in Coding Tasks](https://arxiv.org/abs/2410.12381) | arXiv 2024-10      | [Github](https://github.com/HumanEval-V/HumanEval-V-Benchmark) | [🌐Website](https://humaneval-v.github.io/)<br />[📊LeaderBoard](https://humaneval-v.github.io/#leaderboard)<br />[🤗Dataset](https://huggingface.co/datasets/HumanEval-V/HumanEval-V-Benchmark) |
 | WebSight-Test | [WAFFLE: Multi-Modal Model for Automated Front-End Development](https://arxiv.org/abs/2410.18362) | Arxiv 2024-10      | [Github](https://github.com/lt-asset/Waffle) | [🤗Dataset](https://github.com/lt-asset/Waffle/tree/master/WebSight-Test) |
 | Sketch2Code | [Sketch2Code: Evaluating Vision-Language Models for Interactive Web Design Prototyping](https://arxiv.org/abs/2410.16232) | Arxiv 2024-10      | [Github](https://github.com/microsoft/ailab/tree/master/Sketch2Code) | [🌐Website](https://sketch2code.github.io/) |
 | Interaction2Code | [Interaction2Code: Benchmarking MLLM-based Interactive Webpage Code Generation from Interactive Prototyping](https://arxiv.org/abs/2411.03292) | Arxiv 2024-11      | [Github](https://github.com/WebPAI/Interaction2Code) | [🤗Dataset](https://github.com/WebPAI/Interaction2Code?tab=readme-ov-file#Dataset-Download)<br />[📊LeaderBoard](https://github.com/WebPAI/Interaction2Code?tab=readme-ov-file#Leaderboard) |
 | ScratchEval | [ScratchEval: Are GPT-4o Smarter than My Child? Evaluating Large Multimodal Models with Visual Programming Challenges](https://arxiv.org/abs/2411.18932) | Arxiv 2024-11      | [Github](https://github.com/HKBUNLP/ScratchEval) | [🤗Dataset](https://github.com/HKBUNLP/ScratchEval) |
+| ScImage | [ScImage: How Good Are Multimodal Large Language Models at Scientific Text-to-Image Generation?](https://arxiv.org/abs/2412.02368) | Arxiv 2024-12 |  |  |
 | MRWeb | [MRWeb: An Exploration of Generating Multi-Page Resource-Aware Web Code from UI Designs](https://arxiv.org/abs/2412.15310) | Arxiv  2024-12     | [Github](https://github.com/WebPAI/MRWeb) | [🤗Dataset](https://github.com/WebPAI/MRWeb/tree/main/dataset_collection) |
 | BigDocs-Bench | [BigDocs: An Open Dataset for Training Multimodal Models on Document and Code Tasks](https://arxiv.org/abs/2412.04626) | Arxiv 2024-12      | [Github](https://bigdocs.github.io/) | [🤗Dataset](https://huggingface.co/datasets/ServiceNow/BigDocs-Bench)<br />[🌐Website](https://bigdocs.github.io/) |
 | Image2Struct | [Image2Struct: Benchmarking Structure Extraction for Vision-Language Models](https://arxiv.org/abs/2410.22456) | NeurIPS 2024       | [Github](https://github.com/stanford-crfm/helm) | [🌐Website](https://crfm.stanford.edu/helm/image2struct/latest/)<br />[🤗Dataset](https://huggingface.co/datasets/stanford-crfm/i2s-latex) |
@@ -350,11 +354,20 @@ A comprehensive code domain benchmark review of LLM researches.
 | Design2Code | [Design2Code: Benchmarking Multimodal Code Generation for Automated Front-End Engineering](https://arxiv.org/abs/2403.03163) | NAACL 2025         | [Github](https://github.com/NoviScl/Design2Code) | [🤗Dataset](https://huggingface.co/datasets/SALT-NLP/Design2Code-hf) |
 | DiagramGenBenchmark | [From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing](https://arxiv.org/abs/2411.11916) | CVPR 2025          | [Github](https://github.com/DiagramAgent/DiagramAgent_official) | [🌐Website](https://diagramagent.github.io/)<br />[🤗Dataset](https://huggingface.co/collections/DiagramAgent/diagramagent-67c5c0935149cdc6e0230b46) |
 | ChartMimic      | [ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation](https://arxiv.org/abs/2406.09961)                       | ICLR 2025                | [Github](https://github.com/ChartMimic/ChartMimic)        | [🌐Website](https://chartmimic.github.io) [🤗Dataset](https://huggingface.co/datasets/ChartMimic/ChartMimic) |
+| MEGA-Bench | [MEGA-Bench: Scaling Multimodal Evaluation to over 500 Real-World Tasks]() | ICLR 2025 | [Github](https://github.com/TIGER-AI-Lab/MEGA-Bench) | [🌐Website](https://tiger-ai-lab.github.io/MEGA-Bench/)<br />[📊LeaderBoard](https://huggingface.co/spaces/TIGER-Lab/MEGA-Bench) |
 | SVG-Bench | [StarVector: Generating Scalable Vector Graphics Code from Images and Text](https://arxiv.org/abs/2312.11556) | CVPR 2025          | [Github](https://github.com/joanrod/star-vector)             | [🌐Website](https://starvector.github.io/#:~:text=StarVector)<br />[🤗Dataset](https://huggingface.co/collections/starvector/starvector-svg-datasets-svg-bench-67811204a76475be4dd66d09) |
 | LLM4SVG | [Empowering LLMs to Understand and Generate Complex Vector Graphics](https://arxiv.org/abs/2412.11102#:~:text=In) | CVPR 2025          | [Github](https://github.com/ximinng/LLM4SVG) | [🌐Website](https://ximinng.github.io/LLM4SVGProject/) |
 | ChartCoder | [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://arxiv.org/abs/2501.06598) | Arxiv 2025-1       | [Github](https://github.com/thunlp/ChartCoder) | [🤗Dataset](https://huggingface.co/datasets/xxxllz/Chart2Code-160k) |
 | SlidesBench | [AutoPresent: Designing Structured Visuals from Scratch](https://www.arxiv.org/abs/2501.00912) | Arxiv 2025-01      | [Github](https://github.com/para-lost/AutoPresent) | [🤗Dataset](https://github.com/para-lost/AutoPresent/tree/main/slidesbench) |
+| EMMA | [Can MLLMs Reason in Multimodality? EMMA: An Enhanced MultiModal ReAsoning Benchmark](https://arxiv.org/abs/2501.05444) | Arxiv 2025-01 | [Github](https://github.com/hychaochao/EMMA) | [🌐Website](https://emma-benchmark.github.io/)<br />[📊LeaderBoard](https://emma-benchmark.github.io/#leaderboard) |
+| Code-Vision | [Code-Vision: Evaluating Multimodal LLMs Logic Understanding and Code Generation Capabilities](https://arxiv.org/abs/2502.11829) | Arxiv 2025-02 |  |  |
+| MagicGeoBench | [MagicGeo: Training-Free Text-Guided Geometric Diagram Generation](https://arxiv.org/abs/2502.13855) | Arxiv 2025-02 |  |  |
+| RewardBench | [Multimodal RewardBench: Holistic Evaluation of Reward Models for Vision Language Models](https://arxiv.org/abs/2502.14191) | Arxiv 2025-02 | [Github](https://github.com/facebookresearch/multimodal_rewardbench) | [🤗Dataset](https://github.com/facebookresearch/multimodal_rewardbench/tree/main/data) |
+| ZeroBench | [ZeroBench: An Impossible Visual Benchmark for Contemporary Large Multimodal Models ](https://arxiv.org/abs/2502.09696) | Arxiv 2025-02 | [Github](https://github.com/jonathan-roberts1/zerobench) | [🤗Dataset](https://huggingface.co/datasets/jonathan-roberts1/zerobench) |
+| TheoremExplainBench | [TheoremExplainAgent: Towards Multimodal Explanations for LLM Theorem Understanding](https://arxiv.org/abs/2502.19400) | Arxiv 2025-02 | [Github](https://github.com/TIGER-AI-Lab/TheoremExplainAgent) | [🤗Dataset](https://huggingface.co/datasets/TIGER-Lab/TheoremExplainBench) |
 | Flame-React-Eval | [Advancing vision-language models in front-end development via data synthesis](https://arxiv.org/abs/2503.01619) | Arxiv 2025-03      | [Github](https://github.com/Flame-Code-VLM/Flame-Code-VLM) | [🤗Dataset](https://github.com/Flame-Code-VLM/Flame-Code-VLM?tab=readme-ov-file#dataset) |
+| BannerRequest400 | [BannerAgency: Advertising Banner Design with Multimodal LLM Agents](https://arxiv.org/abs/2503.11060) | Arxiv 2025-03 |  |  |
+| BlenderGym | [BlenderGym: Benchmarking Foundational Model Systems for Graphics Editing](https://arxiv.org/abs/2504.01786) | CVPR 2025 |  |  |
 
 
 <details><summary> Details of MultiModal Code Generation <i>:: click to expand ::</i></summary>
@@ -408,6 +421,30 @@ A comprehensive code domain benchmark review of LLM researches.
 
 * **LLM4SVG**:A multi-modal code generation benchmark for text/image-to-SVG synthesis
 
+* **BannerRequest400**: Advertising Banner Design with Multimodal LLM Agents
+
+* **SVGEditBench**:A Benchmark Dataset for Quantitative Assessment of LLM's SVG Editing Capabilities
+
+* **VGBench**: Evaluating Large Language Models on Vector Graphics Understanding and Generation
+
+* **SGP-Bench**:Can Large Language Models Understand Symbolic Graphics Programs?
+
+* **MEGA-Bench**: Scaling Multimodal Evaluation to over 500 Real-World Tasks
+
+* **BlenderGym**: Benchmarking Foundational Model Systems for Graphics Editing
+
+* **ScImage**: How Good Are Multimodal Large Language Models at Scientific Text-to-Image Generation?
+
+* **EMMA**:a benchmark targeting organic multimodal reasoning across mathematics, physics, chemistry, and coding.
+
+* **Code-Vision**: Evaluating Multimodal LLMs Logic Understanding and Code Generation Capabilities
+
+* **MagicGeo**: Training-Free Text-Guided Geometric Diagram Generation
+
+* **RewardBench**:Multimodal RewardBench: Holistic Evaluation of Reward Models for Vision Language Models
+
+* **TheoremExplainBench**：a benchmark covering 240 theorems across multiple STEM disciplines, along with 5 automated evaluation metrics
+
 </div>
 </details>
 
@@ -452,9 +489,11 @@ A comprehensive code domain benchmark review of LLM researches.
 | G-TransEval | [On the Evaluation of Neural Code Translation: Taxonomy and Benchmark](https://arxiv.org/abs/2308.08961) | ASE 2023 | [Github](https://github.com/PolyEval/G-TransEval) | [🤗Dataset](https://github.com/polyeval/g-transeval/tree/main/G-TransEval) |
 | CodeTransOcean: | [CodeTransOcean: A Comprehensive Multilingual Benchmark for Code Translation](https://arxiv.org/pdf/2310.04951) | EMNLP 2023 | [Github](https://github.com/WeixiangYAN/CodeTransOcean) | [🤗Dataset](https://huggingface.co/datasets/WeixiangYan/CodeTransOcean) |
 | xCodeEval | [XCodeEval: An Execution-based Large Scale Multilingual Multitask Benchmark for Code Understanding, Generation, Translation and Retrieval - ACL Anthology](https://aclanthology.org/2024.acl-long.367/) | ACL 2024 | [Github](https://github.com/ntunlp/xCodeEval) | [🤗Dataset](https://huggingface.co/datasets/NTU-NLP-sg/xCodeEval) |
+| PolyHumanEval | [Unraveling the Potential of Large Language Models in Code Translation: How Far Are We?](https://arxiv.org/abs/2410.09812) | APSEC 2024 | [Github](https://github.com/q4x3/poly-humaneval) | [🤗Dataset](https://github.com/q4x3/poly-humaneval/tree/main/benchmark) |
 | RustRepoTrans | [ Repository-level Code Translation Benchmark Targeting Rust](https://arxiv.org/abs/2411.13990) | Arxiv 2024/11 | [Github](https://github.com/TrustedGPT/RustRepoTrans) | [🤗Dataset](https://github.com/TrustedGPT/RustRepoTrans/tree/master/Evaluate) |
 | ClassEval-T | [[2411.06145\] Escalating LLM-based Code Translation Benchmarking into the Class-level Era](https://arxiv.org/abs/2411.06145) | Arxiv 2024-11      | [Github](https://github.com/anonymous-author-coder/ClassEval-T-Code-Translation-Evaluation-Dataset/tree/main) | [🤗Dataset](https://github.com/anonymous-author-coder/ClassEval-T-Code-Translation-Evaluation-Dataset/tree/main/ClassEval_T) |
 | TRANSREPO-BENCH | [Skeleton-Guided-Translation: A Benchmarking Framework for Code Repository Translation with Fine-Grained Quality Evaluation](https://arxiv.org/abs/2501.16050) | Arxiv 2025-1 | [Github](https://github.com/microsoft/TransRepo)             | [🤗Dataset](https://github.com/microsoft/TransRepo/tree/main/data) |
+| LongTrans | [Enhancing LLMs in Long Code Translation through Instrumentation and Program State Alignment](https://arxiv.org/abs/2504.02017) | Arxiv 2025-4 |  |  |
 
 
 <details><summary> Details of Code Translation <i>:: click to expand ::</i></summary>
@@ -468,6 +507,8 @@ A comprehensive code domain benchmark review of LLM researches.
 * **xCodeEval**:Perform multilingual, multitasking code evaluation benchmarks
 * **ClassEval-T**: the first class-level code translation benchmark with parallel corpora in Python, Java, and C++, featuring practical coding tasks, high test coverage, and rich contextual dependencies.
 * **TransRepo-bench**:a benchmark for repository-level code translation from Java to C#, featuring high-quality open-source repositories with structural skeletons, unit tests, and build configurations to enable fine-grained quality evaluation
+* **PolyHumanEval**: by extending HumanEval to a multilingual benchmark of 14 languages
+* **LongTrans**: Enhancing LLMs in Long Code Translation through Instrumentation and Program State Alignment
 
 </div>
 </details>
@@ -515,8 +556,11 @@ A comprehensive code domain benchmark review of LLM researches.
 | LLM4PLC | [ LLM4PLC: Harnessing Large Language Models for Verifiable Programming of PLCs in Industrial Control Systems](https://arxiv.org/abs/2401.05443) | ICSE 2024 | [Github](https://github.com/AICPS/LLM_4_PLC/) | [🌐Website](https://sites.google.com/uci.edu/llm4plc/home) |
 | Agents4PLC | [Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents](https://arxiv.org/abs/2410.14209) | Arxiv 2024-10 | [Github](https://github.com/Luoji-zju/Agents4PLC_release) | [🤗Dataset](https://github.com/Luoji-zju/Agents4PLC_release/tree/master/benchmark) |
 |  | [A Multi-Agent Framework for Extensible Structured Text Generation in PLCs](https://arxiv.org/abs/2412.02410) | Arxiv  2024-12 |  |  |
+| HDLEval | [HDLEval Benchmarking LLMs for multiple HDLs](https://users.soe.ucsc.edu/~renau/docs/islad24_hdeval.pdf) | LAD2024 Woekshop | [Github](https://github.com/masc-ucsc/hdeval) | |
+| PyHDL-Eval | [PyHDL-Eval: An LLM Evaluation Framework for Hardware Design Using Python-Embedded DSLs ](https://dl.acm.org/doi/10.1145/3670474.3685948) | MLCAD 2024 | [Github](https://github.com/cornell-brg/pyhdl-eval) | [🤗Dataset](https://github.com/cornell-brg/pyhdl-eval/tree/main/dataset) |
 | |[Exploring Code Language Models for Automated HLS-based Hardware Generation: Benchmark, Infrastructure and Analysis](https://dl.acm.org/doi/pdf/10.1145/3658617.3697616) | ASPDAC 2025 | |  |
 |MetRex |[MetRex: A Benchmark for Verilog Code Metric Reasoning Using LLMs](https://arxiv.org/abs/2411.03471) | ASPDAC 2025 |[Github](https://github.com/scale-lab/MetRex) | [🤗Dataset](https://huggingface.co/datasets/scale-lab/MetRex) |
+|ResBench |[ResBench: Benchmarking LLM-Generated FPGA Designs with Resource Awareness](https://arxiv.org/abs/2503.08823) | HEART 2025 | |  |
 
 <details><summary> Details of Industry Code Generation <i>:: click to expand ::</i></summary>
 <div>
@@ -532,6 +576,10 @@ A comprehensive code domain benchmark review of LLM researches.
 * **OSCAT Library  +Siemens LGF Library+Siemens Competition Dataset**: suite covering open-source IEC 61131-3 Structured Text (ST) and vendor-specific Siemens SCL variants for evaluating PLC code generation methods.
 * Natural language is not enough: Benchmarking multi-modal generative AI for Verilog generation : A hierarchical benchmark for evaluating multi-modal generative models in synthesizing Verilog code from visual-linguistic inputs, covering simple to complex hardware modules.
 * **VGen**: comprising 17 Verilog coding problems with varying difficulty levels, accompanied by test benches for functional validation
+* **ResBench**: Benchmarking LLM-Generated FPGA Designs with Resource Awareness
+* **HDLEval** :Benchmarking LLMs for multiple HDLs
+* **PyHDL-Eva**l: An LLM evaluation framework for hardware design using python-embedded dsls.
+* **GenBen**:A Genarative Benchmark for LLM-Aided Design
 
 </div>
 </details>
