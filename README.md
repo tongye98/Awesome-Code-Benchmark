@@ -349,7 +349,6 @@ A comprehensive code domain benchmark review of LLM researches.
 | VGBench | [VGBench: Evaluating Large Language Models on Vector Graphics Understanding and Generation](https://arxiv.org/abs/2407.10972) | EMNLP 2024 | [Github](https://github.com/vgbench/VGBench) | [🤗Dataset](https://huggingface.co/vgbench) |
 | SVGEditBench | [SVGEditBench: A Benchmark Dataset for Quantitative Assessment of LLM's SVG Editing Capabilities](https://arxiv.org/abs/2404.13710) | CVPR2024 workshop | [Github](https://github.com/mti-lab/SVGEditBench) | [🤗Dataset](https://github.com/mti-lab/SVGEditBench) |
 | Plot2Code | [Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots](https://arxiv.org/abs/2405.07990) | Arxiv 2024-5       | [Github](https://github.com/TencentARC/Plot2Code) | [🤗Dataset](https://huggingface.co/TencentARC) |
-| SGP-Bench | [Can Large Language Models Understand Symbolic Graphics Programs?](https://arxiv.org/html/2408.08313v1) | Arxiv 2024-8 | [Github](https://github.com/sgp-bench/sgp-bench) | [📊LeaderBoard](https://sgp-bench.github.io/#toggleButton)<br />[🤗Dataset](https://huggingface.co/sgp-bench) |
 | HumanEval-V | [HumanEval-V: Benchmarking High-Level Visual Reasoning with Complex Diagrams in Coding Tasks](https://arxiv.org/abs/2410.12381) | arXiv 2024-10      | [Github](https://github.com/HumanEval-V/HumanEval-V-Benchmark) | [🌐Website](https://humaneval-v.github.io/)<br />[📊LeaderBoard](https://humaneval-v.github.io/#leaderboard)<br />[🤗Dataset](https://huggingface.co/datasets/HumanEval-V/HumanEval-V-Benchmark) |
 | WebSight-Test | [WAFFLE: Multi-Modal Model for Automated Front-End Development](https://arxiv.org/abs/2410.18362) | Arxiv 2024-10      | [Github](https://github.com/lt-asset/Waffle) | [🤗Dataset](https://github.com/lt-asset/Waffle/tree/master/WebSight-Test) |
 | Sketch2Code | [Sketch2Code: Evaluating Vision-Language Models for Interactive Web Design Prototyping](https://arxiv.org/abs/2410.16232) | Arxiv 2024-10      | [Github](https://github.com/microsoft/ailab/tree/master/Sketch2Code) | [🌐Website](https://sketch2code.github.io/) |
@@ -363,17 +362,13 @@ A comprehensive code domain benchmark review of LLM researches.
 | Design2Code | [Design2Code: Benchmarking Multimodal Code Generation for Automated Front-End Engineering](https://arxiv.org/abs/2403.03163) | NAACL 2025         | [Github](https://github.com/NoviScl/Design2Code) | [🤗Dataset](https://huggingface.co/datasets/SALT-NLP/Design2Code-hf) |
 | DiagramGenBenchmark | [From Words to Structured Visuals: A Benchmark and Framework for Text-to-Diagram Generation and Editing](https://arxiv.org/abs/2411.11916) | CVPR 2025          | [Github](https://github.com/DiagramAgent/DiagramAgent_official) | [🌐Website](https://diagramagent.github.io/)<br />[🤗Dataset](https://huggingface.co/collections/DiagramAgent/diagramagent-67c5c0935149cdc6e0230b46) |
 | ChartMimic      | [ChartMimic: Evaluating LMM's Cross-Modal Reasoning Capability via Chart-to-Code Generation](https://arxiv.org/abs/2406.09961)                       | ICLR 2025                | [Github](https://github.com/ChartMimic/ChartMimic)        | [🌐Website](https://chartmimic.github.io) [🤗Dataset](https://huggingface.co/datasets/ChartMimic/ChartMimic) |
-| MEGA-Bench | [MEGA-Bench: Scaling Multimodal Evaluation to over 500 Real-World Tasks]() | ICLR 2025 | [Github](https://github.com/TIGER-AI-Lab/MEGA-Bench) | [🌐Website](https://tiger-ai-lab.github.io/MEGA-Bench/)<br />[📊LeaderBoard](https://huggingface.co/spaces/TIGER-Lab/MEGA-Bench) |
 | SVG-Bench | [StarVector: Generating Scalable Vector Graphics Code from Images and Text](https://arxiv.org/abs/2312.11556) | CVPR 2025          | [Github](https://github.com/joanrod/star-vector)             | [🌐Website](https://starvector.github.io/#:~:text=StarVector)<br />[🤗Dataset](https://huggingface.co/collections/starvector/starvector-svg-datasets-svg-bench-67811204a76475be4dd66d09) |
 | LLM4SVG | [Empowering LLMs to Understand and Generate Complex Vector Graphics](https://arxiv.org/abs/2412.11102#:~:text=In) | CVPR 2025          | [Github](https://github.com/ximinng/LLM4SVG) | [🌐Website](https://ximinng.github.io/LLM4SVGProject/) |
 | ChartCoder | [ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation](https://arxiv.org/abs/2501.06598) | Arxiv 2025-1       | [Github](https://github.com/thunlp/ChartCoder) | [🤗Dataset](https://huggingface.co/datasets/xxxllz/Chart2Code-160k) |
 | SlidesBench | [AutoPresent: Designing Structured Visuals from Scratch](https://www.arxiv.org/abs/2501.00912) | Arxiv 2025-01      | [Github](https://github.com/para-lost/AutoPresent) | [🤗Dataset](https://github.com/para-lost/AutoPresent/tree/main/slidesbench) |
 | EMMA | [Can MLLMs Reason in Multimodality? EMMA: An Enhanced MultiModal ReAsoning Benchmark](https://arxiv.org/abs/2501.05444) | Arxiv 2025-01 | [Github](https://github.com/hychaochao/EMMA) | [🌐Website](https://emma-benchmark.github.io/)<br />[📊LeaderBoard](https://emma-benchmark.github.io/#leaderboard) |
 | Code-Vision | [Code-Vision: Evaluating Multimodal LLMs Logic Understanding and Code Generation Capabilities](https://arxiv.org/abs/2502.11829) | Arxiv 2025-02 |  |  |
-| MagicGeoBench | [MagicGeo: Training-Free Text-Guided Geometric Diagram Generation](https://arxiv.org/abs/2502.13855) | Arxiv 2025-02 |  |  |
-| RewardBench | [Multimodal RewardBench: Holistic Evaluation of Reward Models for Vision Language Models](https://arxiv.org/abs/2502.14191) | Arxiv 2025-02 | [Github](https://github.com/facebookresearch/multimodal_rewardbench) | [🤗Dataset](https://github.com/facebookresearch/multimodal_rewardbench/tree/main/data) |
 | ZeroBench | [ZeroBench: An Impossible Visual Benchmark for Contemporary Large Multimodal Models ](https://arxiv.org/abs/2502.09696) | Arxiv 2025-02 | [Github](https://github.com/jonathan-roberts1/zerobench) | [🤗Dataset](https://huggingface.co/datasets/jonathan-roberts1/zerobench) |
-| TheoremExplainBench | [TheoremExplainAgent: Towards Multimodal Explanations for LLM Theorem Understanding](https://arxiv.org/abs/2502.19400) | Arxiv 2025-02 | [Github](https://github.com/TIGER-AI-Lab/TheoremExplainAgent) | [🤗Dataset](https://huggingface.co/datasets/TIGER-Lab/TheoremExplainBench) |
 | Flame-React-Eval | [Advancing vision-language models in front-end development via data synthesis](https://arxiv.org/abs/2503.01619) | Arxiv 2025-03      | [Github](https://github.com/Flame-Code-VLM/Flame-Code-VLM) | [🤗Dataset](https://github.com/Flame-Code-VLM/Flame-Code-VLM?tab=readme-ov-file#dataset) |
 | BannerRequest400 | [BannerAgency: Advertising Banner Design with Multimodal LLM Agents](https://arxiv.org/abs/2503.11060) | Arxiv 2025-03 |  |  |
 | BlenderGym | [BlenderGym: Benchmarking Foundational Model Systems for Graphics Editing](https://arxiv.org/abs/2504.01786) | CVPR 2025 |  |  |
@@ -436,10 +431,6 @@ A comprehensive code domain benchmark review of LLM researches.
 
 * **VGBench**: Evaluating Large Language Models on Vector Graphics Understanding and Generation
 
-* **SGP-Bench**:Can Large Language Models Understand Symbolic Graphics Programs?
-
-* **MEGA-Bench**: Scaling Multimodal Evaluation to over 500 Real-World Tasks
-
 * **BlenderGym**: Benchmarking Foundational Model Systems for Graphics Editing
 
 * **ScImage**: How Good Are Multimodal Large Language Models at Scientific Text-to-Image Generation?
@@ -447,12 +438,6 @@ A comprehensive code domain benchmark review of LLM researches.
 * **EMMA**:a benchmark targeting organic multimodal reasoning across mathematics, physics, chemistry, and coding.
 
 * **Code-Vision**: Evaluating Multimodal LLMs Logic Understanding and Code Generation Capabilities
-
-* **MagicGeo**: Training-Free Text-Guided Geometric Diagram Generation
-
-* **RewardBench**:Multimodal RewardBench: Holistic Evaluation of Reward Models for Vision Language Models
-
-* **TheoremExplainBench**：a benchmark covering 240 theorems across multiple STEM disciplines, along with 5 automated evaluation metrics
 
 </div>
 </details>
