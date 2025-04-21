@@ -16,7 +16,11 @@ A comprehensive code domain benchmark review of LLM researches.
 
 ## News   
 
-- 🔥🔥 [2025-04-20] **Featured Benchmarks**: We add **Github Stars** for each banchmark.
+- 🔥🔥 [2025-04-21] **Featured Benchmarks**: 
+
+  🔥 [SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents](https://arxiv.org/abs/2504.08703) from AWS AI Labs
+  
+-  [2025-04-18] We add **Github Stars** for each banchmark.
 -  [2025-04-13] We add **Code Security & Robustness** benchmarks.  
 -  [2025-04-06] We add **Code Hallucinations** benchmarks.  
 -  [2025-03-29] We have crawled all the articles related to code benchmarks in the **past five years**.  
@@ -294,7 +298,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | AssertionBench                | [AssertionBench: A Benchmark to Evaluate Large-Language Models for Assertion Generation](https://arxiv.org/abs/2406.18627)                                                                | NAACL 2025                 | [Github](https://github.com/achieve-lab/assertion_data_for_LLM)[![Stars](https://img.shields.io/github/stars/achieve-lab/assertion_data_for_LLM?style=social&label=Stars)](https://github.com/achieve-lab/assertion_data_for_LLM)  | |
 | REval                         | [Evaluating Large Language Models with Runtime Behavior of Program Execution](https://arxiv.org/abs/2403.16437)                                                                           | ICSE 2025                  | [Github](https://github.com/r-eval/r-eval.github.io)[![Stars](https://img.shields.io/github/stars/r-eval/r-eval.github.io?style=social&label=Stars)](https://github.com/r-eval/r-eval.github.io)  | [📊LeaderBoard](https://r-eval.github.io/) |
 | LiveCodeBench                 | [LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code](https://arxiv.org/abs/2403.07974)                                                           | ICLR 2025                  | [Github](https://github.com/LiveCodeBench/LiveCodeBench) [![Stars](https://img.shields.io/github/stars/LiveCodeBench/LiveCodeBench?style=social&label=Stars)](https://github.com/LiveCodeBench/LiveCodeBench)| [🤗Dataset](https://huggingface.co/livecodebench) [🌐Website](https://livecodebench.github.io/)  [📊LeaderBoard](https://livecodebench.github.io/leaderboard.html) |
-
+| SWE-PolyBench                 | [SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents](https://arxiv.org/abs/2504.08703)                                                            | Arxiv 2025/04              | [Github](https://github.com/amazon-science/SWE-PolyBench) [![Stars](https://img.shields.io/github/stars/amazon-science/SWE-PolyBench?style=social&label=Stars)](https://github.com/amazon-science/SWE-PolyBench) | [🌐Website](https://amazon-science.github.io/SWE-PolyBench/) [🤗Dataset](https://huggingface.co/datasets/AmazonScience/SWE-PolyBench)              |
 
 ### Industry Code Generation
 
