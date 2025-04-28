@@ -248,7 +248,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | CyberSecEval 3 | [CYBERSECEVAL 3: Advancing the Evaluation of Cybersecurity Risks and Capabilities in Large Language Models](https://arxiv.org/abs/2408.01605)                           | Arxiv 2024/08        | [Github](https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks) | [Dataset](https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks)|
 | CS-Eval        | [CS-Eval: A Comprehensive Large Language Model Benchmark for CyberSecurity](https://arxiv.org/abs/2411.16239)                                                           | Arxiv 2024/11        | [Github](https://github.com/CS-EVAL/CS-Eval) [![Stars](https://img.shields.io/github/stars/CS-EVAL/CS-Eval?style=social&label=Stars)](https://github.com/CS-EVAL/CS-Eval)| [🤗Dataset](https://huggingface.co/datasets/cseval/cs-eval) |
 | SecBench       | [SecBench: A Comprehensive Multi-Dimensional Benchmarking Dataset for LLMs in Cybersecurity](https://arxiv.org/abs/2412.20787)                                          | Arxiv 2024/12        | |[Dataset](https://zenodo.org/records/14575303) [🌐Website](https://secbench.org/) |
-
+| aiXamine       | [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985v2)                                                                                      | Arxiv 2025/04        |
+| [🌐Website](https://aixamine.qcri.org/main) |
 ### Code Translation
 
 | Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
