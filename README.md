@@ -171,9 +171,9 @@ A comprehensive code domain benchmark review of LLM researches.
 
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
-| HALLUCODE | [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971)               | Arxiv 2024/04  | ||
+| HALLUCODE | [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971)               | Arxiv 2024/04  | | |
 | CodeHalu  | [CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification](https://arxiv.org/abs/2405.00253) | AAAI 2025      | [Github](https://github.com/yuchen814/CodeHalu)[![Stars](https://img.shields.io/github/stars/yuchen814/CodeHalu?style=social&label=Stars)](https://github.com/yuchen814/CodeHalu) |  [🤗Dataset](https://huggingface.co/datasets/Yuchen111/CodeHaluEval)|
-
+| Collu-Bench  | [Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in Code](https://arxiv.org/abs/2410.09997)     | Arxiv 2024/10  | |  [🤗Dataset](https://huggingface.co/datasets/lt-asset/collu-bench)|
 
 ### Data science
 
