@@ -171,9 +171,9 @@ A comprehensive code domain benchmark review of LLM researches.
 
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
-| HALLUCODE | [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971)               | Arxiv 2024/04  | ||
+| HALLUCODE | [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971)               | Arxiv 2024/04  | | |
 | CodeHalu  | [CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification](https://arxiv.org/abs/2405.00253) | AAAI 2025      | [Github](https://github.com/yuchen814/CodeHalu)[![Stars](https://img.shields.io/github/stars/yuchen814/CodeHalu?style=social&label=Stars)](https://github.com/yuchen814/CodeHalu) |  [🤗Dataset](https://huggingface.co/datasets/Yuchen111/CodeHaluEval)|
-
+| Collu-Bench  | [Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in Code](https://arxiv.org/abs/2410.09997)     | Arxiv 2024/10  | |  [🤗Dataset](https://huggingface.co/datasets/lt-asset/collu-bench)|
 
 ### Data science
 
@@ -183,7 +183,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | ARCADE       | [Natural Language to Code Generation in Interactive Data Science Notebooks](https://arxiv.org/abs/2212.09248)                                                       | ACL 2023                  | [Github](https://github.com/google-research/arcade-nl2code?utm_source=chatgpt.com) [![Stars](https://img.shields.io/github/stars/google-research/arcade-nl2code?utm_source=chatgpt.com?style=social&label=Stars)](https://github.com/google-research/arcade-nl2code?utm_source=chatgpt.com)| [Dataset](https://www.kaggle.com/datasets/googleai/arcade-nl2code-dataset) |
 | DA-Code      | [DA-Code: Agent Data Science Code Generation Benchmark for Large Language Models](https://arxiv.org/abs/2410.07331)                                                 | EMNLP 2024                | [Github](https://github.com/yiyihum/da-code)[![Stars](https://img.shields.io/github/stars/yiyihum/da-code?style=social&label=Stars)](https://github.com/yiyihum/da-code)         | [🤗Dataset](https://huggingface.co/datasets/Jianwen2003/DA-Code) [🌐Website](https://da-code-bench.github.io) |
 | MatPlotBench | [MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization](https://arxiv.org/abs/2402.11453)                                         | ACL 2024 Findings         | [Github](https://github.com/thunlp/MatPlotAgent)[![Stars](https://img.shields.io/github/stars/thunlp/MatPlotAgent?style=social&label=Stars)](https://github.com/thunlp/MatPlotAgent) | [🤗Dataset](https://github.com/thunlp/MatPlotAgent/tree/main/benchmark_data)|
-
+| DataSciBench | [DataSciBench: An LLM Agent Benchmark for Data Science](https://arxiv.org/abs/2502.13897)                                                                           | ArXiv 2025/02             |   [Github](https://github.com/THUDM/DataSciBench)[![Stars](https://img.shields.io/github/stars/THUDM/DataSciBench?style=social&label=Stars)](https://github.com/THUDM/DataSciBench)   | |
+| DSBench      | [DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?](https://arxiv.org/abs/2409.07703)                                                    | ICLR 2025                 |   [Github](https://github.com/LiqiangJing/DSBench)[![Stars](https://img.shields.io/github/stars/LiqiangJing/DSBench?style=social&label=Stars)](https://github.com/LiqiangJing/DSBench)     | [🤗Dataset](https://huggingface.co/datasets/liqiang888/DSBench) |
 
 ### Text2SQL 
 
@@ -203,7 +204,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | Spider 2.0       | [Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows](https://arxiv.org/abs/2411.07763)                                        | ICLR 2025          | [Github](https://github.com/xlang-ai/Spider2) [![Stars](https://img.shields.io/github/stars/xlang-ai/Spider2?style=social&label=Stars)](https://github.com/xlang-ai/Spider2)| [🌐Website](https://spider2-sql.github.io) |
 | SNAILS           | [SNAILS: Schema Naming Assessments for Improved LLM-Based SQL Inference](https://dl.acm.org/doi/10.1145/3709727)                                                 | PACMMOD 2025       |  [Github](https://github.com/KyleLuoma/SNAILS)[![Stars](https://img.shields.io/github/stars/KyleLuoma/SNAILS?style=social&label=Stars)](https://github.com/KyleLuoma/SNAILS) |  |
 | SQL2Text         | [Semantic Captioning: Benchmark Dataset and Graph-Aware Few-Shot In-Context Learning for SQL2Text](https://arxiv.org/abs/2501.03166)                             | COLING 2025        | [Github](https://github.com/aliwister/ast-icl)[![Stars](https://img.shields.io/github/stars/aliwister/ast-icl?style=social&label=Stars)](https://github.com/aliwister/ast-icl)| [Dataset](https://github.com/aliwister/ast-icl) |
-
+| | [Benchmarking the Text-to-SQL Capability of Large Language Models: A Comprehensive Evaluation](https://arxiv.org/abs/2403.02951v2) | | |
 
 ### MultiModal Code Tasks
 
@@ -248,6 +249,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | CyberSecEval 3 | [CYBERSECEVAL 3: Advancing the Evaluation of Cybersecurity Risks and Capabilities in Large Language Models](https://arxiv.org/abs/2408.01605)                           | Arxiv 2024/08        | [Github](https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks) | [Dataset](https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks)|
 | CS-Eval        | [CS-Eval: A Comprehensive Large Language Model Benchmark for CyberSecurity](https://arxiv.org/abs/2411.16239)                                                           | Arxiv 2024/11        | [Github](https://github.com/CS-EVAL/CS-Eval) [![Stars](https://img.shields.io/github/stars/CS-EVAL/CS-Eval?style=social&label=Stars)](https://github.com/CS-EVAL/CS-Eval)| [🤗Dataset](https://huggingface.co/datasets/cseval/cs-eval) |
 | SecBench       | [SecBench: A Comprehensive Multi-Dimensional Benchmarking Dataset for LLMs in Cybersecurity](https://arxiv.org/abs/2412.20787)                                          | Arxiv 2024/12        | |[Dataset](https://zenodo.org/records/14575303) [🌐Website](https://secbench.org/) |
+| aiXamine       | [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985v2)                                                                                      | Arxiv 2025/04        | |[🌐Website](https://aixamine.qcri.org/main) |
 
 ### Code Translation
 
