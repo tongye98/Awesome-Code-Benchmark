@@ -27,6 +27,8 @@ A comprehensive code domain benchmark review of LLM researches.
   🔥 [LeetCodeDataset: A Temporal Dataset for Robust Evaluation and Efficient Training of Code LLMs](https://arxiv.org/abs/2504.14655) 
 
   🔥 [Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](https://arxiv.org/abs/2504.17192) from KAIST
+
+  🔥 [CoCo-Bench: A Comprehensive Code Benchmark For Multi-task Large Language Model Evaluation](https://arxiv.org/abs/2504.20673) from Peking University
   
 -  [2025-04-18] We add **Github Stars** for each banchmark.
 -  [2025-04-13] We add **Code Security & Robustness** benchmarks.  
@@ -314,7 +316,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | SWE-PolyBench                 | [SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents](https://arxiv.org/abs/2504.08703)                                                            | Arxiv 2025/04              | [Github](https://github.com/amazon-science/SWE-PolyBench) [![Stars](https://img.shields.io/github/stars/amazon-science/SWE-PolyBench?style=social&label=Stars)](https://github.com/amazon-science/SWE-PolyBench) | [🌐Website](https://amazon-science.github.io/SWE-PolyBench/) [🤗Dataset](https://huggingface.co/datasets/AmazonScience/SWE-PolyBench)              |
 | Paper2Code                    | [Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](https://arxiv.org/abs/2504.17192)                                                                     | Arxiv 2025/04              | [Github](https://github.com/going-doer/Paper2Code)[![Stars](https://img.shields.io/github/stars/going-doer/Paper2Code?style=social&label=Stars)](https://github.com/going-doer/Paper2Code) | [🤗Dataset](https://huggingface.co/datasets/iaminju/paper2code) | 
 | LiCoEval                      | [LiCoEval: Evaluating LLMs on License Compliance in Code Generation](https://arxiv.org/abs/2408.02487)                                                                                    | ICSE 2025                  | [Github](https://github.com/osslab-pku/LiCoEval)[![Stars](https://img.shields.io/github/stars/osslab-pku/LiCoEval?style=social&label=Stars)](https://github.com/osslab-pku/LiCoEval) | [Dataset](https://figshare.com/s/362cb2bdaed764831166) |
-
+| CoCo-Bench                    | [CoCo-Bench: A Comprehensive Code Benchmark For Multi-task Large Language Model Evaluation](https://arxiv.org/abs/2504.20673)                                                             | Arxiv 2025/04              | | |
 
 ### Industry Code Generation
 
