@@ -16,9 +16,17 @@ A comprehensive code domain benchmark review of LLM researches.
 
 ## News   
 
-- 🔥🔥 [2025-04-21] **Featured Benchmarks**: 
+- 🔥🔥 [2025-05-01] **Featured Benchmarks**: 
+
+  🔥 [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985v2) from Qatar Computing Research Institute
 
   🔥 [SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents](https://arxiv.org/abs/2504.08703) from AWS AI Labs
+
+  🔥 [CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation](https://arxiv.org/abs/2504.15254) from The University of Texas at Austin 
+
+  🔥 [LeetCodeDataset: A Temporal Dataset for Robust Evaluation and Efficient Training of Code LLMs](https://arxiv.org/abs/2504.14655) 
+
+  🔥 [Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](https://arxiv.org/abs/2504.17192) from KAIST
   
 -  [2025-04-18] We add **Github Stars** for each banchmark.
 -  [2025-04-13] We add **Code Security & Robustness** benchmarks.  
@@ -81,7 +89,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | BigCodeBench                  | [BigCodeBench: Benchmarking Code Generation with Diverse Function Calls and Complex Instructions](https://arxiv.org/abs/2406.15877)                                           | ICLR 2025           | [Github](https://github.com/bigcode-project/bigcodebench) [![Stars](https://img.shields.io/github/stars/bigcode-project/bigcodebench?style=social&label=Stars)](https://github.com/bigcode-project/bigcodebench)| [🤗Dataset](https://huggingface.co/collections/bigcode/bigcodebench-666ed21a5039c618e608ab06) [📊LeaderBoard](https://huggingface.co/spaces/bigcode/bigcodebench-leaderboard) |
 | EvoCodeBench                  | [EvoCodeBench: An Evolving Code Generation Benchmark Aligned with Real-World Code Repositories](https://arxiv.org/abs/2404.00599)                                             | NeurIPS 2025        | [Github](https://github.com/seketeam/EvoCodeBench) [![Stars](https://img.shields.io/github/stars/seketeam/EvoCodeBench?style=social&label=Stars)](https://github.com/seketeam/EvoCodeBench) | [🤗Dataset](https://huggingface.co/datasets/LJ0815/EvoCodeBench) |
 | DynaCode                      | [DynaCode: A Dynamic Complexity-Aware Code Benchmark for Evaluating Large Language Models in Code Generation](https://arxiv.org/abs/2503.10452)                               | Arxiv 2025/03       | | |
-
+|                               | [A Large-scale Class-level Benchmark Dataset for Code Generation with LLMs](https://arxiv.org/abs/2504.15564)                                                                 | EASE 2025           |
+| LeetCodeDataset               | [LeetCodeDataset: A Temporal Dataset for Robust Evaluation and Efficient Training of Code LLMs](https://arxiv.org/abs/2504.14655)                                             | Arxiv 2025/04       | [Github](https://github.com/newfacade/LeetCodeDataset)[![Stars](https://img.shields.io/github/stars/newfacade/LeetCodeDataset?style=social&label=Stars)](https://github.com/newfacade/LeetCodeDataset)  | [🤗Dataset](https://huggingface.co/datasets/newfacade/LeetCodeDataset) |
 
 <details><summary>Details of Code Completion & Code Generation Benchmarks  <i>:: click to expand ::</i></summary>
 <div>
@@ -151,9 +160,10 @@ A comprehensive code domain benchmark review of LLM researches.
 | INTERVENOR                    | [INTERVENOR: Prompt the Coding Ability of Large Language Models with the Interactive Chain of Repairing](https://arxiv.org/abs/2311.09868)        | ACL 2024 Findings          | [Github](https://github.com/NEUIR/INTERVENOR) [![Stars](https://img.shields.io/github/stars/NEUIR/INTERVENOR?style=social&label=Stars)](https://github.com/NEUIR/INTERVENOR) ||
 | StatType-SO                   | [ZS4C: Zero-Shot Synthesis of Compilable Code for Incomplete Code Snippets using LLMs](https://arxiv.org/abs/2401.14279)                          | TOSEM 2024                 |  | |
 | LiveCodeBench                 | [LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code](https://arxiv.org/abs/2403.07974)                   | ICLR 2025                  | [Github](https://github.com/LiveCodeBench/LiveCodeBench) [![Stars](https://img.shields.io/github/stars/LiveCodeBench/LiveCodeBench?style=social&label=Stars)](https://github.com/LiveCodeBench/LiveCodeBench)| [🤗Dataset](https://huggingface.co/livecodebench) [🌐Website](https://livecodebench.github.io/)  [📊LeaderBoard](https://livecodebench.github.io/leaderboard.html) |
+| COAST                         | [COAST: Enhancing the Code Debugging Ability of LLMs through Communicative Agent Based Data Synthesis](https://arxiv.org/abs/2408.05006)          | NAACL 2025                 | [Github](https://github.com/NEUIR/COAST)[![Stars](https://img.shields.io/github/stars/NEUIR/COAST?style=social&label=Stars)](https://github.com/NEUIR/COAST)    | [🤗Dataset](https://huggingface.co/datasets/yangweiqing/DebugEval) |
 | SWE-bench Multimodal          | [SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?](https://arxiv.org/abs/2410.03859)                                    | ICLR 2025                  | [Github](https://github.com/swe-bench/SWE-bench) [![Stars](https://img.shields.io/github/stars/swe-bench/SWE-bench?style=social&label=Stars)](https://github.com/swe-bench/SWE-bench) | [🤗Dataset](https://www.swebench.com/multimodal) [🌐Website](https://www.swebench.com/multimodal) |
 | FeedbackEval                  | [FeedbackEval A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks](https://github.com/SYSUSELab/FeedbackEval)   |                            | [Github](https://github.com/SYSUSELab/FeedbackEval)[![Stars](https://img.shields.io/github/stars/SYSUSELab/FeedbackEval?style=social&label=Stars)](https://github.com/SYSUSELab/FeedbackEval) ||
-
+| CVE-Bench                     | [CVE-Bench:Benchmarking LLM-based Software Engineering Agent’s Ability to Repair Real-World CVE Vulnerabilities](https://arxiv.org/abs/2503.17332)| NAACL 2025                 | [Github](https://github.com/WhileBug/CVEBench)[![Stars](https://img.shields.io/github/stars/WhileBug/CVEBench?style=social&label=Stars)](https://github.com/WhileBug/CVEBench) | [Dataset](https://github.com/WhileBug/CVEBench) |
 
 ### Code Reasoning & Understanding
 
@@ -171,9 +181,10 @@ A comprehensive code domain benchmark review of LLM researches.
 
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
-| HALLUCODE | [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971)               | Arxiv 2024/04  | | |
-| CodeHalu  | [CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification](https://arxiv.org/abs/2405.00253) | AAAI 2025      | [Github](https://github.com/yuchen814/CodeHalu)[![Stars](https://img.shields.io/github/stars/yuchen814/CodeHalu?style=social&label=Stars)](https://github.com/yuchen814/CodeHalu) |  [🤗Dataset](https://huggingface.co/datasets/Yuchen111/CodeHaluEval)|
-| Collu-Bench  | [Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in Code](https://arxiv.org/abs/2410.09997)     | Arxiv 2024/10  | |  [🤗Dataset](https://huggingface.co/datasets/lt-asset/collu-bench)|
+| HALLUCODE    | [Exploring and Evaluating Hallucinations in LLM-Powered Code Generation](https://arxiv.org/abs/2404.00971)               | Arxiv 2024/04  | | |
+| Collu-Bench  | [Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in Code](https://arxiv.org/abs/2410.09997)        | Arxiv 2024/10  | |  [🤗Dataset](https://huggingface.co/datasets/lt-asset/collu-bench)|
+| CodeHalu     | [CodeHalu: Investigating Code Hallucinations in LLMs via Execution-based Verification](https://arxiv.org/abs/2405.00253) | AAAI 2025      | [Github](https://github.com/yuchen814/CodeHalu)[![Stars](https://img.shields.io/github/stars/yuchen814/CodeHalu?style=social&label=Stars)](https://github.com/yuchen814/CodeHalu) |  [🤗Dataset](https://huggingface.co/datasets/Yuchen111/CodeHaluEval)|
+
 
 ### Data science
 
@@ -265,7 +276,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | ClassEval-T        | [Escalating LLM-based Code Translation Benchmarking into the Class-level Era](https://arxiv.org/abs/2411.06145)                                                              | Arxiv 2024-11        | [Github](https://github.com/anonymous-author-coder/ClassEval-T-Code-Translation-Evaluation-Dataset)[![Stars](https://img.shields.io/github/stars/anonymous-author-coder/ClassEval-T-Code-Translation-Evaluation-Dataset?style=social&label=Stars)](https://github.com/anonymous-author-coder/ClassEval-T-Code-Translation-Evaluation-Dataset) | [🤗Dataset](https://github.com/anonymous-author-coder/ClassEval-T-Code-Translation-Evaluation-Dataset/tree/main/ClassEval_T) |
 | TRANSREPO-BENCH    | [Skeleton-Guided-Translation: A Benchmarking Framework for Code Repository Translation with Fine-Grained Quality Evaluation](https://arxiv.org/abs/2501.16050)               | Arxiv 2025/01        | [Github](https://github.com/microsoft/TransRepo)  [![Stars](https://img.shields.io/github/stars/microsoft/TransRepo?style=social&label=Stars)](https://github.com/microsoft/TransRepo)            | [🤗Dataset](https://github.com/microsoft/TransRepo/tree/main/data) |
 | LongTrans          | [Enhancing LLMs in Long Code Translation through Instrumentation and Program State Alignment](https://arxiv.org/abs/2504.02017)                                              | Arxiv 2025/04        |  |  |
-
+| CRUST-Bench        | [CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation](https://arxiv.org/abs/2504.15254)                                                                  | Arxiv 2025/04        | [Github](https://github.com/anirudhkhatry/CRUST-bench)[![Stars](https://img.shields.io/github/stars/anirudhkhatry/CRUST-bench?style=social&label=Stars)](https://github.com/anirudhkhatry/CRUST-bench) | [Dataset](https://github.com/anirudhkhatry/CRUST-bench)|
 
 ### Code Version       
 
@@ -301,6 +312,9 @@ A comprehensive code domain benchmark review of LLM researches.
 | REval                         | [Evaluating Large Language Models with Runtime Behavior of Program Execution](https://arxiv.org/abs/2403.16437)                                                                           | ICSE 2025                  | [Github](https://github.com/r-eval/r-eval.github.io)[![Stars](https://img.shields.io/github/stars/r-eval/r-eval.github.io?style=social&label=Stars)](https://github.com/r-eval/r-eval.github.io)  | [📊LeaderBoard](https://r-eval.github.io/) |
 | LiveCodeBench                 | [LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code](https://arxiv.org/abs/2403.07974)                                                           | ICLR 2025                  | [Github](https://github.com/LiveCodeBench/LiveCodeBench) [![Stars](https://img.shields.io/github/stars/LiveCodeBench/LiveCodeBench?style=social&label=Stars)](https://github.com/LiveCodeBench/LiveCodeBench)| [🤗Dataset](https://huggingface.co/livecodebench) [🌐Website](https://livecodebench.github.io/)  [📊LeaderBoard](https://livecodebench.github.io/leaderboard.html) |
 | SWE-PolyBench                 | [SWE-PolyBench: A multi-language benchmark for repository level evaluation of coding agents](https://arxiv.org/abs/2504.08703)                                                            | Arxiv 2025/04              | [Github](https://github.com/amazon-science/SWE-PolyBench) [![Stars](https://img.shields.io/github/stars/amazon-science/SWE-PolyBench?style=social&label=Stars)](https://github.com/amazon-science/SWE-PolyBench) | [🌐Website](https://amazon-science.github.io/SWE-PolyBench/) [🤗Dataset](https://huggingface.co/datasets/AmazonScience/SWE-PolyBench)              |
+| Paper2Code                    | [Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](https://arxiv.org/abs/2504.17192)                                                                     | Arxiv 2025/04              | [Github](https://github.com/going-doer/Paper2Code)[![Stars](https://img.shields.io/github/stars/going-doer/Paper2Code?style=social&label=Stars)](https://github.com/going-doer/Paper2Code) | [🤗Dataset](https://huggingface.co/datasets/iaminju/paper2code) | 
+
+
 
 ### Industry Code Generation
 
