@@ -15,6 +15,14 @@ A comprehensive code domain benchmark review of LLM researches.
 </p>
 
 ## News   
+- 🔥🔥 [2025-05-26] **Featured Benchmarks**: 
+
+  🔥 [CPRet: A Dataset, Benchmark, and Model for Retrieval in Competitive Programming](https://arxiv.org/abs/2505.12925) from Tsinghua University
+
+  🔥 [DS-Bench: A Realistic Benchmark for Data Science Code Generation](https://arxiv.org/abs/2505.15621) from King’s College London
+
+  🔥 [ELABORATION: A Comprehensive Benchmark on Human-LLM Competitive Programming](https://arxiv.org/abs/2505.16667) from Sichuan University
+
 - 🔥🔥 [2025-05-20] **Featured Benchmarks**: 
 
   🔥 [Rethinking Repetition Problems of LLMs in Code Generation](https://arxiv.org/abs/2505.10402) from Peking University
@@ -35,7 +43,7 @@ A comprehensive code domain benchmark review of LLM researches.
 
   🔥 [Improving Assembly Code Performance with Large Language Models via Reinforcement Learning](https://arxiv.org/abs/2505.11480) from Stanford University 
 
-- 🔥🔥 [2025-05-01] **Featured Benchmarks**: 
+<!-- - 🔥🔥 [2025-05-01] **Featured Benchmarks**: 
 
   🔥 [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985v2) from Qatar Computing Research Institute
 
@@ -47,7 +55,7 @@ A comprehensive code domain benchmark review of LLM researches.
 
   🔥 [Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](https://arxiv.org/abs/2504.17192) from KAIST
 
-  🔥 [CoCo-Bench: A Comprehensive Code Benchmark For Multi-task Large Language Model Evaluation](https://arxiv.org/abs/2504.20673) from Peking University
+  🔥 [CoCo-Bench: A Comprehensive Code Benchmark For Multi-task Large Language Model Evaluation](https://arxiv.org/abs/2504.20673) from Peking University -->
   
 -  [2025-04-18] We add **Github Stars** for each banchmark.
 -  [2025-04-13] We add **Code Security & Robustness** benchmarks.  
@@ -120,7 +128,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | LeetCodeDataset               | [LeetCodeDataset: A Temporal Dataset for Robust Evaluation and Efficient Training of Code LLMs](https://arxiv.org/abs/2504.14655)                                             | Arxiv 2025/04       | [Github](https://github.com/newfacade/LeetCodeDataset)[![Stars](https://img.shields.io/github/stars/newfacade/LeetCodeDataset?style=social&label=Stars)](https://github.com/newfacade/LeetCodeDataset)  | [🤗Dataset](https://huggingface.co/datasets/newfacade/LeetCodeDataset) |
 | CodeFlowBench                 | [CodeFlowBench: A Multi-turn, Iterative Benchmark for Complex Code Generation](https://arxiv.org/abs/2504.21751)                                                              | Arxiv 2025/04       | [Github](https://github.com/Rise-1210/codeflow)[![Stars](https://img.shields.io/github/stars/Rise-1210/codeflow?style=social&label=Stars)](https://github.com/Rise-1210/codeflow) | [🤗Dataset](https://huggingface.co/datasets/WaterWang-001/CodeFlowBench-2505) |
 | CodeMixBench                  | [CodeMixBench: Evaluating Large Language Models on Code Generation with Code-Mixed Prompts](https://arxiv.org/abs/2505.05063v1)                                               | Arxiv 2025/05       | | [🤗Dataset](https://huggingface.co/datasets/ColdSlim/CodeMixBench) | 
-
+| CPRet                         | [CPRet: A Dataset, Benchmark, and Model for Retrieval in Competitive Programming](https://arxiv.org/abs/2505.12925)                                                           | Arxiv 2025/05       | [Github](https://github.com/coldchair/CPRet)[![Stars](https://img.shields.io/github/stars/coldchair/CPRet?style=social&label=Stars)](https://github.com/coldchair/CPRet) |  |
+| ELABORATION                   | [ELABORATION: A Comprehensive Benchmark on Human-LLM Competitive Programming](https://arxiv.org/abs/2505.16667)                                                               | ACL 2025            | [Github](https://github.com/SCUNLP/ELABORATION)[![Stars](https://img.shields.io/github/stars/SCUNLP/ELABORATION?style=social&label=Stars)](https://github.com/SCUNLP/ELABORATION) | | 
 
 <details><summary>Details of Code Completion & Code Generation Benchmarks  <i>:: click to expand ::</i></summary>
 <div>
@@ -229,6 +238,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | MatPlotBench | [MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization](https://arxiv.org/abs/2402.11453)                                         | ACL 2024 Findings         | [Github](https://github.com/thunlp/MatPlotAgent)[![Stars](https://img.shields.io/github/stars/thunlp/MatPlotAgent?style=social&label=Stars)](https://github.com/thunlp/MatPlotAgent) | [🤗Dataset](https://github.com/thunlp/MatPlotAgent/tree/main/benchmark_data)|
 | DataSciBench | [DataSciBench: An LLM Agent Benchmark for Data Science](https://arxiv.org/abs/2502.13897)                                                                           | ArXiv 2025/02             |   [Github](https://github.com/THUDM/DataSciBench)[![Stars](https://img.shields.io/github/stars/THUDM/DataSciBench?style=social&label=Stars)](https://github.com/THUDM/DataSciBench)   | |
 | DSBench      | [DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?](https://arxiv.org/abs/2409.07703)                                                    | ICLR 2025                 |   [Github](https://github.com/LiqiangJing/DSBench)[![Stars](https://img.shields.io/github/stars/LiqiangJing/DSBench?style=social&label=Stars)](https://github.com/LiqiangJing/DSBench)     | [🤗Dataset](https://huggingface.co/datasets/liqiang888/DSBench) |
+| DS-Bench     | [DS-Bench: A Realistic Benchmark for Data Science Code Generation](https://arxiv.org/abs/2505.15621)                                                                | Arxiv 2025/05             | [Github](https://github.com/ShuyinOuyang/DS_bench)[![Stars](https://img.shields.io/github/stars/ShuyinOuyang/DS_bench?style=social&label=Stars)](https://github.com/ShuyinOuyang/DS_bench) | |
 
 ### Text2SQL 
 
