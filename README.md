@@ -15,6 +15,10 @@ A comprehensive code domain benchmark review of LLM researches.
 </p>
 
 ## News   
+- 🔥🔥 [2025-05-30] **Featured Benchmarks**: 
+
+  🔥 [VADER: A Human-Evaluated Benchmark for Vulnerability Assessment, Detection, Explanation, and Remediation](https://arxiv.org/abs/2505.19395) from UC Berkeley
+
 - 🔥🔥 [2025-05-26] **Featured Benchmarks**: 
 
   🔥 [CPRet: A Dataset, Benchmark, and Model for Retrieval in Competitive Programming](https://arxiv.org/abs/2505.12925) from Tsinghua University
@@ -205,6 +209,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | CVE-Bench                     | [CVE-Bench:Benchmarking LLM-based Software Engineering Agent’s Ability to Repair Real-World CVE Vulnerabilities](https://arxiv.org/abs/2503.17332)| NAACL 2025                 | [Github](https://github.com/WhileBug/CVEBench)[![Stars](https://img.shields.io/github/stars/WhileBug/CVEBench?style=social&label=Stars)](https://github.com/WhileBug/CVEBench) | [Dataset](https://github.com/WhileBug/CVEBench) |
 | OmniGIRL                      | [OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution](https://arxiv.org/abs/2505.04606)                                 | ISSTA 2025                 | [Github](https://github.com/DeepSoftwareAnalytics/OmniGIRL)[![Stars](https://img.shields.io/github/stars/DeepSoftwareAnalytics/OmniGIRL?style=social&label=Stars)](https://github.com/DeepSoftwareAnalytics/OmniGIRL) | [🤗Dataset](https://huggingface.co/datasets/Deep-Software-Analytics/OmniGIRL) [📊LeaderBoard](https://deepsoftwareanalytics.github.io/omnigirl_leaderboard.html)  | 
 | LongSWE-Bench                 | [LongCodeBench: Evaluating Coding LLMs at 1M Context Windows](https://arxiv.org/abs/2505.07897)                                                   | Arxiv 2025/05              | | [🤗Dataset](https://huggingface.co/datasets/Steefano/LCB) | 
+| VADER                         | [VADER: A Human-Evaluated Benchmark for Vulnerability Assessment, Detection, Explanation, and Remediation](https://arxiv.org/abs/2505.19395)      | Arxiv 2025/06              | [Github](https://github.com/AfterQuery/vader)[![Stars](https://img.shields.io/github/stars/AfterQuery/vader?style=social&label=Stars)](https://github.com/AfterQuery/vader) | | 
 
 ### Code Reasoning & Understanding
 
