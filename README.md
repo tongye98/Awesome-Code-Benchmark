@@ -138,6 +138,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | OSS-Bench | [OSS-Bench: Benchmark Generator for Coding LLMs](https://arxiv.org/abs/2505.12331) | Arxiv 2025/05 | [Github](https://github.com/oss-bench/oss-bench) [![Stars](https://img.shields.io/github/stars/oss-bench/oss-bench?style=social&label=Stars)](https://github.com/oss-bench/oss-bench) | [🤗Dataset](https://huggingface.co/datasets/0599jiangyc/oss-bench) [📊LeaderBoard]([OSS-Bench](https://oss-bench.github.io/)) |
 | Verina | [VERINA: Benchmarking Verifiable Code Generation](https://arxiv.org/abs/2505.23135) | Arxiv 2025/05 | [Github](https://github.com/sunblaze-ucb/verina) [![Stars](https://img.shields.io/github/stars/sunblaze-ucb/verina?style=social&label=Stars)](https://github.com/sunblaze-ucb/verina) | [🤗Dataset](https://huggingface.co/datasets/sunblaze-ucb/verina) |
 | SIMCOPILOT | [SIMCOPILOT: Evaluating Large Language Models for Copilot-Style Code Generation](https://arxiv.org/abs/2505.21514) | Arxiv 2025/05 | [Github](https://github.com/mj33rice/Sim-CoPilot)[![Stars](https://img.shields.io/github/stars/mj33rice/Sim-CoPilot?style=social&label=Stars)](https://github.com/mj33rice/Sim-CoPilot) | [🤗Dataset](https://huggingface.co/datasets/mj33/SimCoPilot) |
+| ResearchCodeBench | [ResearchCodeBench: Benchmarking LLMs on Implementing Novel Machine Learning Research Code](https://www.arxiv.org/abs/2506.02314) | Arxiv 2025/06 |  |  |
 
 <details><summary>Details of Code Completion & Code Generation Benchmarks  <i>:: click to expand ::</i></summary>
 <div>
@@ -176,6 +177,8 @@ A comprehensive code domain benchmark review of LLM researches.
 * **OSS-Bench**:a benchmark for evaluating code generation capabilities of Large Language Models (LLMs) in real-world software development scenarios
 * **Verina**:  a high-quality benchmark enabling a comprehensive and modular evaluation of code, specification, and proof generation as
   well as their compositions
+* **SIMCOPILOT**:comprises dedicated sub-benchmarks for Java (SIMCOPILOTJ) and Python (SIMCOPILOTP), covering diverse codebases varying in size and complexity
+* **ResearchCodeBench**:a benchmark of 212 coding challenges that evaluates LLMs’ ability to translate cutting-edge ML contributions from top 2024-2025 research papers into executable code
 
 </div>
 </details>
@@ -220,6 +223,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | OmniGIRL                      | [OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution](https://arxiv.org/abs/2505.04606)                                 | ISSTA 2025                 | [Github](https://github.com/DeepSoftwareAnalytics/OmniGIRL)[![Stars](https://img.shields.io/github/stars/DeepSoftwareAnalytics/OmniGIRL?style=social&label=Stars)](https://github.com/DeepSoftwareAnalytics/OmniGIRL) | [🤗Dataset](https://huggingface.co/datasets/Deep-Software-Analytics/OmniGIRL) [📊LeaderBoard](https://deepsoftwareanalytics.github.io/omnigirl_leaderboard.html)  | 
 | LongSWE-Bench                 | [LongCodeBench: Evaluating Coding LLMs at 1M Context Windows](https://arxiv.org/abs/2505.07897)                                                   | Arxiv 2025/05              | | [🤗Dataset](https://huggingface.co/datasets/Steefano/LCB) | 
 | VADER                         | [VADER: A Human-Evaluated Benchmark for Vulnerability Assessment, Detection, Explanation, and Remediation](https://arxiv.org/abs/2505.19395)      | Arxiv 2025/06              | [Github](https://github.com/AfterQuery/vader)[![Stars](https://img.shields.io/github/stars/AfterQuery/vader?style=social&label=Stars)](https://github.com/AfterQuery/vader) | | 
+| Breakpoint | [Breakpoint: Scalable evaluation of system-level reasoning in LLM code agents](https://arxiv.org/pdf/2506.00172) | Arxiv 2025/05 |  | |
 
 ### Code Reasoning & Understanding
 
@@ -233,6 +237,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | CodeMMLU            | [CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities of CodeLLMs](https://arxiv.org/abs/2410.01999)                                                            | ICLR 2025                   | [Github](https://github.com/FSoft-AI4Code/CodeMMLU/)  [![Stars](https://img.shields.io/github/stars/FSoft-AI4Code/CodeMMLU?style=social&label=Stars)](https://github.com/FSoft-AI4Code/CodeMMLU)              | [🤗Dataset](https://huggingface.co/datasets/Fsoft-AIC/CodeMMLU) [🌐Website](https://fsoft-ai4code.github.io/codemmlu/) [📊LeaderBoard](https://fsoft-ai4code.github.io/leaderboards/codemmlu/)  |
 | LongCodeQA          | [LongCodeBench: Evaluating Coding LLMs at 1M Context Windows](https://arxiv.org/abs/2505.07897)                                                                                           | Arxiv 2025/05              | | [🤗Dataset](https://huggingface.co/datasets/Steefano/LCB) |
 | CTF-Code | [Success is in the Details: Evaluate and Enhance Details Sensitivity of Code](https://arxiv.org/abs/2505.14597) | Arxiv 2025/05 | |  |
+| CodeSense | [CodeSense: a Real-World Benchmark and Dataset for Code Semantic Reasoning](https://arxiv.org/html/2506.00750v1) | Arxiv 2025/06 | [Github](https://github.com/codesense-bench/codesense-codes) [![Stars](https://img.shields.io/github/stars/codesense-bench/codesense-codes?style=social&label=Stars)](https://github.com/codesense-bench/codesense-codes) | [🤗Dataset](https://huggingface.co/datasets/codesense-bench/codesense/tree/main)[📊LeaderBoard](https://codesense-bench.github.io/leaderboard.html) |
 
 
 ### Code Hallucination
@@ -306,6 +311,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | Flame-React-Eval   | [Advancing vision-language models in front-end development via data synthesis](https://arxiv.org/abs/2503.01619)                                                    | Arxiv 2025/03      | [Github](https://github.com/Flame-Code-VLM/Flame-Code-VLM) | [🤗Dataset](https://github.com/Flame-Code-VLM/Flame-Code-VLM?tab=readme-ov-file#dataset) |
 | vTikZ | [LLM Code Customization with Visual Results: A Benchmark on TikZ](https://hal.science/hal-05049250) | EASE 2025 |  |  |
 | Plot2XML | [Draw with Thought: Unleashing Multimodal Reasoning for Scientific Diagram Generation](https://arxiv.org/abs/2504.09479) | Arxiv 2025/04 |  |  |
+| Flow2Code | [Flow2Code: Evaluating Large Language Models for Flowchart-based Code Generation Capability](https://arxiv.org/pdf/2506.02073) | Arxiv 2025/06 | [Github](https://github.com/hml-github/Flow2Code/) | |
 
 
 ### Code Security & Robustness
@@ -352,6 +358,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | LibEvolutionEval           | [LibEvolutionEval: A Benchmark and Study for Version-Specific Code Generation](https://arxiv.org/abs/2412.04478)                             | NAACL 2025      |                                                                                 | [🌐Website](https://lib-evolution-eval.github.io/) |
 | CodeUpdateArena            | [CodeUpdateArena: Benchmarking Knowledge Editing on API Updates](https://arxiv.org/abs/2407.06249)                                           | Arxiv 2025/02   | [Github](https://github.com/leo-liuzy/CodeUpdateArena) [![Stars](https://img.shields.io/github/stars/leo-liuzy/CodeUpdateArena?style=social&label=Stars)](https://github.com/leo-liuzy/CodeUpdateArena)                          | [🤗Dataset](https://github.com/leo-liuzy/CodeUpdateArena/tree/main/data) |
 | RustEvo2                   | [RustEvo2: An Evolving Benchmark for API Evolution in LLM-based Rust Code Generation](https://arxiv.org/abs/2503.16922)                      | Arxiv 2025/03   | [Github](https://github.com/SYSUSELab/RustEvo) [![Stars](https://img.shields.io/github/stars/SYSUSELab/RustEvo?style=social&label=Stars)](https://github.com/SYSUSELab/RustEvo)                    | [🤗Dataset](https://github.com/SYSUSELab/RustEvo/tree/main/Dataset)       |
+| CODEMENV | [CODEMENV: Benchmarking Large Language Models on Code Migration](https://arxiv.org/pdf/2506.00894) | Arxiv 2025/06 | [Github](https://github.com/xdshen-ai/Benchmark-of-Code-Migration)[![Stars](img/Benchmark-of-Code-Migration.svg+xml)](https://github.comxdshen-ai/Benchmark-of-Code-Migration) | [🤗Dataset](https://github.com/xdshen-ai/Benchmark-of-Code-Migration/tree/main/eval-data) |
 
 
 ### Multi & Other Dimension
