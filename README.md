@@ -16,6 +16,7 @@ A comprehensive code domain benchmark review of LLM researches.
 
 ## News   
 - 🔥🔥 [2025-06-14] **Featured Benchmarks**: 
+
   🔥 [ELABORATION: A Comprehensive Benchmark on Human-LLM Competitive Programming](https://arxiv.org/abs/2505.16667) from Sichuan University 
 
   🔥 [OSS-Bench: Benchmark Generator for Coding LLMs](https://arxiv.org/abs/2505.12331) from National University of Singapore
