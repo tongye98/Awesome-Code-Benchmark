@@ -15,7 +15,11 @@ A comprehensive code domain benchmark review of LLM researches.
 </p>
 
 ## News   
-- 🔥🔥 [2025-06-14] **Featured Benchmarks**: 
+- 🔥🔥 [2025-06-14] **Featured Benchmarks**:
+
+  🔥 [DyCodeEval: Dynamic Benchmarking of Reasoning Capabilities in Code Large Language Models Under Data Contamination](https://arxiv.org/pdf/2503.04149) from Columbia University
+  
+  🔥 [PPM: Automated Generation of Diverse Programming Problems for Benchmarking Code Generation Models](https://arxiv.org/pdf/2401.15545) from University of Texas at Dallas
 
   🔥 [ELABORATION: A Comprehensive Benchmark on Human-LLM Competitive Programming](https://arxiv.org/abs/2505.16667) from Sichuan University 
 
