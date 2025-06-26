@@ -271,6 +271,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | LongCodeQA          | [LongCodeBench: Evaluating Coding LLMs at 1M Context Windows](https://arxiv.org/abs/2505.07897)                                                                                           | Arxiv 2025/05               | | [🤗Dataset](https://huggingface.co/datasets/Steefano/LCB) |
 | CTF-Code            | [Success is in the Details: Evaluate and Enhance Details Sensitivity of Code](https://arxiv.org/abs/2505.14597)                                                                           | Arxiv 2025/05               | |  |
 | CodeSense           | [CodeSense: a Real-World Benchmark and Dataset for Code Semantic Reasoning](https://arxiv.org/html/2506.00750v1)                                                                          | Arxiv 2025/06               | [Github](https://github.com/codesense-bench/codesense-codes) [![Stars](https://img.shields.io/github/stars/codesense-bench/codesense-codes?style=social&label=Stars)](https://github.com/codesense-bench/codesense-codes) | [🤗Dataset](https://huggingface.co/datasets/codesense-bench/codesense/tree/main)[📊LeaderBoard](https://codesense-bench.github.io/leaderboard.html) |
+| CETBench | [CETBench: A Novel Dataset constructed via Transformations over]((https://arxiv.org/abs/2506.04019)) | Arxiv 2025/06 |  |  |
+| ICPC-Eval | [ICPC-Eval: Probing the Frontiers of LLM Reasoning with Competitive Programming Contests](https://arxiv.org/abs/2506.04894) | Arxiv 2025/06 | [Github](https://github.com/RUCAIBox/Slow_Thinking_with_LLMs)[![Stars](https://img.shields.io/github/stars/RUCAIBox/Slow_Thinking_with_LLMs?style=social&label=Stars)](https://github.com/RUCAIBox/Slow_Thinking_with_LLMs) | [🤗Dataset](https://huggingface.co/datasets/RUC-AIBOX/ICPC-Eval) |
 
 
 ### Code Hallucination
@@ -344,6 +346,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | vTikZ              | [LLM Code Customization with Visual Results: A Benchmark on TikZ](https://hal.science/hal-05049250)                                                                 | EASE 2025          |  |  |
 | Plot2XML           | [Draw with Thought: Unleashing Multimodal Reasoning for Scientific Diagram Generation](https://arxiv.org/abs/2504.09479)                                            | Arxiv 2025/04      |  |  |
 | Flow2Code          | [Flow2Code: Evaluating Large Language Models for Flowchart-based Code Generation Capability](https://arxiv.org/pdf/2506.02073)                                      | Arxiv 2025/06      | [Github](https://github.com/hml-github/Flow2Code/) | |
+| DesignBench | [DesignBench: A Comprehensive Benchmark for MLLM-based Front-end Code Generation](https://arxiv.org/abs/2506.06251) | Arxiv 2025/06 | [Github](https://github.com/WebPAI/DesignBench)[![Stars](https://img.shields.io/github/stars/WebPAI/DesignBench?style=social&label=Stars)](https://github.com/WebPAI/DesignBench) | [🤗Dataset](https://drive.google.com/drive/folders/1gCeg4LqO7VsOSpB70iMnKbNR8gfzUot_) |
+| WebUIBench | [WebUIBench: A Comprehensive Benchmark for Evaluating Multimodal]([openreview.net/pdf?id=IwyjXYOChS](https://openreview.net/pdf?id=IwyjXYOChS)) | Arxiv 2025/06 | [Github](https://github.com/MAIL-Tele-AI/WebUIBench)[![Stars](https://img.shields.io/github/stars/MAIL-Tele-AI/WebUIBench?style=social&label=Stars)](https://github.com/MAIL-Tele-AI/WebUIBench) | [🤗Dataset](https://huggingface.co/datasets/Tele-AI-MAIL/WebUIBench) |
 
 
 ### Code Security & Robustness
@@ -361,6 +365,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | CS-Eval        | [CS-Eval: A Comprehensive Large Language Model Benchmark for CyberSecurity](https://arxiv.org/abs/2411.16239)                                                           | Arxiv 2024/11        | [Github](https://github.com/CS-EVAL/CS-Eval) [![Stars](https://img.shields.io/github/stars/CS-EVAL/CS-Eval?style=social&label=Stars)](https://github.com/CS-EVAL/CS-Eval)| [🤗Dataset](https://huggingface.co/datasets/cseval/cs-eval) |
 | SecBench       | [SecBench: A Comprehensive Multi-Dimensional Benchmarking Dataset for LLMs in Cybersecurity](https://arxiv.org/abs/2412.20787)                                          | Arxiv 2024/12        | |[Dataset](https://zenodo.org/records/14575303) [🌐Website](https://secbench.org/) |
 | aiXamine       | [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985v2)                                                                                      | Arxiv 2025/04        | |[🌐Website](https://aixamine.qcri.org/main) |
+| SafeGenBench | [SafeGenBench: A Benchmark Framework for Security Vulnerability Detection in LLM-Generated Code](https://arxiv.org/abs/2506.05692) | Arxiv 2025/06 |  | |
 
 ### Code Translation
 
