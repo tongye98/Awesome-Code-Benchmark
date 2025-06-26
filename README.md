@@ -15,6 +15,8 @@ A comprehensive code domain benchmark review of LLM researches.
 </p>
 
 ## News   
+[OIBench: Benchmarking Strong Reasoning Models with Olympiad in Informatics](https://arxiv.org/abs/2506.10481) from AGI-Eval
+
 - 🔥🔥 [2025-06-14] **Featured Benchmarks**:
 
   🔥 [DyCodeEval: Dynamic Benchmarking of Reasoning Capabilities in Code Large Language Models Under Data Contamination](https://arxiv.org/pdf/2503.04149) from Columbia University
@@ -134,8 +136,8 @@ A comprehensive code domain benchmark review of LLM researches.
 |:--|:--|:--|:--|:--|
 | HumanEval                     | [Evaluating Large Language Models Trained on Code](https://arxiv.org/abs/2107.03374)                                                                                          | Arxiv 2021/07       | [Github](https://github.com/openai/human-eval) [![Stars](https://img.shields.io/github/stars/openai/human-eval?style=social&label=Stars)](https://github.com/openai/human-eval)                              | [🤗Dataset](https://huggingface.co/datasets/openai/openai_humaneval) |
 | MBPP                          | [Program Synthesis with Large Language Models](https://arxiv.org/abs/2108.07732)                                                                                              | Arxiv 2021/08       | [Github](https://github.com/google-research/google-research/tree/master/mbpp) [![Stars](https://img.shields.io/github/stars/google-research/google-research?style=social&label=Stars)](https://github.com/google-research/google-research)                              |  [🤗Dataset](https://huggingface.co/datasets/google-research-datasets/mbpp) |
-| DyCodeEval                    | [DyCodeEval: Dynamic Benchmarking of Reasoning Capabilities in Code Large Language Models Under Data Contamination](https://arxiv.org/pdf/2503.04149)                                  | ICML 2025            | [Github](https://github.com/SeekingDream/DyCodeEval) [![Stars](https://img.shields.io/github/stars/SeekingDream/DyCodeEval?style=social&label=Stars)](https://github.com/SeekingDream/DyCodeEval)                                     | [🤗Dataset](https://huggingface.co/collections/CM/dycodeeval-6858e931f4f1a0d4a29ec2e9) |
-| PPM                    | [PPM: Automated Generation of Diverse Programming Problems for Benchmarking Code Generation Models](https://arxiv.org/pdf/2401.15545)                                  | FSE 2024            | [Github](https://github.com/SeekingDream/PPM) [![Stars](https://img.shields.io/github/stars/SeekingDream/PPM?style=social&label=Stars)](https://github.com/SeekingDream/PPM)                                     | [🤗Dataset](https://huggingface.co/collections/CM/dycodeeval-6858e931f4f1a0d4a29ec2e9) |
+| DyCodeEval                    | [DyCodeEval: Dynamic Benchmarking of Reasoning Capabilities in Code Large Language Models Under Data Contamination](https://arxiv.org/pdf/2503.04149)                         | ICML 2025           | [Github](https://github.com/SeekingDream/DyCodeEval) [![Stars](https://img.shields.io/github/stars/SeekingDream/DyCodeEval?style=social&label=Stars)](https://github.com/SeekingDream/DyCodeEval)                                     | [🤗Dataset](https://huggingface.co/collections/CM/dycodeeval-6858e931f4f1a0d4a29ec2e9) |
+| PPM                           | [PPM: Automated Generation of Diverse Programming Problems for Benchmarking Code Generation Models](https://arxiv.org/pdf/2401.15545)                                         | FSE 2024            | [Github](https://github.com/SeekingDream/PPM) [![Stars](https://img.shields.io/github/stars/SeekingDream/PPM?style=social&label=Stars)](https://github.com/SeekingDream/PPM)                                     | [🤗Dataset](https://huggingface.co/collections/CM/dycodeeval-6858e931f4f1a0d4a29ec2e9) |
 | APPS                          | [Measuring Coding Challenge Competence With APPS](https://arxiv.org/abs/2105.09938)                                                                                           | NeurIPS 2021        | [Github](https://github.com/hendrycks/apps) [![Stars](https://img.shields.io/github/stars/hendrycks/apps?style=social&label=Stars)](https://github.com/hendrycks/apps)                                       | [🤗Dataset](https://huggingface.co/datasets/codeparrot/apps) |
 | CodeContests                  | [Competition-Level Code Generation with AlphaCode](https://arxiv.org/abs/2203.07814)                                                                                          | Science 2022        | [Github](https://github.com/google-deepmind/code_contests) [![Stars](https://img.shields.io/github/stars/google-deepmind/code_contests?style=social&label=Stars)](https://github.com/google-deepmind/code_contests)  | [Dataset](https://github.com/google-deepmind/code_contests)|
 | MultiPL-E                     | [MultiPL-E: A Scalable and Polyglot Approach to Benchmarking Neural Code Generation](https://ieeexplore.ieee.org/abstract/document/10103177)                                  | TSE 2023            | [Github](https://github.com/nuprl/MultiPL-E) [![Stars](https://img.shields.io/github/stars/nuprl/MultiPL-E?style=social&label=Stars)](https://github.com/nuprl/MultiPL-E)                                     | [🤗Dataset](https://huggingface.co/datasets/nuprl/MultiPL-E) |
@@ -172,49 +174,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | ELABORATION                   | [ELABORATION: A Comprehensive Benchmark on Human-LLM Competitive Programming](https://arxiv.org/abs/2505.16667)                                                               | ACL 2025            | [Github](https://github.com/SCUNLP/ELABORATION)[![Stars](https://img.shields.io/github/stars/SCUNLP/ELABORATION?style=social&label=Stars)](https://github.com/SCUNLP/ELABORATION) | |
 | OSS-Bench                     | [OSS-Bench: Benchmark Generator for Coding LLMs](https://arxiv.org/abs/2505.12331)                                                                                            | Arxiv 2025/05       | [Github](https://github.com/oss-bench/oss-bench) [![Stars](https://img.shields.io/github/stars/oss-bench/oss-bench?style=social&label=Stars)](https://github.com/oss-bench/oss-bench) | [🤗Dataset](https://huggingface.co/datasets/0599jiangyc/oss-bench) [📊LeaderBoard]([OSS-Bench](https://oss-bench.github.io/)) |
 | VERINA                        | [VERINA: Benchmarking Verifiable Code Generation](https://arxiv.org/abs/2505.23135)                                                                                           | Arxiv 2025/05       | [Github](https://github.com/sunblaze-ucb/verina) [![Stars](https://img.shields.io/github/stars/sunblaze-ucb/verina?style=social&label=Stars)](https://github.com/sunblaze-ucb/verina) | [🤗Dataset](https://huggingface.co/datasets/sunblaze-ucb/verina) |
-
-<!-- <details><summary>Details of Code Completion & Code Generation Benchmarks  <i>:: click to expand ::</i></summary>
-<div>
-
-* **HumanEval**: code completion 
-* **MBPP**: text -> code; code generation 
-* **APPS**: a benchmark for code generation from natural language specifications
-* **CodeContests**: complex programming task
-* **MultiPL-E**: extends the HumanEval and MBPP benchmarks to 18 languages
-* **MCoNaLa**: code generation from multiple natural languages
-* **LCC**: long code context code completion
-* **CodeClarQA**: containing pairs of natural language descriptions and code with created synthetic clarification questions and answers.
-* **EvalPlus**: extends the HumanEval and MBPP benchmarks
-* **CrossCodeEval**: diverse and multilingual benchmark for cross-file code completion
-* **ODEX**: open-domain, execution-based natural language to code generation
-* **HumanEval-X**: multilingual ability of code generation 
-* **ML-Bench**: repo-level ML task solving benchmark using real-world code
-* **RepoBench**: repo-level code auto-completion
-* **CatCoder**: a framework for repo-level code generation in statically typed languages using code and type context
-* **StudentEval**: a benchmark of student-written prompts for code generation evaluation
-* **DevEval**: repo-level code generation
-* **CoderEval**: pragmatic code generation
-* **ConCodeEval**: benchmark for assessing LLMs' understanding of code constraints in domain-specific languages like JSON and YAML
-* **CodeScope**: Multilingual Multitask Multidimensional Benchmark (execution-based)
-* **OOP**: object-oriented programming evaluation benchmark of python programs
-* **L2CEval**: multilingual, multi-task NL-to-code benchmark including semantic parsing, math reasoning and Python programming.
-* **HumanExtension**：auxiliary-function-based code generation benchmark
-* **LLM4Decompile**: benchmark for evaluating binary-to-C decompilation on real-world open-source binaries
-* **PYCOMMITS**: multi-round Python code editing benchmark from real commit histories
-* **CodeAgentBench**: repo-level code generation benchmark with tool-integrated agents for real-world tasks
-* **SAFIM**: syntax-aware code completion benchmark focusing on code blocks and conditional expressions​
-* **BigCodeBench**: complete Split & Instruct Split
-* **EvoCodeBench**: evolving Python code generation benchmark from real GitHub commits
-* **DynaCode**: a dynamic complexity-aware code benchmark
-* **CLEVER**:A Lean-based benchmark for verified code generation, where models must synthesize provably correct code from hidden specs
-* **OSS-Bench**:a benchmark for evaluating code generation capabilities of Large Language Models (LLMs) in real-world software development scenarios
-* **Verina**:  a high-quality benchmark enabling a comprehensive and modular evaluation of code, specification, and proof generation as
-  well as their compositions
-* **SIMCOPILOT**:comprises dedicated sub-benchmarks for Java (SIMCOPILOTJ) and Python (SIMCOPILOTP), covering diverse codebases varying in size and complexity
-* **ResearchCodeBench**:a benchmark of 212 coding challenges that evaluates LLMs’ ability to translate cutting-edge ML contributions from top 2024-2025 research papers into executable code
-
-</div>
-</details> -->
+| OIBench                       | [OIBench: Benchmarking Strong Reasoning Models with Olympiad in Informatics](https://arxiv.org/abs/2506.10481)                                                                | Arxiv 2025/06       | | [🤗Dataset](https://huggingface.co/datasets/AGI-Eval/OIBench) |
 
 
 ### Code Efficiency
@@ -252,7 +212,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | COAST                         | [COAST: Enhancing the Code Debugging Ability of LLMs through Communicative Agent Based Data Synthesis](https://arxiv.org/abs/2408.05006)          | NAACL 2025                 | [Github](https://github.com/NEUIR/COAST)[![Stars](https://img.shields.io/github/stars/NEUIR/COAST?style=social&label=Stars)](https://github.com/NEUIR/COAST)    | [🤗Dataset](https://huggingface.co/datasets/yangweiqing/DebugEval) |
 | SWE-bench Multimodal          | [SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?](https://arxiv.org/abs/2410.03859)                                    | ICLR 2025                  | [Github](https://github.com/swe-bench/SWE-bench) [![Stars](https://img.shields.io/github/stars/swe-bench/SWE-bench?style=social&label=Stars)](https://github.com/swe-bench/SWE-bench) | [🤗Dataset](https://www.swebench.com/multimodal) [🌐Website](https://www.swebench.com/multimodal) |
 | FeedbackEval                  | [FeedbackEval A Benchmark for Evaluating Large Language Models in Feedback-Driven Code Repair Tasks](https://github.com/SYSUSELab/FeedbackEval)   |                            | [Github](https://github.com/SYSUSELab/FeedbackEval)[![Stars](https://img.shields.io/github/stars/SYSUSELab/FeedbackEval?style=social&label=Stars)](https://github.com/SYSUSELab/FeedbackEval) ||
-| CVE-Bench                     | [CVE-Bench:Benchmarking LLM-based Software Engineering Agent’s Ability to Repair Real-World CVE Vulnerabilities](https://arxiv.org/abs/2503.17332)| NAACL 2025                 | [Github](https://github.com/WhileBug/CVEBench)[![Stars](https://img.shields.io/github/stars/WhileBug/CVEBench?style=social&label=Stars)](https://github.com/WhileBug/CVEBench) | [Dataset](https://github.com/WhileBug/CVEBench) |
+| CVE-Bench                     | [CVE-Bench:Benchmarking LLM-based Software Engineering Agent’s Ability to Repair Real-World CVE Vulnerabilities](https://aclanthology.org/2025.naacl-long.212/) | NAACL 2025                 | [Github](https://github.com/WhileBug/CVEBench)[![Stars](https://img.shields.io/github/stars/WhileBug/CVEBench?style=social&label=Stars)](https://github.com/WhileBug/CVEBench) | [Dataset](https://github.com/WhileBug/CVEBench) |
 | OmniGIRL                      | [OmniGIRL: A Multilingual and Multimodal Benchmark for GitHub Issue Resolution](https://arxiv.org/abs/2505.04606)                                 | ISSTA 2025                 | [Github](https://github.com/DeepSoftwareAnalytics/OmniGIRL)[![Stars](https://img.shields.io/github/stars/DeepSoftwareAnalytics/OmniGIRL?style=social&label=Stars)](https://github.com/DeepSoftwareAnalytics/OmniGIRL) | [🤗Dataset](https://huggingface.co/datasets/Deep-Software-Analytics/OmniGIRL) [📊LeaderBoard](https://deepsoftwareanalytics.github.io/omnigirl_leaderboard.html)  | 
 | LongSWE-Bench                 | [LongCodeBench: Evaluating Coding LLMs at 1M Context Windows](https://arxiv.org/abs/2505.07897)                                                   | Arxiv 2025/05              | | [🤗Dataset](https://huggingface.co/datasets/Steefano/LCB) | 
 | VADER                         | [VADER: A Human-Evaluated Benchmark for Vulnerability Assessment, Detection, Explanation, and Remediation](https://arxiv.org/abs/2505.19395)      | Arxiv 2025/06              | [Github](https://github.com/AfterQuery/vader)[![Stars](https://img.shields.io/github/stars/AfterQuery/vader?style=social&label=Stars)](https://github.com/AfterQuery/vader) | | 
@@ -271,8 +231,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | LongCodeQA          | [LongCodeBench: Evaluating Coding LLMs at 1M Context Windows](https://arxiv.org/abs/2505.07897)                                                                                           | Arxiv 2025/05               | | [🤗Dataset](https://huggingface.co/datasets/Steefano/LCB) |
 | CTF-Code            | [Success is in the Details: Evaluate and Enhance Details Sensitivity of Code](https://arxiv.org/abs/2505.14597)                                                                           | Arxiv 2025/05               | |  |
 | CodeSense           | [CodeSense: a Real-World Benchmark and Dataset for Code Semantic Reasoning](https://arxiv.org/html/2506.00750v1)                                                                          | Arxiv 2025/06               | [Github](https://github.com/codesense-bench/codesense-codes) [![Stars](https://img.shields.io/github/stars/codesense-bench/codesense-codes?style=social&label=Stars)](https://github.com/codesense-bench/codesense-codes) | [🤗Dataset](https://huggingface.co/datasets/codesense-bench/codesense/tree/main)[📊LeaderBoard](https://codesense-bench.github.io/leaderboard.html) |
-| CETBench | [CETBench: A Novel Dataset constructed via Transformations over]((https://arxiv.org/abs/2506.04019)) | Arxiv 2025/06 |  |  |
-| ICPC-Eval | [ICPC-Eval: Probing the Frontiers of LLM Reasoning with Competitive Programming Contests](https://arxiv.org/abs/2506.04894) | Arxiv 2025/06 | [Github](https://github.com/RUCAIBox/Slow_Thinking_with_LLMs)[![Stars](https://img.shields.io/github/stars/RUCAIBox/Slow_Thinking_with_LLMs?style=social&label=Stars)](https://github.com/RUCAIBox/Slow_Thinking_with_LLMs) | [🤗Dataset](https://huggingface.co/datasets/RUC-AIBOX/ICPC-Eval) |
+| CETBench            | [CETBench: A Novel Dataset constructed via Transformations over]((https://arxiv.org/abs/2506.04019))                                                                                      | Arxiv 2025/06               |  |  |
+| ICPC-Eval           | [ICPC-Eval: Probing the Frontiers of LLM Reasoning with Competitive Programming Contests](https://arxiv.org/abs/2506.04894)                                                               | Arxiv 2025/06               | [Github](https://github.com/RUCAIBox/Slow_Thinking_with_LLMs)[![Stars](https://img.shields.io/github/stars/RUCAIBox/Slow_Thinking_with_LLMs?style=social&label=Stars)](https://github.com/RUCAIBox/Slow_Thinking_with_LLMs) | [🤗Dataset](https://huggingface.co/datasets/RUC-AIBOX/ICPC-Eval) |
 
 
 ### Code Hallucination
@@ -346,8 +306,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | vTikZ              | [LLM Code Customization with Visual Results: A Benchmark on TikZ](https://hal.science/hal-05049250)                                                                 | EASE 2025          |  |  |
 | Plot2XML           | [Draw with Thought: Unleashing Multimodal Reasoning for Scientific Diagram Generation](https://arxiv.org/abs/2504.09479)                                            | Arxiv 2025/04      |  |  |
 | Flow2Code          | [Flow2Code: Evaluating Large Language Models for Flowchart-based Code Generation Capability](https://arxiv.org/pdf/2506.02073)                                      | Arxiv 2025/06      | [Github](https://github.com/hml-github/Flow2Code/) | |
-| DesignBench | [DesignBench: A Comprehensive Benchmark for MLLM-based Front-end Code Generation](https://arxiv.org/abs/2506.06251) | Arxiv 2025/06 | [Github](https://github.com/WebPAI/DesignBench)[![Stars](https://img.shields.io/github/stars/WebPAI/DesignBench?style=social&label=Stars)](https://github.com/WebPAI/DesignBench) | [🤗Dataset](https://drive.google.com/drive/folders/1gCeg4LqO7VsOSpB70iMnKbNR8gfzUot_) |
-| WebUIBench | [WebUIBench: A Comprehensive Benchmark for Evaluating Multimodal]([openreview.net/pdf?id=IwyjXYOChS](https://openreview.net/pdf?id=IwyjXYOChS)) | Arxiv 2025/06 | [Github](https://github.com/MAIL-Tele-AI/WebUIBench)[![Stars](https://img.shields.io/github/stars/MAIL-Tele-AI/WebUIBench?style=social&label=Stars)](https://github.com/MAIL-Tele-AI/WebUIBench) | [🤗Dataset](https://huggingface.co/datasets/Tele-AI-MAIL/WebUIBench) |
+| DesignBench        | [DesignBench: A Comprehensive Benchmark for MLLM-based Front-end Code Generation](https://arxiv.org/abs/2506.06251)                                                 | Arxiv 2025/06      | [Github](https://github.com/WebPAI/DesignBench)[![Stars](https://img.shields.io/github/stars/WebPAI/DesignBench?style=social&label=Stars)](https://github.com/WebPAI/DesignBench) | [🤗Dataset](https://drive.google.com/drive/folders/1gCeg4LqO7VsOSpB70iMnKbNR8gfzUot_) |
+| WebUIBench         | [WebUIBench: A Comprehensive Benchmark for Evaluating Multimodal]([openreview.net/pdf?id=IwyjXYOChS](https://openreview.net/pdf?id=IwyjXYOChS))                     | Arxiv 2025/06      | [Github](https://github.com/MAIL-Tele-AI/WebUIBench)[![Stars](https://img.shields.io/github/stars/MAIL-Tele-AI/WebUIBench?style=social&label=Stars)](https://github.com/MAIL-Tele-AI/WebUIBench) | [🤗Dataset](https://huggingface.co/datasets/Tele-AI-MAIL/WebUIBench) |
 
 
 ### Code Security & Robustness
@@ -365,7 +325,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | CS-Eval        | [CS-Eval: A Comprehensive Large Language Model Benchmark for CyberSecurity](https://arxiv.org/abs/2411.16239)                                                           | Arxiv 2024/11        | [Github](https://github.com/CS-EVAL/CS-Eval) [![Stars](https://img.shields.io/github/stars/CS-EVAL/CS-Eval?style=social&label=Stars)](https://github.com/CS-EVAL/CS-Eval)| [🤗Dataset](https://huggingface.co/datasets/cseval/cs-eval) |
 | SecBench       | [SecBench: A Comprehensive Multi-Dimensional Benchmarking Dataset for LLMs in Cybersecurity](https://arxiv.org/abs/2412.20787)                                          | Arxiv 2024/12        | |[Dataset](https://zenodo.org/records/14575303) [🌐Website](https://secbench.org/) |
 | aiXamine       | [aiXamine: Simplified LLM Safety and Security](https://arxiv.org/abs/2504.14985v2)                                                                                      | Arxiv 2025/04        | |[🌐Website](https://aixamine.qcri.org/main) |
-| SafeGenBench | [SafeGenBench: A Benchmark Framework for Security Vulnerability Detection in LLM-Generated Code](https://arxiv.org/abs/2506.05692) | Arxiv 2025/06 |  | |
+| SafeGenBench   | [SafeGenBench: A Benchmark Framework for Security Vulnerability Detection in LLM-Generated Code](https://arxiv.org/abs/2506.05692)                                      | Arxiv 2025/06        |  | |
 
 ### Code Translation
 
