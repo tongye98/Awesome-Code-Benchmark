@@ -17,6 +17,12 @@ A comprehensive code domain benchmark review of LLM researches.
 ## News   
 [OIBench: Benchmarking Strong Reasoning Models with Olympiad in Informatics](https://arxiv.org/abs/2506.10481) from AGI-Eval
 
+- 🔥🔥 [2025-07-05] **Featured Benchmarks**:
+  🔥 [JsDeObsBench: Measuring and Benchmarking LLMs for JavaScript Deobfuscation](https://arxiv.org/pdf/2506.20170) from The Ohio State University
+  🔥[ From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking](https://arxiv.org/abs/2506.19724v1) from CMU
+
+  🔥[Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs](https://arxiv.org/html/2506.19290v1) from Skywork AI
+
 - 🔥🔥 [2025-06-27] **Featured Benchmarks**:
   🔥 [FrontendBench: A Benchmark for Evaluating LLMs on Front-End Development via Automatic Evaluation](https://arxiv.org/abs/2506.13832) from ByteDance
 
@@ -193,6 +199,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | VERINA                        | [VERINA: Benchmarking Verifiable Code Generation](https://arxiv.org/abs/2505.23135)                                                                                           | Arxiv 2025/05       | [Github](https://github.com/sunblaze-ucb/verina) [![Stars](https://img.shields.io/github/stars/sunblaze-ucb/verina?style=social&label=Stars)](https://github.com/sunblaze-ucb/verina) | [🤗Dataset](https://huggingface.co/datasets/sunblaze-ucb/verina) |
 | OIBench                       | [OIBench: Benchmarking Strong Reasoning Models with Olympiad in Informatics](https://arxiv.org/abs/2506.10481)                                                                | Arxiv 2025/06       | | [🤗Dataset](https://huggingface.co/datasets/AGI-Eval/OIBench) |
 | TeXpert | [TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs](https://www.x-mol.com/paper/1937374325568716800) | Arxiv 2025/06 | [Github](https://github.com/knowledge-verse-ai/TeXpert) [![Stars](https://img.shields.io/github/stars/knowledge-verse-ai/TeXpert?style=social&label=Stars)](https://github.com/knowledge-verse-ai/TeXpert) |  |
+| AUTOEXPERIMENT | [ From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking](https://arxiv.org/abs/2506.19724v1) | Arxiv 2025/06 | [Github](https://github.com/j1mk1m/AutoExperiment)[![Stars](https://img.shields.io/github/stars/j1mk1m/AutoExperiment?style=social&label=Stars)](https://github.com/j1mk1m/AutoExperiment) | [🤗Dataset](https://huggingface.co/datasets/j1mk1m/AutoExperiment) |
 
 
 ### Code Efficiency
@@ -236,6 +243,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | VADER                         | [VADER: A Human-Evaluated Benchmark for Vulnerability Assessment, Detection, Explanation, and Remediation](https://arxiv.org/abs/2505.19395)      | Arxiv 2025/06              | [Github](https://github.com/AfterQuery/vader)[![Stars](https://img.shields.io/github/stars/AfterQuery/vader?style=social&label=Stars)](https://github.com/AfterQuery/vader) | | 
 | Breakpoint                    | [Breakpoint: Scalable evaluation of system-level reasoning in LLM code agents](https://arxiv.org/pdf/2506.00172)                                  | Arxiv 2025/05              |  | |
 | MLDebugging | [MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios](https://arxiv.org/abs/2506.13824) | Arxiv 2025/06 | [Github](https://github.com/hjyTsuki/MLDebugging)[![Stars](https://img.shields.io/github/stars/hjyTsuki/MLDebugging?style=social&label=Stars)](https://github.com/hjyTsuki/MLDebugging) | |
+| Skywork-SWE | [Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs](https://arxiv.org/html/2506.19290v1) | Arxiv 2025/06 |  | |
 
 ### Code Reasoning & Understanding
 
@@ -351,6 +359,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | CodeMirage | [CodeMirage: A Multi-Lingual Benchmark for Detecting AI-Generated and Paraphrased Source Code from Production-Level LLMs](https://arxiv.org/abs/2506.11059) | Arxiv 2025/06 | | |
 | SEC-bench | [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://arxiv.org/abs/2506.11791v1) | Arxiv 2025/06 | [Github]([SEC-bench/SEC-bench](https://github.com/sec-bench/sec-bench))[![Stars](https://img.shields.io/github/stars/sec-bench/sec-bench?style=social&label=Stars)](https://github.com/sec-bench/sec-bench) | [🤗Dataset](https://huggingface.co/datasets/SEC-bench/SEC-bench)[📊LeaderBoard](https://sec-bench.github.io/#/) |
 | RAS-Eval | [RAS-Eval: A Comprehensive Benchmark for Security Evaluation of LLM Agents in Real-World Environments](https://arxiv.org/html/2506.15253v1) | Arxiv 2025/06 | [Github]((https://github.com/lanzer-tree/RAS-Eval))[![Stars](https://img.shields.io/github/stars/lanzer-tree/RAS-Eval?style=social&label=Stars)](https://github.com/lanzer-tree/RAS-Eval) |  |
+| JsDeObsBench | [JsDeObsBench: Measuring and Benchmarking LLMs for JavaScript Deobfuscation](https://arxiv.org/pdf/2506.20170) | CCS 2025 | [Github](https://github.com/jsdeobf/jsdeobf.github.io) [![Stars](https://img.shields.io/github/stars/jsdeobf/jsdeobf.github.io?style=social&label=Stars)](https://github.com/jsdeobf/jsdeobf.github.io) | 📊[Leaderboard](https://jsdeobf.github.io/) |
 
 ### Code Translation
 
