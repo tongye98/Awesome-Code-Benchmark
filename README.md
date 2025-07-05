@@ -18,12 +18,15 @@ A comprehensive code domain benchmark review of LLM researches.
 [OIBench: Benchmarking Strong Reasoning Models with Olympiad in Informatics](https://arxiv.org/abs/2506.10481) from AGI-Eval
 
 - 🔥🔥 [2025-07-05] **Featured Benchmarks**:
+  
   🔥 [JsDeObsBench: Measuring and Benchmarking LLMs for JavaScript Deobfuscation](https://arxiv.org/pdf/2506.20170) from The Ohio State University
+  
   🔥[ From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking](https://arxiv.org/abs/2506.19724v1) from CMU
 
   🔥[Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs](https://arxiv.org/html/2506.19290v1) from Skywork AI
 
 - 🔥🔥 [2025-06-27] **Featured Benchmarks**:
+  
   🔥 [FrontendBench: A Benchmark for Evaluating LLMs on Front-End Development via Automatic Evaluation](https://arxiv.org/abs/2506.13832) from ByteDance
 
   🔥[CoQuIR: A Comprehensive Benchmark for Code Quality-Aware Information Retrieval](https://arxiv.org/html/2506.11066v1) from Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
