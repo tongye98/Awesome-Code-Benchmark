@@ -17,7 +17,34 @@ A comprehensive code domain benchmark review of LLM researches.
 ## News   
 [OIBench: Benchmarking Strong Reasoning Models with Olympiad in Informatics](https://arxiv.org/abs/2506.10481) from AGI-Eval
 
+- 🔥🔥 [2025-07-13] **Featured Benchmarks**:
+
+  🔥[CORE: Benchmarking LLMs Code Reasoning Capabilities through Static Analysis Tasks](https://www.arxiv.org/abs/2507.05269) from Purdue University
+
+  🔥[ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation](https://arxiv.org/abs/2507.04952) from Tencent Hunyuan Team
+
+  🔥[CoreCodeBench: A Configurable Multi-Scenario Repository-Level Benchmark](https://www.arxiv.org/abs/2507.05281) from Shanghai Jiao Tong University
+
+  🔥[Flattery in Motion: Benchmarking and Analyzing Sycophancy in Video-LLMs](https://arxiv.org/abs/2506.07180) from Provable Responsible AI and Data Analytics (PRADA) Lab
+
+  🔥[Model Editing for LLMs4Code: How Far are We?](https://arxiv.org/abs/2411.06638) from National University of Defense Technology
+
+  🔥[VeriBench: Benchmarking Large Language Models for Verilog Code Generation and Design Synthesis](https://ieeexplore.ieee.org/abstract/document/11044004) from Indian Institute Of Technology Gandhinagar
+
+  🔥[ResBench: Benchmarking LLM-Generated FPGA Designs with Resource Awareness](https://arxiv.org/pdf/2503.08823) from Imperial College London United Kingdom
+
+  🔥[Natural language is not enough: Benchmarking multi-modal generative AI for Verilog generation](https://dl.acm.org/doi/pdf/10.1145/3676536.3676679) from Chinese Academy of Sciences
+
+- 🔥🔥 [2025-07-05] **Featured Benchmarks**:
+  
+  🔥 [JsDeObsBench: Measuring and Benchmarking LLMs for JavaScript Deobfuscation](https://arxiv.org/pdf/2506.20170) from The Ohio State University
+  
+  🔥[ From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking](https://arxiv.org/abs/2506.19724v1) from CMU
+
+  🔥[Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs](https://arxiv.org/html/2506.19290v1) from Skywork AI
+
 - 🔥🔥 [2025-06-27] **Featured Benchmarks**:
+  
   🔥 [FrontendBench: A Benchmark for Evaluating LLMs on Front-End Development via Automatic Evaluation](https://arxiv.org/abs/2506.13832) from ByteDance
 
   🔥[CoQuIR: A Comprehensive Benchmark for Code Quality-Aware Information Retrieval](https://arxiv.org/html/2506.11066v1) from Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
@@ -193,6 +220,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | VERINA                        | [VERINA: Benchmarking Verifiable Code Generation](https://arxiv.org/abs/2505.23135)                                                                                           | Arxiv 2025/05       | [Github](https://github.com/sunblaze-ucb/verina) [![Stars](https://img.shields.io/github/stars/sunblaze-ucb/verina?style=social&label=Stars)](https://github.com/sunblaze-ucb/verina) | [🤗Dataset](https://huggingface.co/datasets/sunblaze-ucb/verina) |
 | OIBench                       | [OIBench: Benchmarking Strong Reasoning Models with Olympiad in Informatics](https://arxiv.org/abs/2506.10481)                                                                | Arxiv 2025/06       | | [🤗Dataset](https://huggingface.co/datasets/AGI-Eval/OIBench) |
 | TeXpert | [TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs](https://www.x-mol.com/paper/1937374325568716800) | Arxiv 2025/06 | [Github](https://github.com/knowledge-verse-ai/TeXpert) [![Stars](https://img.shields.io/github/stars/knowledge-verse-ai/TeXpert?style=social&label=Stars)](https://github.com/knowledge-verse-ai/TeXpert) |  |
+| AUTOEXPERIMENT | [ From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking](https://arxiv.org/abs/2506.19724v1) | Arxiv 2025/06 | [Github](https://github.com/j1mk1m/AutoExperiment)[![Stars](https://img.shields.io/github/stars/j1mk1m/AutoExperiment?style=social&label=Stars)](https://github.com/j1mk1m/AutoExperiment) | [🤗Dataset](https://huggingface.co/datasets/j1mk1m/AutoExperiment) |
 
 
 ### Code Efficiency
@@ -236,6 +264,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | VADER                         | [VADER: A Human-Evaluated Benchmark for Vulnerability Assessment, Detection, Explanation, and Remediation](https://arxiv.org/abs/2505.19395)      | Arxiv 2025/06              | [Github](https://github.com/AfterQuery/vader)[![Stars](https://img.shields.io/github/stars/AfterQuery/vader?style=social&label=Stars)](https://github.com/AfterQuery/vader) | | 
 | Breakpoint                    | [Breakpoint: Scalable evaluation of system-level reasoning in LLM code agents](https://arxiv.org/pdf/2506.00172)                                  | Arxiv 2025/05              |  | |
 | MLDebugging | [MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios](https://arxiv.org/abs/2506.13824) | Arxiv 2025/06 | [Github](https://github.com/hjyTsuki/MLDebugging)[![Stars](https://img.shields.io/github/stars/hjyTsuki/MLDebugging?style=social&label=Stars)](https://github.com/hjyTsuki/MLDebugging) | |
+| Skywork-SWE | [Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs](https://arxiv.org/html/2506.19290v1) | Arxiv 2025/06 |  | |
 
 ### Code Reasoning & Understanding
 
@@ -254,6 +283,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | ICPC-Eval           | [ICPC-Eval: Probing the Frontiers of LLM Reasoning with Competitive Programming Contests](https://arxiv.org/abs/2506.04894)                                                               | Arxiv 2025/06               | [Github](https://github.com/RUCAIBox/Slow_Thinking_with_LLMs)[![Stars](https://img.shields.io/github/stars/RUCAIBox/Slow_Thinking_with_LLMs?style=social&label=Stars)](https://github.com/RUCAIBox/Slow_Thinking_with_LLMs) | [🤗Dataset](https://huggingface.co/datasets/RUC-AIBOX/ICPC-Eval) |
 | CoQuIR | [CoQuIR: A Comprehensive Benchmark for Code Quality-Aware Information Retrieval](https://arxiv.org/html/2506.11066v1) | Arxiv 2025/06 | [Github](https://github.com/TRUMANCFY/CoQuIR)[![Stars](https://img.shields.io/github/stars/TRUMANCFY/CoQuIR?style=social&label=Stars)](https://github.com/TRUMANCFY/CoQuIR) |  |
 | OJBench | [ OJBench: A Competition Level Code Benchmark For Large Language Models](https://arxiv.org/abs/2506.16395) | Arxiv 2025/06 |  |  |
+| CORE | [CORE: Benchmarking LLMs Code Reasoning Capabilities through Static Analysis Tasks](https://www.arxiv.org/abs/2507.05269) | Arxiv 2025/07 | | |
+| CLMEEval | [Model Editing for LLMs4Code: How Far are We?](https://arxiv.org/abs/2411.06638) | ICSE 2025 | [Github](https://github.com/xpq-tech/code-llmedit)[![Stars](https://img.shields.io/github/stars/xpq-tech/code-llmedit?style=social&label=Stars)](https://github.com/xpq-tech/code-llmedit) | [🤗Dataset](https://zenodo.org/records/14062737) |
 
 
 ### Code Hallucination
@@ -330,6 +361,9 @@ A comprehensive code domain benchmark review of LLM researches.
 | DesignBench        | [DesignBench: A Comprehensive Benchmark for MLLM-based Front-end Code Generation](https://arxiv.org/abs/2506.06251)                                                 | Arxiv 2025/06      | [Github](https://github.com/WebPAI/DesignBench)[![Stars](https://img.shields.io/github/stars/WebPAI/DesignBench?style=social&label=Stars)](https://github.com/WebPAI/DesignBench) | [🤗Dataset](https://drive.google.com/drive/folders/1gCeg4LqO7VsOSpB70iMnKbNR8gfzUot_) |
 | WebUIBench         | [WebUIBench: A Comprehensive Benchmark for Evaluating Multimodal]([openreview.net/pdf?id=IwyjXYOChS](https://openreview.net/pdf?id=IwyjXYOChS))                     | Arxiv 2025/06      | [Github](https://github.com/MAIL-Tele-AI/WebUIBench)[![Stars](https://img.shields.io/github/stars/MAIL-Tele-AI/WebUIBench?style=social&label=Stars)](https://github.com/MAIL-Tele-AI/WebUIBench) | [🤗Dataset](https://huggingface.co/datasets/Tele-AI-MAIL/WebUIBench) |
 | FrontendBench | [FrontendBench: A Benchmark for Evaluating LLMs on Front-End Development via Automatic Evaluation](https://arxiv.org/abs/2506.13832) | Arxiv 2025/06 |  |  |
+| ArtifactsBench | [ArtifactsBench: Bridging the Visual-Interactive Gap in LLM Code Generation Evaluation](https://arxiv.org/abs/2507.04952) | Arxiv 2025/07 | [Github](https://github.com/Tencent-Hunyuan/ArtifactsBenchmark)[![Stars](https://img.shields.io/github/stars/Tencent-Hunyuan/ArtifactsBenchmark?style=social&label=Stars)](https://github.com/Tencent-Hunyuan/ArtifactsBenchmark) | [🌐Website](https://artifactsbenchmark.github.io/) [🤗Dataset](https://huggingface.co/datasets/tencent/ArtifactsBenchmark/)[📊 Leaderboard](https://artifactsbenchmark.github.io/leaderboard.html) |
+| VISE | [Flattery in Motion: Benchmarking and Analyzing Sycophancy in Video-LLMs](https://arxiv.org/abs/2506.07180) | Arxiv 2025/07 |  |  |
+| MVB | [Natural language is not enough: Benchmarking multi-modal generative AI for Verilog generation](https://dl.acm.org/doi/pdf/10.1145/3676536.3676679) | ICCAD 2024 | [Github](https://github.com/aichipdesign/chipgptv)[![Stars](https://img.shields.io/github/stars/aichipdesign/chipgptv?style=social&label=Stars)](https://github.com/aichipdesign/chipgptv) |  |
 
 
 ### Code Security & Robustness
@@ -351,6 +385,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | CodeMirage | [CodeMirage: A Multi-Lingual Benchmark for Detecting AI-Generated and Paraphrased Source Code from Production-Level LLMs](https://arxiv.org/abs/2506.11059) | Arxiv 2025/06 | | |
 | SEC-bench | [SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](https://arxiv.org/abs/2506.11791v1) | Arxiv 2025/06 | [Github]([SEC-bench/SEC-bench](https://github.com/sec-bench/sec-bench))[![Stars](https://img.shields.io/github/stars/sec-bench/sec-bench?style=social&label=Stars)](https://github.com/sec-bench/sec-bench) | [🤗Dataset](https://huggingface.co/datasets/SEC-bench/SEC-bench)[📊LeaderBoard](https://sec-bench.github.io/#/) |
 | RAS-Eval | [RAS-Eval: A Comprehensive Benchmark for Security Evaluation of LLM Agents in Real-World Environments](https://arxiv.org/html/2506.15253v1) | Arxiv 2025/06 | [Github]((https://github.com/lanzer-tree/RAS-Eval))[![Stars](https://img.shields.io/github/stars/lanzer-tree/RAS-Eval?style=social&label=Stars)](https://github.com/lanzer-tree/RAS-Eval) |  |
+| JsDeObsBench | [JsDeObsBench: Measuring and Benchmarking LLMs for JavaScript Deobfuscation](https://arxiv.org/pdf/2506.20170) | CCS 2025 | [Github](https://github.com/jsdeobf/jsdeobf.github.io) [![Stars](https://img.shields.io/github/stars/jsdeobf/jsdeobf.github.io?style=social&label=Stars)](https://github.com/jsdeobf/jsdeobf.github.io) | 📊[Leaderboard](https://jsdeobf.github.io/) |
 
 ### Code Translation
 
@@ -380,7 +415,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | LibEvolutionEval           | [LibEvolutionEval: A Benchmark and Study for Version-Specific Code Generation](https://arxiv.org/abs/2412.04478)                             | NAACL 2025      |                                                                                 | [🌐Website](https://lib-evolution-eval.github.io/) |
 | CodeUpdateArena            | [CodeUpdateArena: Benchmarking Knowledge Editing on API Updates](https://arxiv.org/abs/2407.06249)                                           | Arxiv 2025/02   | [Github](https://github.com/leo-liuzy/CodeUpdateArena) [![Stars](https://img.shields.io/github/stars/leo-liuzy/CodeUpdateArena?style=social&label=Stars)](https://github.com/leo-liuzy/CodeUpdateArena)                          | [🤗Dataset](https://github.com/leo-liuzy/CodeUpdateArena/tree/main/data) |
 | RustEvo2                   | [RustEvo2: An Evolving Benchmark for API Evolution in LLM-based Rust Code Generation](https://arxiv.org/abs/2503.16922)                      | Arxiv 2025/03   | [Github](https://github.com/SYSUSELab/RustEvo) [![Stars](https://img.shields.io/github/stars/SYSUSELab/RustEvo?style=social&label=Stars)](https://github.com/SYSUSELab/RustEvo)                    | [🤗Dataset](https://github.com/SYSUSELab/RustEvo/tree/main/Dataset)       |
-| CODEMENV                   | [CODEMENV: Benchmarking Large Language Models on Code Migration](https://arxiv.org/pdf/2506.00894)                                           | Arxiv 2025/06   | [Github](https://github.com/xdshen-ai/Benchmark-of-Code-Migration)[![Stars](img/Benchmark-of-Code-Migration.svg+xml)](https://github.comxdshen-ai/Benchmark-of-Code-Migration) | [🤗Dataset](https://github.com/xdshen-ai/Benchmark-of-Code-Migration/tree/main/eval-data) |
+| CODEMENV                   | [CODEMENV: Benchmarking Large Language Models on Code Migration](https://arxiv.org/pdf/2506.00894)                                           | ACL 2025 Findings | [Github](https://github.com/xdshen-ai/Benchmark-of-Code-Migration)[![Stars](https://img.shields.io/github/stars/xdshen-ai/Benchmark-of-Code-Migration?style=social&label=Stars)](https://github.com/xdshen-ai/Benchmark-of-Code-Migration) | [🤗Dataset](https://github.com/xdshen-ai/Benchmark-of-Code-Migration/tree/main/eval-data) |
 
 
 ### Multi & Other Dimension
@@ -411,6 +446,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | DecompileBench                | [DecompileBench: A Comprehensive Benchmark for Evaluating Decompilers in Real-World Scenarios](https://arxiv.org/abs/2505.11340)                                                          | Arxiv 2025/05              | [Github](https://github.com/vul337/DecompileBench)[![Stars](https://img.shields.io/github/stars/vul337/DecompileBench?style=social&label=Stars)](https://github.com/vul337/DecompileBench) | |
 | CLEVER                        | [CLEVER:A Curated Benchmark for Formally Verified](https://arxiv.org/abs/2505.13938)                                                                                                      | Arxiv 2025/05              | [Github](https://github.com/trishullab/clever)[![Stars](https://img.shields.io/github/stars/trishullab/clever?style=social&label=Stars)](https://github.com/trishullab/clever) | [🤗Dataset](https://huggingface.co/datasets/amitayusht/clever) |
 | ResearchCodeBench             | [ResearchCodeBench: Benchmarking LLMs on Implementing Novel Machine Learning Research Code](https://www.arxiv.org/abs/2506.02314)                                                         | Arxiv 2025/06              |  |  |
+| CoreCodeBench | [CoreCodeBench: A Configurable Multi-Scenario Repository-Level Benchmark](https://www.arxiv.org/abs/2507.05281) | Arxiv 2025/07 | [Github](https://github.com/AGI-Eval-Official/CoreCodeBench)[![Stars](https://img.shields.io/github/stars/AGI-Eval-Official/CoreCodeBench?style=social&label=Stars)](https://github.com/AGI-Eval-Official/CoreCodeBench) | [🤗Dataset](https://huggingface.co/collections/tubehhh/corecodebench-68256d2faabf4b1610a08caa) |
 
 
 ### Industry Code Generation
@@ -427,4 +463,6 @@ A comprehensive code domain benchmark review of LLM researches.
 | MG-Verilog              | [MG-Verilog: Multi-grained Dataset Towards Enhanced LLM-assisted Verilog Generation](https://arxiv.org/abs/2407.01910)                                           | ISLAD 2024      | [Github](https://github.com/GATECH-EIC/mg-verilog)[![Stars](https://img.shields.io/github/stars/GATECH-EIC/mg-verilog?style=social&label=Stars)](https://github.com/GATECH-EIC/mg-verilog) |  |
 | RTL-Repo                | [RTL-Repo: A Benchmark for Evaluating LLMs on Large-Scale RTL Design Projects](https://ieeexplore.ieee.org/abstract/document/10691810)                           | LAD 2024        | [Github](https://github.com/AUCOHL/RTL-Repo)[![Stars](https://img.shields.io/github/stars/AUCOHL/RTL-Repo?style=social&label=Stars)](https://github.com/AUCOHL/RTL-Repo) | [🤗Dataset](https://huggingface.co/datasets/ahmedallam/RTL-Repo) |
 | MetRex                  | [MetRex: A Benchmark for Verilog Code Metric Reasoning Using LLMs](https://arxiv.org/abs/2411.03471)                                                             | ASPDAC 2025     | [Github](https://github.com/scale-lab/MetRex)[![Stars](https://img.shields.io/github/stars/scale-lab/MetRex?style=social&label=Stars)](https://github.com/scale-lab/MetRex) | [🤗Dataset](https://huggingface.co/datasets/scale-lab/MetRex) |
+| ResBench | [ResBench: Benchmarking LLM-Generated FPGA Designs with Resource Awareness](https://arxiv.org/pdf/2503.08823) | Arxiv 2025/03 | [Github](https://github.com/jultrishyyy/ResBench)[![Stars](https://img.shields.io/github/stars/jultrishyyy/ResBench?style=social&label=Stars)](https://github.com/jultrishyyy/ResBench) |  |
 | ComplexVCoder           | [ComplexVCoder: An LLM-Driven Framework for Systematic Generation of Complex Verilog Code](https://arxiv.org/html/2504.20653v1)                                  | Arxiv 2025/04   |  |  |
+| VeriBench | [VeriBench: Benchmarking Large Language Models for Verilog Code Generation and Design Synthesis](https://ieeexplore.ieee.org/abstract/document/11044004) | ISCAS 2025 | | |
