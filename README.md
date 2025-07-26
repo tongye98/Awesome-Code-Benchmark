@@ -15,7 +15,6 @@ A comprehensive code domain benchmark review of LLM researches.
 </p>
 
 ## News   
-[OIBench: Benchmarking Strong Reasoning Models with Olympiad in Informatics](https://arxiv.org/abs/2506.10481) from AGI-Eval
 
 - 🔥🔥 [2025-07-13] **Featured Benchmarks**:
 
@@ -95,7 +94,7 @@ A comprehensive code domain benchmark review of LLM researches.
 
   🔥 [DecompileBench: A Comprehensive Benchmark for Evaluating Decompilers in Real-World Scenarios](https://arxiv.org/abs/2505.11340) from Tsinghua University
 
-- 🔥🔥 [2025-05-30] **Featured Benchmarks**: 
+<!-- - 🔥🔥 [2025-05-30] **Featured Benchmarks**: 
 
   🔥 [VADER: A Human-Evaluated Benchmark for Vulnerability Assessment, Detection, Explanation, and Remediation](https://arxiv.org/abs/2505.19395) from UC Berkeley
 
@@ -125,7 +124,7 @@ A comprehensive code domain benchmark review of LLM researches.
 
   🔥 [DecompileBench: A Comprehensive Benchmark for Evaluating Decompilers in Real-World Scenarios](https://arxiv.org/abs/2505.11340) from Tsinghua University
 
-  🔥 [Improving Assembly Code Performance with Large Language Models via Reinforcement Learning](https://arxiv.org/abs/2505.11480) from Stanford University 
+  🔥 [Improving Assembly Code Performance with Large Language Models via Reinforcement Learning](https://arxiv.org/abs/2505.11480) from Stanford University  -->
 
 <!-- - 🔥🔥 [2025-05-01] **Featured Benchmarks**: 
 
