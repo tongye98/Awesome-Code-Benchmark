@@ -20,7 +20,11 @@ A comprehensive code domain benchmark review of LLM researches.
 
 - 🔥🔥 [2025-08-16] **Featured Benchmarks**:
 
+  🔥[AutoCodeBench: Large Language Models are Automatic Code Benchmark Generators](https://arxiv.org/abs/2508.09101) from Hunyuan Team, Tencent
+
   🔥[Dynamic Benchmark Construction for Evaluating Large Language Models on Real-World Codes](https://arxiv.org/abs/2508.07180) from Beihang University
+
+  🔥[STEPWISE-CODEX-Bench: Evaluating Complex Multi-Function Comprehension and Fine-Grained Execution Reasoning](https://arxiv.org/abs/2508.05193) from ByteDance
 
 - 🔥🔥 [2025-07-23] **Featured Benchmarks**:
 
@@ -247,7 +251,9 @@ A comprehensive code domain benchmark review of LLM researches.
 | OIBench                       | [OIBench: Benchmarking Strong Reasoning Models with Olympiad in Informatics](https://arxiv.org/abs/2506.10481)                                                                | Arxiv 2025/06       | | [🤗Dataset](https://huggingface.co/datasets/AGI-Eval/OIBench) |
 | IFEvalCode                    | [IFEvalCode: Controlled Code Generation](https://arxiv.org/abs/2507.22462)                                                                                                    | Arxiv 2025/07       | [Github](https://github.com/CSJianYang/IFEvalCode)[![Stars](https://img.shields.io/github/stars/CSJianYang/IFEvalCode?style=social&label=Stars)](https://github.com/CSJianYang/IFEvalCode) | [🌐Website](https://ifevalcode.github.io) |
 | CodeEval Pro                  | [HumanEval Pro and MBPP Pro: Evaluating Large Language Models on Self-invoking Code Generation](https://arxiv.org/abs/2412.21199)                                             | ACL 2025            | [Github](https://github.com/CodeEval-Pro/CodeEval-Pro)[![Stars](https://img.shields.io/github/stars/CodeEval-Pro/CodeEval-Pro?style=social&label=Stars)](https://github.com/CodeEval-Pro/CodeEval-Pro) | [🤗Dataset](https://huggingface.co/CodeEval-Pro) [🌐Website](https://answers111.github.io/evalpro.github.io/index.html) [📊LeaderBoard]([CodeEval-Pro](https://answers111.github.io/evalpro.github.io/leaderboard.html/)) |
-| Code2Bench                    | [Dynamic Benchmark Construction for Evaluating Large Language Models on Real-World Codes](https://arxiv.org/abs/2508.07180)                                                                                                    | Arxiv 2025/08       | [Github](https://github.com/Code2Bench/Code2Bench) | [🌐Website](https://code2bench.github.io/) |
+| Code2Bench                    | [Dynamic Benchmark Construction for Evaluating Large Language Models on Real-World Codes](https://arxiv.org/abs/2508.07180)                                                   | Arxiv 2025/08       | [Github](https://github.com/Code2Bench/Code2Bench) | [🌐Website](https://code2bench.github.io/) |
+| STEPWISE-CODEX-Bench          | [STEPWISE-CODEX-Bench: Evaluating Complex Multi-Function Comprehension and Fine-Grained Execution Reasoning](https://arxiv.org/abs/2508.05193)                                | Arxiv 2025/08       | ||
+| AutoCodeBench                 | [AutoCodeBench: Large Language Models are Automatic Code Benchmark Generators](https://arxiv.org/abs/2508.09101)                                                              | Arxiv 2025/08       | [Github](https://github.com/Tencent-Hunyuan/AutoCodeBenchmark)[![Stars](https://img.shields.io/github/stars/Tencent-Hunyuan/AutoCodeBenchmark?style=social&label=Stars)](https://github.com/Tencent-Hunyuan/AutoCodeBenchmark) | [🤗Dataset](https://huggingface.co/datasets/tencent/AutoCodeBenchmark) [🌐Website](https://autocodebench.github.io) [📊LeaderBoard](https://autocodebench.github.io/leaderboard.html) |
 
 ### Code Efficiency
 
