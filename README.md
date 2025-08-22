@@ -16,7 +16,13 @@ A comprehensive code domain benchmark review of LLM researches.
 
 ## News   
 
-<!-- - 🔥🔥 [2025-08-06] **Featured Benchmarks**: -->
+
+- 🔥🔥 [2025-08-22] **Featured Benchmarks**:
+
+  🔥[TRACY: Benchmarking Execution Efficiency of LLM-Based Code Translation](https://arxiv.org/abs/2508.11468) from Peking University
+
+  🔥[BinMetric: A Comprehensive Binary Analysis Benchmark for Large Language Models](https://arxiv.org/abs/2505.07360)  from University of Science and Technology of China
+
 
 - 🔥🔥 [2025-08-16] **Featured Benchmarks**:
 
@@ -269,7 +275,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | EFFIBENCH-X   | [EFFIBENCH-X:A Multi-Language Benchmark fo rMeasuring Effciency ofLLM.Generated Code](https://arxiv.org/abs/2505.13004)               | Arxiv 2025/05               |[Github](https://github.com/EffiBench/EffiBench-X)   [![Stars](https://img.shields.io/github/stars/EffiBench/EffiBench-X?style=social&label=Stars)](https://github.com/EffiBench/EffiBench-X)|[🤗Dataset](https://huggingface.co/datasets/EffiBench/effibench-x)|
 | PERFFORGE     | [Synthesizing Performance Constraints for Evaluating and Improving Code Efficiency](https://arxiv.org/abs/2505.23471)                 | Arxiv 2025/05               |||
 | SWE-Perf      | [SWE-Perf: Can Language Models Optimize Code Performance on Real-World Repositories?](https://arxiv.org/abs/2507.12415)               | Arxiv 2025/07               | [Github](https://github.com/swe-perf/swe-perf) [![Stars](https://img.shields.io/github/stars/swe-perf/swe-perf?style=social&label=Stars)](https://github.com/swe-perf/swe-perf) | [🤗Dataset](https://huggingface.co/datasets/SWE-Perf/SWE-Perf) [🌐Website](https://swe-perf.github.io)|
-
+| TRACY         | [TRACY: Benchmarking Execution Efficiency of LLM-Based Code Translation](https://arxiv.org/abs/2508.11468)                            | Arxiv 2025/08               | | |
 
 ### CodeFix & Bug-Fix
 
@@ -488,8 +494,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | TeXpert                       | [TeXpert: A Multi-Level Benchmark for Evaluating LaTeX Code Generation by LLMs](https://www.x-mol.com/paper/1937374325568716800)                                                          | Arxiv 2025/06              | [Github](https://github.com/knowledge-verse-ai/TeXpert) [![Stars](https://img.shields.io/github/stars/knowledge-verse-ai/TeXpert?style=social&label=Stars)](https://github.com/knowledge-verse-ai/TeXpert) |  |
 | AUTOEXPERIMENT                | [From Reproduction to Replication: Evaluating Research Agents with Progressive Code Masking](https://arxiv.org/abs/2506.19724v1)                                                          | Arxiv 2025/06              | [Github](https://github.com/j1mk1m/AutoExperiment)[![Stars](https://img.shields.io/github/stars/j1mk1m/AutoExperiment?style=social&label=Stars)](https://github.com/j1mk1m/AutoExperiment) | [🤗Dataset](https://huggingface.co/datasets/j1mk1m/AutoExperiment) |
 | CodeAssistBench               | [CodeAssistBench (CAB): Dataset & Benchmarking for Multi-turn Chat-Based Code Assistance](https://arxiv.org/abs/2507.10646)                                                               | Arxiv 2025/07              | | |
-|CodeJudgeBench                 | [CodeJudgeBench: Benchmarking LLM-as-a-Judge for Coding Tasks](https://arxiv.org/abs/2507.10535)                                                                                          | Arxiv 2025/07              | | [🤗Dataset](https://huggingface.co/datasets/mattymchen/codejudgebench) |
-
+| CodeJudgeBench                | [CodeJudgeBench: Benchmarking LLM-as-a-Judge for Coding Tasks](https://arxiv.org/abs/2507.10535)                                                                                          | Arxiv 2025/07              | | [🤗Dataset](https://huggingface.co/datasets/mattymchen/codejudgebench) |
+| BinMetric                     | [BinMetric: A Comprehensive Binary Analysis Benchmark for Large Language Models](https://arxiv.org/abs/2505.07360)                                                                        | IJCAI 2025                 | ||
 
 ### Industry Code Generation
 
