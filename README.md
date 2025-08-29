@@ -15,7 +15,9 @@ A comprehensive code domain benchmark review of LLM researches.
 </p>
 
 ## News   
+- 🔥🔥 [2025-08-29] **Featured Benchmarks**:
 
+  🔥[A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code](https://arxiv.org/abs/2508.18106) from Tencent
 
 - 🔥🔥 [2025-08-22] **Featured Benchmarks**:
 
@@ -207,6 +209,8 @@ A comprehensive code domain benchmark review of LLM researches.
 1. [Software Development Life Cycle Perspective A Survey of Benchmarks for Code Large Language Models and Agents](https://arxiv.org/abs/2505.05283v2) from Xi’an Jiaotong University
 
 2. [Assessing and Advancing Benchmarks for Evaluating Large Language Models in Software Engineering Tasks](https://arxiv.org/abs/2505.08903) from Zhejiang University
+
+3. [A Survey on Large Language Model Benchmarks](https://arxiv.org/abs/2508.15361) from Shenzhen Key Laboratory for High Performance Data Mining
 
 ## 🚀 Top Code Benchmark
 
@@ -430,6 +434,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | JsDeObsBench   | [JsDeObsBench: Measuring and Benchmarking LLMs for JavaScript Deobfuscation](https://arxiv.org/pdf/2506.20170)                                                          | CCS 2025             | [Github](https://github.com/jsdeobf/jsdeobf.github.io) [![Stars](https://img.shields.io/github/stars/jsdeobf/jsdeobf.github.io?style=social&label=Stars)](https://github.com/jsdeobf/jsdeobf.github.io) | 📊[Leaderboard](https://jsdeobf.github.io/) |
 | CIRCLE         | [Running in CIRCLE? A Simple Benchmark for LLM Code Interpreter Security](https://arxiv.org/abs/2507.19399)                                                             | Arxiv 2025/07        | | [🤗Dataset](https://huggingface.co/datasets/govtech/CIRCLE) | 
 | MOCHA          | [MOCHA: Are Code Language Models Robust Against Multi-Turn Malicious Coding Prompts?](https://arxiv.org/abs/2507.19598)                                                 | Arxiv 2025/07        | [Github](https://github.com/purpcode-uiuc/purpcode)[![Stars](https://img.shields.io/github/stars/purpcode-uiuc/purpcode?style=social&label=Stars)](https://github.com/purpcode-uiuc/purpcode) | [🤗Dataset](https://huggingface.co/purpcode) |
+| A.S.E          | [A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code](https://arxiv.org/abs/2508.18106)                                                    | Arxiv 2025/08        | | |
+
 
 ### Code Translation
 
