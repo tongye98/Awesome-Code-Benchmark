@@ -18,6 +18,7 @@ A comprehensive code domain benchmark review of LLM researches.
 - 🔥🔥 [2025-08-29] **Featured Benchmarks**:
 
   🔥[A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code](https://arxiv.org/abs/2508.18106) from Tencent
+  🔥[GitTaskBench: A Benchmark for Code Agents Solving Real-World Tasks Through Code Repository Leveraging](https://arxiv.org/abs/2508.18993) from UCAS
 
 - 🔥🔥 [2025-08-22] **Featured Benchmarks**:
 
@@ -502,6 +503,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | CodeAssistBench               | [CodeAssistBench (CAB): Dataset & Benchmarking for Multi-turn Chat-Based Code Assistance](https://arxiv.org/abs/2507.10646)                                                               | Arxiv 2025/07              | | |
 | CodeJudgeBench                | [CodeJudgeBench: Benchmarking LLM-as-a-Judge for Coding Tasks](https://arxiv.org/abs/2507.10535)                                                                                          | Arxiv 2025/07              | | [🤗Dataset](https://huggingface.co/datasets/mattymchen/codejudgebench) |
 | BinMetric                     | [BinMetric: A Comprehensive Binary Analysis Benchmark for Large Language Models](https://arxiv.org/abs/2505.07360)                                                                        | IJCAI 2025                 | ||
+| GitTaskBench                  | [GitTaskBench: A Benchmark for Code Agents Solving Real-World Tasks Through Code Repository Leveraging](https://arxiv.org/abs/2508.18993)                                                 | Arxiv 2025/08              | [Github](https://github.com/QuantaAlpha/GitTaskBench)[![Stars](https://img.shields.io/github/stars/QuantaAlpha/GitTaskBench?style=social&label=Stars)](https://github.com/QuantaAlpha/GitTaskBench)  | [🌐Website](https://quantaalpha.github.io) | 
 
 ### Industry Code Generation
 
