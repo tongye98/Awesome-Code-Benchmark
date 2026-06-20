@@ -14,23 +14,41 @@ A comprehensive code domain benchmark review of LLM researches.
     <img src="https://i.imgur.com/waxVImv.png" alt="Oryx Video-ChatGPT">
 </p>
 
-## Table of Content
+## Table of Contents
 
-- [Code Completion & Code Generation](#code-completion--code-generation)
-- [Code Efficiency](#code-efficiency)
-- [CodeFix & Bug-Fix](#codefix--bug-fix)
-- [Code Reasoning & Understanding](#code-reasoning--understanding)
-- [Code Hallucination](#code-hallucination)
-- [Data science](#data-science)
-- [Text2SQL](#text2sql)
-- [MultiModal Code Tasks](#multimodal-code-tasks)
-- [Code Security & Robustness](#code-security--robustness)
-- [Code Translation](#code-translation)
-- [Code Version](#code-version)
-- [Multi & Other Dimension](#multi--other-dimension)
-- [Industry Code Generation](#industry-code-generation)
+- [Taxonomy](#taxonomy)
+- [Surveys](#surveys)
+- [Code Generation & Completion](#code-generation--completion)
+- [Performance Optimization](#performance-optimization)
+- [Program Repair & Issue Resolving](#program-repair--issue-resolving)
+- [Code Understanding, Reasoning & Search](#code-understanding-reasoning--search)
+- [Code Reliability, Hallucination & Robustness](#code-reliability-hallucination--robustness)
+- [Data, SQL & Scientific Computing](#data-sql--scientific-computing)
+- [Frontend, UI & Visual-Interactive Development](#frontend-ui--visual-interactive-development)
+- [Security & Vulnerability Handling](#security--vulnerability-handling)
+- [Migration, Translation & Versioning](#migration-translation--versioning)
+- [Agentic Software Engineering](#agentic-software-engineering)
+- [Repository-Level & Long-Context Coding](#repository-level--long-context-coding)
+- [Code Review & Pull Request Automation](#code-review--pull-request-automation)
+- [Testing, Debugging & CI](#testing-debugging--ci)
+- [Agent Environments, Tool Use & Terminal Workflows](#agent-environments-tool-use--terminal-workflows)
+- [Benchmark Construction, Training Environments & Verifiers](#benchmark-construction-training-environments--verifiers)
+- [Dynamic, Decontaminated & Human/Economic Evaluation](#dynamic-decontaminated--humaneconomic-evaluation)
+- [Domain-Specific / Industrial Code](#domain-specific--industrial-code)
 
-## Survey
+## Taxonomy
+
+This list is moving from a task-only view of code benchmarks toward a taxonomy that also captures software-engineering workflow, evaluation setting, and agentic interaction.
+
+| Dimension | Values |
+|:--|:--|
+| Granularity | Function, File, Project, Repository, Workflow |
+| Interaction | Single-turn, Multi-turn, Agentic, Async, Multi-agent |
+| Evaluation | Unit Tests, Execution, Human, LLM-as-Judge, Security Exploit, Economic |
+| Environment | None, Sandbox, Terminal, Browser, IDE, CI |
+| Freshness | Static, Dynamic, Held-out, Contamination-resistant |
+
+## Surveys
 
 1. [Software Development Life Cycle Perspective A Survey of Benchmarks for Code Large Language Models and Agents](https://arxiv.org/abs/2505.05283v2) from Xi’an Jiaotong University
 
@@ -38,9 +56,9 @@ A comprehensive code domain benchmark review of LLM researches.
 
 3. [A Survey on Large Language Model Benchmarks](https://arxiv.org/abs/2508.15361) from Shenzhen Key Laboratory for High Performance Data Mining
 
-## 🚀 Top Code Benchmark
+## 🚀 Benchmark Categories
 
-### Code Completion & Code Generation
+### Code Generation & Completion
 
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -91,7 +109,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | SR-Eval                       | [SR-Eval: Evaluating LLMs on Code Generation under Stepwise Requirement Refinement](https://arxiv.org/abs/2509.18808)                                                         | Arxiv 2025/09       | | | 
 
 
-### Code Efficiency
+### Performance Optimization
 
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -107,7 +125,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | SWE-Perf      | [SWE-Perf: Can Language Models Optimize Code Performance on Real-World Repositories?](https://arxiv.org/abs/2507.12415)               | Arxiv 2025/07               | [Github](https://github.com/swe-perf/swe-perf) [![Stars](https://img.shields.io/github/stars/swe-perf/swe-perf?style=social&label=Stars)](https://github.com/swe-perf/swe-perf) | [🤗Dataset](https://huggingface.co/datasets/SWE-Perf/SWE-Perf) [🌐Website](https://swe-perf.github.io)|
 | TRACY         | [TRACY: Benchmarking Execution Efficiency of LLM-Based Code Translation](https://arxiv.org/abs/2508.11468)                            | Arxiv 2025/08               | | |
 
-### CodeFix & Bug-Fix
+### Program Repair & Issue Resolving
 
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -138,7 +156,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | SWE-MERA                      | [SWE-MERA: A Dynamic Benchmark for Agenticly Evaluating Large Language Models on Software Engineering Tasks](https://arxiv.org/abs/2507.11059)    | Arxiv 2025/07              | [Github](https://github.com/MERA-Evaluation/repotest)[![Stars](https://img.shields.io/github/stars/MERA-Evaluation/repotest?style=social&label=Stars)](https://github.com/MERA-Evaluation/repotest) | [🤗Dataset](https://huggingface.co/datasets/MERA-evaluation/SWE-MERA) [🌐Website](https://mera-evaluation.github.io/demo-swe-mera/)  |
 | CodeFuse-CR-Bench             | [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856)| Arxiv 2025/09              | | |
 
-### Code Reasoning & Understanding
+### Code Understanding, Reasoning & Search
 
 |Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -162,7 +180,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | LoCoBench           | [LoCoBench: A Benchmark for Long-Context Large Language Models in Complex Software Engineering](https://arxiv.org/abs/2509.09614)                                                         | Arxiv 2025/09               | [Github](https://github.com/SalesforceAIResearch/LoCoBench)[![Stars](https://img.shields.io/github/stars/SalesforceAIResearch/LoCoBench?style=social&label=Stars)](https://github.com/SalesforceAIResearch/LoCoBench)  | 
 
 
-### Code Hallucination
+### Code Reliability, Hallucination & Robustness
 
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -172,7 +190,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | APIHulBench  | [Towards Mitigating API Hallucination in Code Generated by LLMs with Hierarchical Dependency Aware](http://export.arxiv.org/abs/2505.05057) | FSE 25         | [Github](https://github.com/yujiachen99/APIMitigation)[![Stars](https://img.shields.io/github/stars/yujiachen99/APIMitigation?style=social&label=Stars)](https://github.com/yujiachen99/APIMitigation) | |
 | THINK        | [THINK: Tackling API Hallucinations in LLMs via Injecting Knowledge](https://ieeexplore.ieee.org/abstract/document/10992555)                | SANER 2025     | [Github](https://github.com/Leah-Ljx/think)[![Stars](https://img.shields.io/github/stars/Leah-Ljx/think?style=social&label=Stars)](https://github.com/Leah-Ljx/think) | [🤗Dataset](https://github.com/Leah-LJX/THINK/tree/main/benchmark) |
 
-### Data science
+### Data, SQL & Scientific Computing
 
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -184,7 +202,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | DSBench      | [DSBench: How Far Are Data Science Agents from Becoming Data Science Experts?](https://arxiv.org/abs/2409.07703)                                                    | ICLR 2025                 | [Github](https://github.com/LiqiangJing/DSBench)[![Stars](https://img.shields.io/github/stars/LiqiangJing/DSBench?style=social&label=Stars)](https://github.com/LiqiangJing/DSBench)     | [🤗Dataset](https://huggingface.co/datasets/liqiang888/DSBench) |
 | DSCodeBench  | [DS-Bench: A Realistic Benchmark for Data Science Code Generation](https://arxiv.org/abs/2505.15621)                                                                | Arxiv 2025/05             | [Github](https://github.com/ShuyinOuyang/DS_bench)| |
 
-### Text2SQL 
+#### Text2SQL
 
 | Benchmark | Paper | Date | Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -203,7 +221,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | SNAILS           | [SNAILS: Schema Naming Assessments for Improved LLM-Based SQL Inference](https://dl.acm.org/doi/10.1145/3709727)                                                 | PACMMOD 2025       |  [Github](https://github.com/KyleLuoma/SNAILS)[![Stars](https://img.shields.io/github/stars/KyleLuoma/SNAILS?style=social&label=Stars)](https://github.com/KyleLuoma/SNAILS) |  |
 | SQL2Text         | [Semantic Captioning: Benchmark Dataset and Graph-Aware Few-Shot In-Context Learning for SQL2Text](https://arxiv.org/abs/2501.03166)                             | COLING 2025        | [Github](https://github.com/aliwister/ast-icl)[![Stars](https://img.shields.io/github/stars/aliwister/ast-icl?style=social&label=Stars)](https://github.com/aliwister/ast-icl)| [Dataset](https://github.com/aliwister/ast-icl) |
 
-### MultiModal Code Tasks
+### Frontend, UI & Visual-Interactive Development
 
 | Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -240,7 +258,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | MVB                | [Natural language is not enough: Benchmarking multi-modal generative AI for Verilog generation](https://dl.acm.org/doi/pdf/10.1145/3676536.3676679)                 | ICCAD 2024         | [Github](https://github.com/aichipdesign/chipgptv)[![Stars](https://img.shields.io/github/stars/aichipdesign/chipgptv?style=social&label=Stars)](https://github.com/aichipdesign/chipgptv) |  |
 | M^2 EVAL           | [Multilingual Multimodal Software Developer for Code Generation](https://arxiv.org/abs/2507.08719)                                                                  | Arxiv 2025/07      | [Github](https://github.com/MCEVAL/MMCoder)[![Stars](https://img.shields.io/github/stars/MCEVAL/MMCoder?style=social&label=Stars)](https://github.com/MCEVAL/MMCoder) | [🤗Dataset](https://huggingface.co/datasets/Multilingual-Multimodal-NLP/MMEval) |
 
-### Code Security & Robustness
+### Security & Vulnerability Handling
 
 | Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -265,7 +283,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | A.S.E          | [A.S.E: A Repository-Level Benchmark for Evaluating Security in AI-Generated Code](https://arxiv.org/abs/2508.18106)                                                    | Arxiv 2025/08        | | |
 
 
-### Code Translation
+### Migration, Translation & Versioning
 
 | Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -281,7 +299,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | LongTrans          | [Enhancing LLMs in Long Code Translation through Instrumentation and Program State Alignment](https://arxiv.org/abs/2504.02017)                                              | Arxiv 2025/04        |  |  |
 | CRUST-Bench        | [CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation](https://arxiv.org/abs/2504.15254)                                                                  | Arxiv 2025/04        | [Github](https://github.com/anirudhkhatry/CRUST-bench)[![Stars](https://img.shields.io/github/stars/anirudhkhatry/CRUST-bench?style=social&label=Stars)](https://github.com/anirudhkhatry/CRUST-bench) | [Dataset](https://github.com/anirudhkhatry/CRUST-bench)|
 
-### Code Version       
+#### Code Version
 
 | Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -296,7 +314,33 @@ A comprehensive code domain benchmark review of LLM researches.
 | CODEMENV                   | [CODEMENV: Benchmarking Large Language Models on Code Migration](https://arxiv.org/pdf/2506.00894)                                           | ACL 2025 Findings | [Github](https://github.com/xdshen-ai/Benchmark-of-Code-Migration)[![Stars](https://img.shields.io/github/stars/xdshen-ai/Benchmark-of-Code-Migration?style=social&label=Stars)](https://github.com/xdshen-ai/Benchmark-of-Code-Migration) | [🤗Dataset](https://github.com/xdshen-ai/Benchmark-of-Code-Migration/tree/main/eval-data) |
 
 
-### Multi & Other Dimension
+### Agentic Software Engineering
+
+This section is reserved for benchmarks that evaluate autonomous or semi-autonomous coding agents across software-engineering workflows such as issue resolution, feature implementation, repository editing, and pull-request production.
+
+### Repository-Level & Long-Context Coding
+
+This section is reserved for benchmarks that require understanding large codebases, cross-file reasoning, long-context retrieval, architectural consistency, or repository-scale generation.
+
+### Code Review & Pull Request Automation
+
+This section is reserved for benchmarks focused on reviewing diffs, generating review comments, validating pull requests, and modeling human review workflows.
+
+### Testing, Debugging & CI
+
+This section is reserved for benchmarks centered on test generation, debugging, continuous integration, build repair, and execution-guided development loops.
+
+### Agent Environments, Tool Use & Terminal Workflows
+
+This section is reserved for benchmarks where agents must use tools, shells, terminals, browsers, IDEs, sandboxes, or other executable environments to complete coding-related tasks.
+
+### Benchmark Construction, Training Environments & Verifiers
+
+This section is reserved for benchmark-generation methods, SWE-agent training environments, verifiers, and test-time scaling infrastructure.
+
+### Dynamic, Decontaminated & Human/Economic Evaluation
+
+This section temporarily carries cross-cutting benchmarks from the former multi-dimension group. Future updates will split them into the more specific taxonomy sections above as the catalog is normalized.
 
 | Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
@@ -333,7 +377,7 @@ A comprehensive code domain benchmark review of LLM researches.
 | GitTaskBench                  | [GitTaskBench: A Benchmark for Code Agents Solving Real-World Tasks Through Code Repository Leveraging](https://arxiv.org/abs/2508.18993)                                                 | Arxiv 2025/08              | [Github](https://github.com/QuantaAlpha/GitTaskBench)[![Stars](https://img.shields.io/github/stars/QuantaAlpha/GitTaskBench?style=social&label=Stars)](https://github.com/QuantaAlpha/GitTaskBench)  | [🌐Website](https://quantaalpha.github.io) | 
 | AWB (AI Workflow Benchmark)   | [AI Workflow Benchmark: scoring tool + configuration + workflow + model on real-repo tasks](https://doi.org/10.5281/zenodo.20361437)                                                     | Zenodo 2025/05            | [Github](https://github.com/xmpuspus/ai-workflow-benchmark)[![Stars](https://img.shields.io/github/stars/xmpuspus/ai-workflow-benchmark?style=social&label=Stars)](https://github.com/xmpuspus/ai-workflow-benchmark) | [🌐Leaderboard](https://xmpuspus.github.io/ai-workflow-benchmark/) [PyPI](https://pypi.org/project/awb/) |
 
-### Industry Code Generation
+### Domain-Specific / Industrial Code
 
 | Benchmark | Paper | Date| Github | Dataset & Website & LeaderBoard |
 |:--|:--|:--|:--|:--|
