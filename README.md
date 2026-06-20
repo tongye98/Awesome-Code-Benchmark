@@ -15,6 +15,10 @@ A comprehensive code domain benchmark review of LLM researches.
 </p>
 
 ## News   
+- 🔥🔥 [2025-09-27] **Featured Benchmarks**:
+
+  🔥[SR-Eval: Evaluating LLMs on Code Generation under Stepwise Requirement Refinement](https://arxiv.org/abs/2509.18808) from Sichuan University
+
 - 🔥🔥 [2025-09-22] **Featured Benchmarks**:
 
   🔥[LoCoBench: A Benchmark for Long-Context Large Language Models in Complex Software Engineering](https://arxiv.org/abs/2509.09614) from Salesforce AI Research 
@@ -195,8 +199,6 @@ A comprehensive code domain benchmark review of LLM researches.
 -  [2025-03-17] We add **Code Version** (Version-specific code generation) benchmarks.  
 -  [2025-03-16] A thorough review of code domain benchmarks for LLM research has been released.  
 
-![alt text](image/codebenchpic.png)
-
 ## Table of Content
 
 - [Code Completion & Code Generation](#code-completion--code-generation)
@@ -271,6 +273,8 @@ A comprehensive code domain benchmark review of LLM researches.
 | Code2Bench                    | [Dynamic Benchmark Construction for Evaluating Large Language Models on Real-World Codes](https://arxiv.org/abs/2508.07180)                                                   | Arxiv 2025/08       | [Github](https://github.com/Code2Bench/Code2Bench) | [🌐Website](https://code2bench.github.io/) |
 | STEPWISE-CODEX-Bench          | [STEPWISE-CODEX-Bench: Evaluating Complex Multi-Function Comprehension and Fine-Grained Execution Reasoning](https://arxiv.org/abs/2508.05193)                                | Arxiv 2025/08       | ||
 | AutoCodeBench                 | [AutoCodeBench: Large Language Models are Automatic Code Benchmark Generators](https://arxiv.org/abs/2508.09101)                                                              | Arxiv 2025/08       | [Github](https://github.com/Tencent-Hunyuan/AutoCodeBenchmark)[![Stars](https://img.shields.io/github/stars/Tencent-Hunyuan/AutoCodeBenchmark?style=social&label=Stars)](https://github.com/Tencent-Hunyuan/AutoCodeBenchmark) | [🤗Dataset](https://huggingface.co/datasets/tencent/AutoCodeBenchmark) [🌐Website](https://autocodebench.github.io) [📊LeaderBoard](https://autocodebench.github.io/leaderboard.html) |
+| SR-Eval                       | [SR-Eval: Evaluating LLMs on Code Generation under Stepwise Requirement Refinement](https://arxiv.org/abs/2509.18808)                                                         | Arxiv 2025/09       | | | 
+
 
 ### Code Efficiency
 
