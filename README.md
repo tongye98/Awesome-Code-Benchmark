@@ -19,10 +19,17 @@ A comprehensive code domain benchmark review of LLM researches.
 - [Taxonomy](#taxonomy)
 - [Surveys](#surveys)
 - [Benchmark Categories](#-benchmark-categories)
+  - [Code Generation & Completion](#code-generation--completion)
+  - [Repository & Agentic Software Engineering](#repository--agentic-software-engineering)
+  - [Program Repair, Testing & Debugging](#program-repair-testing--debugging)
+  - [Code Understanding, Search & Review](#code-understanding-search--review)
+  - [Performance Optimization](#performance-optimization)
+  - [Security, Reliability & Robustness](#security-reliability--robustness)
+  - [Frontend, UI & Visual-Interactive Development](#frontend-ui--visual-interactive-development)
 
 ## Taxonomy
 
-This list is moving from a task-only view of code benchmarks toward a taxonomy that also captures software-engineering workflow, evaluation setting, and agentic interaction.
+This list organizes code benchmarks by primary capability and software-engineering workflow. The table columns capture finer-grained taxonomy dimensions such as task type, granularity, interaction pattern, and evaluation method.
 
 | Dimension | Values |
 |:--|:--|
