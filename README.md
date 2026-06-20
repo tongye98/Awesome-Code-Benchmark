@@ -124,6 +124,7 @@ This list is moving from a task-only view of code benchmarks toward a taxonomy t
 | PERFFORGE | [Synthesizing Performance Constraints for Evaluating and Improving Code Efficiency](https://arxiv.org/abs/2505.23471) | 2025 | Performance optimization | Function / Repository | Single-turn / Agentic | Execution / Performance |  |
 | SWE-Perf | [SWE-Perf: Can Language Models Optimize Code Performance on Real-World Repositories?](https://arxiv.org/abs/2507.12415) | 2025 | Performance optimization | Function / Repository | Single-turn / Agentic | Execution / Performance | [Github](https://github.com/swe-perf/swe-perf) [![Stars](https://img.shields.io/github/stars/swe-perf/swe-perf?style=social&label=Stars)](https://github.com/swe-perf/swe-perf) [🤗Dataset](https://huggingface.co/datasets/SWE-Perf/SWE-Perf) [🌐Website](https://swe-perf.github.io) |
 | TRACY | [TRACY: Benchmarking Execution Efficiency of LLM-Based Code Translation](https://arxiv.org/abs/2508.11468) | 2025 | Performance optimization | Function / Repository | Single-turn / Agentic | Execution / Performance |  |
+| CodegenBench | [CodegenBench: Can LLMs Write Efficient Code Across Architectures?](https://arxiv.org/abs/2606.04023) | 2026 | Performance optimization | Function / Repository | Single-turn / Agentic | Execution / Performance | [Code](https://anonymous.4open.science/r/CodegenBench-EDE1/) [Dataset](https://anonymous.4open.science/r/CodegenBenchDataset-2551/) |
 
 ### Program Repair & Issue Resolving
 
@@ -154,7 +155,6 @@ This list is moving from a task-only view of code benchmarks toward a taxonomy t
 | MLDebugging | [MLDebugging: Towards Benchmarking Code Debugging Across Multi-Library Scenarios](https://arxiv.org/abs/2506.13824) | 2025 | Bug fixing / issue resolving | Repository | Agentic | Unit Tests / Execution | [Github](https://github.com/hjyTsuki/MLDebugging)[![Stars](https://img.shields.io/github/stars/hjyTsuki/MLDebugging?style=social&label=Stars)](https://github.com/hjyTsuki/MLDebugging) |
 | Skywork-SWE | [Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs](https://arxiv.org/html/2506.19290v1) | 2025 | Bug fixing / issue resolving | Repository | Agentic | Unit Tests / Execution |  |
 | SWE-MERA | [SWE-MERA: A Dynamic Benchmark for Agenticly Evaluating Large Language Models on Software Engineering Tasks](https://arxiv.org/abs/2507.11059) | 2025 | Bug fixing / issue resolving | Repository | Agentic | Unit Tests / Execution | [Github](https://github.com/MERA-Evaluation/repotest)[![Stars](https://img.shields.io/github/stars/MERA-Evaluation/repotest?style=social&label=Stars)](https://github.com/MERA-Evaluation/repotest) [🤗Dataset](https://huggingface.co/datasets/MERA-evaluation/SWE-MERA) [🌐Website](https://mera-evaluation.github.io/demo-swe-mera/) |
-| CodeFuse-CR-Bench | [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856) | 2025 | Bug fixing / issue resolving | Repository | Agentic | Unit Tests / Execution |  |
 
 ### Code Understanding, Reasoning & Search
 
@@ -318,25 +318,64 @@ This list is moving from a task-only view of code benchmarks toward a taxonomy t
 
 This section is reserved for benchmarks that evaluate autonomous or semi-autonomous coding agents across software-engineering workflows such as issue resolution, feature implementation, repository editing, and pull-request production.
 
+| Benchmark | Paper | Year | Task / Workflow | Granularity | Interaction | Evaluation | Links |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| SWE-Lancer | [SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?](https://arxiv.org/abs/2502.12115) | 2025 | Freelance software engineering | Repository / Workflow | Agentic | Execution / Human / Economic | [Github](https://github.com/openai/SWELancer-Benchmark) |
+| HCAST | [HCAST: Human-Calibrated Autonomy Software Tasks](https://arxiv.org/abs/2503.17354) | 2025 | Human-calibrated autonomy tasks | Project / Workflow | Agentic | Execution / Human |  |
+| Multi-SWE-bench | [Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving](https://arxiv.org/abs/2504.02605) | 2025 | Multilingual issue resolving | Repository | Agentic | Unit Tests / Execution |  |
+| SWE-Bench Pro | [SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?](https://arxiv.org/abs/2509.16941) | 2025 | Long-horizon issue resolving | Repository / Workflow | Agentic | Unit Tests / Execution |  |
+| PRDBench | [Automatically Benchmarking LLM Code Agents through Agent-Driven Annotation and Evaluation](https://arxiv.org/abs/2510.24358) | 2025 | PRD-driven project development | Project / Repository | Agentic | Execution / LLM-as-Judge |  |
+| ProjDevBench | [ProjDevBench: Benchmarking AI Coding Agents on End-to-End Project Development](https://arxiv.org/abs/2602.01655) | 2026 | End-to-end project development | Project / Repository | Agentic | Unit Tests / LLM-as-Judge | [Github](https://github.com/zsworld6/projdevbench) |
+
 ### Repository-Level & Long-Context Coding
 
 This section is reserved for benchmarks that require understanding large codebases, cross-file reasoning, long-context retrieval, architectural consistency, or repository-scale generation.
+
+| Benchmark | Paper | Year | Task / Workflow | Granularity | Interaction | Evaluation | Links |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| LongCodeBench | [LongCodeBench: Evaluating Coding LLMs at 1M Context Windows](https://arxiv.org/abs/2505.07897) | 2025 | Long-context code comprehension and repair | Repository | Single-turn / Agentic | Unit Tests / Execution / LLM-as-Judge | [🤗Dataset](https://huggingface.co/datasets/Steefano/LCB) |
+| SWE-Bench++ | [SWE-Bench++: A Framework for the Scalable Generation of Software Engineering Benchmarks from Open-Source Repositories](https://arxiv.org/abs/2512.17419) | 2025 | Repository-level bug fixing and feature requests | Repository | Agentic | Unit Tests / Execution |  |
+| AInsteinBench | [AInsteinBench: Benchmarking Coding Agents on Scientific Repositories](https://arxiv.org/abs/2512.21373) | 2025 | Scientific repository development | Repository / Workflow | Agentic | Execution |  |
+| HWE-Bench | [HWE-Bench: Benchmarking LLM Agents on Real-World Hardware Bug Repair Tasks](https://arxiv.org/abs/2604.14709) | 2026 | Hardware repository bug repair | Repository | Agentic | Execution |  |
 
 ### Code Review & Pull Request Automation
 
 This section is reserved for benchmarks focused on reviewing diffs, generating review comments, validating pull requests, and modeling human review workflows.
 
+| Benchmark | Paper | Year | Task / Workflow | Granularity | Interaction | Evaluation | Links |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| CodeFuse-CR-Bench | [CodeFuse-CR-Bench: A Comprehensiveness-aware Benchmark for End-to-End Code Review Evaluation in Python Projects](https://arxiv.org/abs/2509.14856) | 2025 | End-to-end code review | Repository / Workflow | Agentic | LLM-as-Judge / Human |  |
+| ContextCRBench | [Benchmarking LLMs for Fine-Grained Code Review with Enriched Context in Practice](https://arxiv.org/abs/2511.07017) | 2025 | Fine-grained code review | File / Repository | Single-turn / Agentic | LLM-as-Judge / Human |  |
+| SWE-PRBench | [SWE-PRBench: Benchmarking AI Code Review Quality Against Pull Request Feedback](https://arxiv.org/abs/2603.26130) | 2026 | Pull request review | Repository / Workflow | Single-turn / Agentic | LLM-as-Judge / Human |  |
+
 ### Testing, Debugging & CI
 
 This section is reserved for benchmarks centered on test generation, debugging, continuous integration, build repair, and execution-guided development loops.
+
+| Benchmark | Paper | Year | Task / Workflow | Granularity | Interaction | Evaluation | Links |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| BuildBench | [BuildBench: Benchmarking LLM Agents on Compiling Real-World Open-Source Software](https://arxiv.org/abs/2509.25248) | 2025 | Build and compilation repair | Repository / Workflow | Agentic | Execution |  |
+| RepoExploreBench | [Planning to Explore: Curiosity-Driven Planning for LLM Test Generation](https://arxiv.org/abs/2604.05159) | 2026 | Iterative test generation | Repository | Agentic | Unit Tests / Execution |  |
 
 ### Agent Environments, Tool Use & Terminal Workflows
 
 This section is reserved for benchmarks where agents must use tools, shells, terminals, browsers, IDEs, sandboxes, or other executable environments to complete coding-related tasks.
 
+| Benchmark | Paper | Year | Task / Workflow | Granularity | Interaction | Evaluation | Links |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| Terminal-Bench | [Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces](https://arxiv.org/abs/2601.11868) | 2026 | Terminal workflow execution | Workflow | Agentic | Execution | [Website](https://www.tbench.ai/) |
+| IDE-Bench | [IDE-Bench: Evaluating Large Language Models as IDE Agents on Real-World Software Engineering Tasks](https://arxiv.org/abs/2601.20886) | 2026 | IDE-native software engineering | Repository / Workflow | Agentic | Unit Tests / Execution |  |
+| TerminalWorld | [TerminalWorld: Benchmarking Agents on Real-World Terminal Tasks](https://arxiv.org/abs/2605.22535) | 2026 | Real-world terminal tasks | Workflow | Agentic | Execution | [Github](https://github.com/EuniAI/TerminalWorld) |
+
 ### Benchmark Construction, Training Environments & Verifiers
 
 This section is reserved for benchmark-generation methods, SWE-agent training environments, verifiers, and test-time scaling infrastructure.
+
+| Benchmark | Paper | Year | Task / Workflow | Granularity | Interaction | Evaluation | Links |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| R2E-Gym | [R2E-Gym: Procedural Environments and Hybrid Verifiers for Scaling Open-Weights SWE Agents](https://arxiv.org/abs/2504.07164) | 2025 | SWE-agent training environment and verifiers | Repository / Workflow | Agentic | Unit Tests / Execution |  |
+| SWE-smith | [SWE-smith: Scaling Data for Software Engineering Agents](https://arxiv.org/abs/2504.21798) | 2025 | Synthetic SWE training data generation | Repository / Workflow | Agentic | Unit Tests / Execution | [Website](https://swesmith.com) |
+| Self-play SWE-RL | [Toward Training Superintelligent Software Agents through Self-Play SWE-RL](https://arxiv.org/abs/2512.18552) | 2025 | Self-play software engineering training | Repository / Workflow | Agentic / Multi-agent | Unit Tests / Execution |  |
 
 ### Dynamic, Decontaminated & Human/Economic Evaluation
 
