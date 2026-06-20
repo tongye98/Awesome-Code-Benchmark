@@ -18,23 +18,7 @@ A comprehensive code domain benchmark review of LLM researches.
 
 - [Taxonomy](#taxonomy)
 - [Surveys](#surveys)
-- [Code Generation & Completion](#code-generation--completion)
-- [Performance Optimization](#performance-optimization)
-- [Program Repair & Issue Resolving](#program-repair--issue-resolving)
-- [Code Understanding, Reasoning & Search](#code-understanding-reasoning--search)
-- [Code Reliability, Hallucination & Robustness](#code-reliability-hallucination--robustness)
-- [Data, SQL & Scientific Computing](#data-sql--scientific-computing)
-- [Frontend, UI & Visual-Interactive Development](#frontend-ui--visual-interactive-development)
-- [Security & Vulnerability Handling](#security--vulnerability-handling)
-- [Migration, Translation & Versioning](#migration-translation--versioning)
-- [Agentic Software Engineering](#agentic-software-engineering)
-- [Repository-Level & Long-Context Coding](#repository-level--long-context-coding)
-- [Code Review & Pull Request Automation](#code-review--pull-request-automation)
-- [Testing, Debugging & CI](#testing-debugging--ci)
-- [Agent Environments, Tool Use & Terminal Workflows](#agent-environments-tool-use--terminal-workflows)
-- [Benchmark Construction, Training Environments & Verifiers](#benchmark-construction-training-environments--verifiers)
-- [Dynamic, Decontaminated & Human/Economic Evaluation](#dynamic-decontaminated--humaneconomic-evaluation)
-- [Domain-Specific / Industrial Code](#domain-specific--industrial-code)
+- [Benchmark Categories](#-benchmark-categories)
 
 ## Taxonomy
 
